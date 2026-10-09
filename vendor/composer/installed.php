@@ -1,0 +1,41 @@
+<?php return array(
+    'root' => array(
+        'pretty_version' => 'dev-32e68ccd73f8d295e705467dd367b5b650fc3625',
+        'version' => 'dev-32e68ccd73f8d295e705467dd367b5b650fc3625',
+        'type' => 'wordpress-plugin',
+        'install_path' => __DIR__ . '/../../',
+        'aliases' => array(),
+        'reference' => '32e68ccd73f8d295e705467dd367b5b650fc3625',
+        'name' => 'wpml/st',
+        'dev' => false,
+    ),
+    'versions' => array(
+        'wpml-shared/wpml-lib-dependencies' => array(
+            'pretty_version' => '5.1.0',
+            'version' => '5.1.0.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../wpml-shared/wpml-lib-dependencies',
+            'aliases' => array(),
+            'reference' => '38c7b2d0a560ab6b1fb86647ba52bb471dca6924',
+            'dev_requirement' => false,
+        ),
+        'wpml/st' => array(
+            'pretty_version' => 'dev-32e68ccd73f8d295e705467dd367b5b650fc3625',
+            'version' => 'dev-32e68ccd73f8d295e705467dd367b5b650fc3625',
+            'type' => 'wordpress-plugin',
+            'install_path' => __DIR__ . '/../../',
+            'aliases' => array(),
+            'reference' => '32e68ccd73f8d295e705467dd367b5b650fc3625',
+            'dev_requirement' => false,
+        ),
+        'wpml/st-api' => array(
+            'pretty_version' => '5.0.0',
+            'version' => '5.0.0.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../wpml/st-api',
+            'aliases' => array(),
+            'reference' => '104b343c98fd69c59644964e755cf17545b78481',
+            'dev_requirement' => false,
+        ),
+    ),
+);

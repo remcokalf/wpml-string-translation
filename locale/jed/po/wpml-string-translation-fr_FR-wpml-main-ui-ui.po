@@ -1,0 +1,70 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=utf-8\n"
+"X-Generator: babel-plugin-makepot\n"
+"Language: fr_FR\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: src/js/main-ui/components/Actions.js:46
+msgid "Edit"
+msgstr "Modifier"
+
+#: src/js/main-ui/components/Actions.js:57
+msgid "Shift+Tab"
+msgstr "Maj+Tab"
+
+#: src/js/main-ui/components/Actions.js:62
+msgid "Tab"
+msgstr "Tab"
+
+#: src/js/main-ui/components/EditTranslationPopup.js:104
+msgid "Translation to:"
+msgstr "Traduction vers :"
+
+#: src/js/main-ui/components/EditTranslationPopup.js:123
+msgid "Copy from original"
+msgstr "Copier de l’original"
+
+#: src/js/main-ui/components/EditTranslationPopup.js:138
+msgid "Use Shift+Enter to add a new line."
+msgstr "Utilisez Maj+Entrée pour ajouter une nouvelle ligne."
+
+#: src/js/main-ui/components/EditTranslationPopup.js:97
+msgid "Original:"
+msgstr "Original :"
+
+#: src/js/main-ui/components/LanguagesCell.js:169
+msgid "Add %s translation"
+msgstr "Ajouter la traduction %s"
+
+#: src/js/main-ui/components/LanguagesCell.js:188
+msgid "Edit %s translation"
+msgstr "Modifier la traduction %s"
+
+#: src/js/main-ui/components/LanguagesCell.js:198
+msgid "Add %s translation (the string appears on the site and is not translated)"
+msgstr "Ajouter la traduction %s (la chaîne apparaît sur le site et n’est pas traduite)"
+
+#: src/js/main-ui/components/LanguagesCell.js:63
+msgid "Original language %s"
+msgstr "Langue d’origine %s"
+
+#: src/js/main-ui/components/LanguagesCell.js:70
+msgid "Waiting for translator to %s"
+msgstr "En attente du traducteur pour %s"
+
+#: src/js/main-ui/components/LanguagesCell.js:77
+msgid "Translation in progress to %s"
+msgstr "Traduction en cours vers %s"
+
+#: src/js/main-ui/components/LanguagesCell.js:84
+msgid "In basket for translation to %s"
+msgstr "Dans le panier pour la traduction vers %s"
+
+#: src/js/main-ui/components/notification.js:13
+msgid "Translation saved."
+msgstr "Traduction enregistrée."
+
+#: src/js/main-ui/components/notification.js:17
+msgid "Translation update failed."
+msgstr "Échec de la mise à jour de la traduction."

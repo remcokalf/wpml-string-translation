@@ -1,0 +1,66 @@
+{
+   "domain": "messages",
+   "locale_data": {
+      "messages": {
+         "": {
+            "domain": "messages",
+            "plural_forms": "nplurals=1; plural=0;",
+            "lang": "th"
+         },
+         "Clean up the <b>String Translation</b> table by removing <strong>untranslated</strong> strings by domain.": [
+            "ล้างข้อมูลในตาราง <b>การแปลสตริง</b> โดยการลบสตริงที่ <strong>ยังไม่ได้แปล</strong> ตามโดเมน"
+         ],
+         "Remove strings by domain": [
+            "ลบสตริงตามโดเมน"
+         ],
+         "Remove strings": [
+            "ลบสตริง"
+         ],
+         "Cancel": [
+            "ยกเลิก"
+         ],
+         "Remove": [
+            "ลบ"
+         ],
+         "The <b>String Translation</b> table currently contains strings from the domains listed below. If you do not plan to translate strings from a particular domain, select it below to remove its <strong>untranslated</strong> strings from the <b>String Translation</b> table. Any strings that already have translations will still be available.": [
+            "ตาราง <b>การแปลสตริง</b> ในปัจจุบันมีสตริงจากโดเมนที่ระบุไว้ด้านล่าง หากคุณไม่ต้องการแปลสตริงจากโดเมนใดโดเมนหนึ่ง ให้เลือกโดเมนนั้นด้านล่างเพื่อลบสตริงที่ <strong>ยังไม่ได้แปล</strong> ออกจากตาราง <b>การแปลสตริง</b> ทั้งนี้ สตริงใดที่มีการแปลแล้วจะยังคงอยู่"
+         ],
+         "Search": [
+            "ค้นหา"
+         ],
+         "Strings that are queued for translation, in progress, or waiting for a retry.": [
+            "สตริงที่อยู่ในคิวการแปล กำลังดำเนินการ หรือกำลังรอการลองใหม่อีกครั้ง"
+         ],
+         "Also remove strings waiting for translation": [
+            "ลบสตริงที่รอการแปลด้วย"
+         ],
+         "Removing strings from <b>String Translation</b> table": [
+            "กำลังลบสตริงออกจากตาราง <b>การแปลสตริง</b>"
+         ],
+         "To add strings back to the <b>String Translation</b> table, you may need to rescan translation files or register strings as translatable.": [
+            "หากต้องการเพิ่มสตริงกลับเข้าไปในตาราง <b>การแปลสตริง</b> คุณอาจต้องสแกนไฟล์การแปลใหม่หรือลงทะเบียนสตริงให้สามารถแปลได้"
+         ],
+         "Read more about <a>scanning your site for strings and registering them as translatable</a>.": [
+            "อ่านเพิ่มเติมเกี่ยวกับ <a>การสแกนไซต์ของคุณเพื่อหาสตริงและลงทะเบียนสตริงเหล่านั้นให้สามารถแปลได้</a>"
+         ],
+         "Successfully removed strings": [
+            "ลบสตริงสำเร็จแล้ว"
+         ],
+         "OK, Great": [
+            "ตกลง ยอดเยี่ยม"
+         ],
+         "Domain": [
+            "โดเมน"
+         ],
+         "Strings count": [
+            "จำนวนสตริง"
+         ],
+         "Translated strings": [
+            "สตริงที่แปลแล้ว"
+         ],
+         "Removing strings stopped before it finished. The strings that were not removed are still in the table. Try again to remove them.": [
+            "การลบสตริงหยุดลงก่อนที่จะเสร็จสิ้น สตริงที่ไม่ได้ถูกลบยังคงอยู่ในตาราง โปรดลองลบอีกครั้ง"
+         ]
+      }
+   }
+}

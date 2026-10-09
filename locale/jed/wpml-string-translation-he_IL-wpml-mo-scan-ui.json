@@ -1,0 +1,96 @@
+{
+   "domain": "messages",
+   "locale_data": {
+      "messages": {
+         "": {
+            "domain": "messages",
+            "plural_forms": "nplurals=2; plural=(n != 1);",
+            "lang": "he_IL"
+         },
+         "WPML has detected changed or new MO files": [
+            "WPML זיהה קובצי MO חדשים או כאלה שהשתנו"
+         ],
+         "There are new or updated .mo files. WPML needs to scan them to find strings for translation.": [
+            "ישנם קובצי.mo חדשים או מעודכנים. WPML צריך לסרוק אותם כדי למצוא מחרוזות לתרגום."
+         ],
+         "Scan translation files": [
+            "סרוק קובצי תרגום"
+         ],
+         "Scanned %1$d of %2$d files...": [
+            "נסרקו %1$d מתוך %2$d קבצים..."
+         ],
+         "Generated files for %1$d of %2$d sites...": [
+            "נוצרו קבצים עבור %1$d מתוך %2$d אתרים..."
+         ],
+         "Generated %1$d of %2$d files...": [
+            "נוצרו %1$d מתוך %2$d קבצים..."
+         ],
+         "WPML needs to generate .mo files": [
+            "WPML צריך ליצור קובצי.mo"
+         ],
+         "WPML String Translation uses .mo files instead of database calls. WPML needs to generate these .mo files in order for translations to appear on the front-end. However, the folder that should hold these .mo files is not open for writing.": [
+            "WPML String Translation משתמש בקובצי.mo במקום בקריאות למסד הנתונים. WPML צריך ליצור את קובצי ה-.mo האלה כדי שהתרגומים יופיעו בחזית האתר. עם זאת, התיקייה שאמורה להכיל את קובצי ה-.mo האלה אינה פתוחה לכתיבה."
+         ],
+         "Please use your admin control panel or an FTP program to make the following folder writeable:": [
+            "אנא השתמש בלוח הבקרה של הניהול או בתוכנת FTP כדי להפוך את התיקייה הבאה לניתנת לכתיבה:"
+         ],
+         "There was a problem creating the .mo files": [
+            "הייתה בעיה ביצירת קובצי ה-.mo"
+         ],
+         "You can try again now or try again later by going to <strong>WPML->Theme and plugins localization</strong>.": [
+            "תוכל לנסות שוב כעת או לנסות שוב מאוחר יותר על ידי מעבר אל <strong>WPML->לוקליזציה של ערכות עיצוב ותוספים</strong>."
+         ],
+         "Translations are missing from the front-end until you generate .mo files": [
+            "התרגומים חסרים בחזית האתר עד שתיצור קובצי.mo"
+         ],
+         "Your site doesn't have the .mo files that WPML needs in order to display translated strings on the front-end. To generate these .mo files, remember to go to <strong>WPML->Theme and plugins localization</strong>.": [
+            "באתר שלך אין את קובצי ה-.mo ש-WPML צריך כדי להציג מחרוזות מתורגמות בחזית האתר. כדי ליצור את קובצי ה-.mo האלה, זכור לעבור אל <strong>WPML->לוקליזציה של ערכות עיצוב ותוספים</strong>."
+         ],
+         "WPML String Translation uses .mo files instead of database calls. WPML needs to generate these .mo files in order for translations to appear on the front-end.": [
+            "WPML String Translation משתמש בקובצי.mo במקום בקריאות למסד הנתונים. WPML צריך ליצור את קובצי ה-.mo האלה כדי שהתרגומים יופיעו בחזית האתר."
+         ],
+         "Try again": [
+            "נסה שוב"
+         ],
+         "Generate .mo files": [
+            "צור קובצי.mo"
+         ],
+         "Close this message": [
+            "סגור הודעה זו"
+         ],
+         "Find additional texts that WordPress, the theme and plugins created and choose which ones to translate": [
+            "מצא טקסטים נוספים ש-WordPress, ערכת העיצוב והתוספים יצרו ובחר אילו מהם לתרגם"
+         ],
+         "Choose texts for translation": [
+            "בחר טקסטים לתרגום"
+         ],
+         "Some of the translations have changed": [
+            "חלק מהתרגומים השתנו"
+         ],
+         "Scan the selected components to make new texts available for translation.": [
+            "סרוק את הרכיבים שנבחרו כדי להפוך טקסטים חדשים לזמינים לתרגום."
+         ],
+         "Select all": [
+            "בחר הכל"
+         ],
+         "Plugins:": [
+            "תוספים:"
+         ],
+         "Themes:": [
+            "ערכות עיצוב:"
+         ],
+         "Core:": [
+            "ליבה:"
+         ],
+         "Can't find the strings you're looking to translate?": [
+            "לא מוצא את המחרוזות שאתה מחפש לתרגם?"
+         ],
+         "Most likely you cannot see the strings you want to translate because:": [
+            "סביר להניח שאינך רואה את המחרוזות שברצונך לתרגם מכיוון ש:"
+         ],
+         "Texts are not selected for translation": [
+            "טקסטים לא נבחרו לתרגום"
+         ]
+      }
+   }
+}

@@ -1,0 +1,84 @@
+{
+   "domain": "messages",
+   "locale_data": {
+      "messages": {
+         "": {
+            "domain": "messages",
+            "plural_forms": "nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);",
+            "lang": "uk"
+         },
+         "Not included in String Translation": [
+            "Не включено до перекладу рядків"
+         ],
+         "Registered and locked": [
+            "Зареєстровано та заблоковано"
+         ],
+         "Text": [
+            "Текст"
+         ],
+         "Numeric": [
+            "Числовий"
+         ],
+         "All Types": [
+            "Усі типи"
+         ],
+         "Search": [
+            "Пошук"
+         ],
+         "Communication error": [
+            "Помилка зв’язку"
+         ],
+         "The action failed.": [
+            "Дія не вдалася."
+         ],
+         "All (%d)": [
+            "Усі (%d)"
+         ],
+         "Included in String Translation (%d)": [
+            "Включено до перекладу рядків (%d)"
+         ],
+         "Not included in String Translation (%d)": [
+            "Не включено до перекладу рядків (%d)"
+         ],
+         "This setting is locked by a WPML configuration file.": [
+            "Це налаштування заблоковано конфігураційним файлом WPML."
+         ],
+         "Option": [
+            "Опція"
+         ],
+         "Value": [
+            "Значення"
+         ],
+         "Type": [
+            "Тип"
+         ],
+         "State": [
+            "Стан"
+         ],
+         "Export as a WPML configuration file": [
+            "Експортувати як конфігураційний файл WPML"
+         ],
+         "Cancel": [
+            "Скасувати"
+         ],
+         "Save the following to a wpml-config.xml in the root of your theme or plugin.": [
+            "Збережіть наступне у файл wpml-config.xml у кореневій папці вашої теми або плагіну."
+         ],
+         "No options found.": [
+            "Опцій не знайдено."
+         ],
+         "Make sure you saved your theme options at least once. Some themes only add these to the wp_options table after the user explicitly saves changes to the theme defaults.": [
+            "Переконайтеся, що ви зберегли налаштування теми принаймні один раз. Деякі теми додають їх до таблиці wp_options лише після того, як користувач явно збереже зміни до стандартних налаштувань теми."
+         ],
+         "Add to String Translation": [
+            "Додати до перекладу рядків"
+         ],
+         "Remove from String Translation": [
+            "Вилучити з перекладу рядків"
+         ],
+         "Included in String Translation": [
+            "Включено до перекладу рядків"
+         ]
+      }
+   }
+}

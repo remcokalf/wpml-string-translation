@@ -1,0 +1,57 @@
+{
+   "domain": "messages",
+   "locale_data": {
+      "messages": {
+         "": {
+            "domain": "messages",
+            "plural_forms": "nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);",
+            "lang": "uk"
+         },
+         "Edit %s": [
+            "Редагувати %s"
+         ],
+         "Shift+Tab": [
+            "Shift+tab"
+         ],
+         "Tab": [
+            "Tab"
+         ],
+         "Original:": [
+            "Оригінал:"
+         ],
+         "Translation to:": [
+            "Переклад на:"
+         ],
+         "Copy from original": [
+            "Копіювати з оригіналу"
+         ],
+         "Use Shift+Enter to add a new line.": [
+            "Використовуйте Shift+Enter, щоб додати новий рядок."
+         ],
+         "Add %s translation": [
+            "Додати переклад %s"
+         ],
+         "Edit %s translation": [
+            "Редагувати переклад %s"
+         ],
+         "Add %s translation (the string appears on the site and is not translated)": [
+            "Додати переклад %s (рядок відображається на сайті та не перекладений)"
+         ],
+         "Original language %s": [
+            "Мова оригіналу: %s"
+         ],
+         "Waiting for translator to %s": [
+            "Очікування перекладача на %s"
+         ],
+         "Translation in progress to %s": [
+            "Триває переклад на %s"
+         ],
+         "Translation saved.": [
+            "Переклад збережено."
+         ],
+         "Translation update failed.": [
+            "Не вдалося оновити переклад."
+         ]
+      }
+   }
+}

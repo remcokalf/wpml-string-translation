@@ -1,0 +1,44 @@
+<?php
+
+class WPML_ST_Translations_File_String_Status_Update {
+	private $number_of_secondary_languages;
+
+	private $wpdb;
+
+	public function __construct( $number_of_secondary_languages, wpdb $wpdb ) {
+		$this->number_of_secondary_languages = $number_of_secondary_languages;
+		$this->wpdb                          = $wpdb;
+	}
+
+	public function add_hooks() {
+		add_action( 'wpml_st_translations_file_post_import', array( $this, 'update_string_statuses' ), 10, 1 );
+	}
+
+	public function update_string_statuses( WPML_ST_Translations_File_Entry $file ) {
+		if ( ! in_array( $file->get_status(), array( WPML_ST_Translations_File_Entry::IMPORTED, WPML_ST_Translations_File_Entry::FINISHED ), true ) ) {
+			return;
+		}
+
+		$wpdb = $this->wpdb;
+		$wpdb->query(
+			$wpdb->prepare(
+				"UPDATE {$wpdb->prefix}icl_strings s
+				SET s.status = CASE (
+				   SELECT COUNT(t.id) FROM {$wpdb->prefix}icl_string_translations t
+				   WHERE t.string_id = s.id AND (t.status = %d OR t.mo_string IS NOT NULL)
+				  )
+				  WHEN %d THEN %d
+				  WHEN 0 THEN %d
+				  ELSE %d
+				  END
+				WHERE s.context = %s",
+				ICL_TM_COMPLETE,
+				$this->number_of_secondary_languages,
+				ICL_TM_COMPLETE,
+				ICL_TM_NOT_TRANSLATED,
+				ICL_TM_IN_PROGRESS,
+				$file->get_domain()
+			)
+		);
+	}
+}

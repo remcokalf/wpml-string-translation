@@ -1,0 +1,66 @@
+{
+   "domain": "messages",
+   "locale_data": {
+      "messages": {
+         "": {
+            "domain": "messages",
+            "plural_forms": "nplurals=2; plural=(n != 1);",
+            "lang": "de_DE"
+         },
+         "Clean up the <b>String Translation</b> table by removing <strong>untranslated</strong> strings by domain.": [
+            "Bereinigen Sie die <b>String-Übersetzung</b>-Tabelle, indem Sie <strong>nicht übersetzte</strong> Strings nach Domain entfernen."
+         ],
+         "Remove strings by domain": [
+            "Strings nach Domain entfernen"
+         ],
+         "Remove strings": [
+            "Strings entfernen"
+         ],
+         "Cancel": [
+            "Abbrechen"
+         ],
+         "Remove": [
+            "Entfernen"
+         ],
+         "The <b>String Translation</b> table currently contains strings from the domains listed below. If you do not plan to translate strings from a particular domain, select it below to remove its <strong>untranslated</strong> strings from the <b>String Translation</b> table. Any strings that already have translations will still be available.": [
+            "Die <b>String-Übersetzung</b>-Tabelle enthält derzeit Strings aus den unten aufgeführten Domains. Wenn Sie nicht planen, Strings aus einer bestimmten Domain zu übersetzen, wählen Sie diese unten aus, um deren <strong>nicht übersetzte</strong> Strings aus der <b>String-Übersetzung</b>-Tabelle zu entfernen. Alle Strings, die bereits Übersetzungen haben, bleiben weiterhin verfügbar."
+         ],
+         "Search": [
+            "Suchen"
+         ],
+         "Strings that are queued for translation, in progress, or waiting for a retry.": [
+            "Strings, die für die Übersetzung in der Warteschlange stehen, in Bearbeitung sind oder auf eine Wiederholung warten."
+         ],
+         "Also remove strings waiting for translation": [
+            "Auch auf Übersetzung wartende Strings entfernen"
+         ],
+         "Removing strings from <b>String Translation</b> table": [
+            "Strings werden aus der <b>String-Übersetzung</b>-Tabelle entfernt"
+         ],
+         "To add strings back to the <b>String Translation</b> table, you may need to rescan translation files or register strings as translatable.": [
+            "Um Strings wieder zur <b>String-Übersetzung</b>-Tabelle hinzuzufügen, musst Du möglicherweise die Übersetzungsdateien neu durchsuchen oder Strings als übersetzbar registrieren."
+         ],
+         "Read more about <a>scanning your site for strings and registering them as translatable</a>.": [
+            "Erfahre mehr über das <a>Durchsuchen Deiner Website nach Strings und deren Registrierung als übersetzbar</a>."
+         ],
+         "Successfully removed strings": [
+            "Strings erfolgreich entfernt"
+         ],
+         "OK, Great": [
+            "OK, super"
+         ],
+         "Domain": [
+            "Domain"
+         ],
+         "Strings count": [
+            "Anzahl der Strings"
+         ],
+         "Translated strings": [
+            "Übersetzte Strings"
+         ],
+         "Removing strings stopped before it finished. The strings that were not removed are still in the table. Try again to remove them.": [
+            "Das Entfernen der Strings wurde abgebrochen, bevor es abgeschlossen war. Die Strings, die nicht entfernt wurden, befinden sich noch in der Tabelle. Versuchen Sie erneut, sie zu entfernen."
+         ]
+      }
+   }
+}

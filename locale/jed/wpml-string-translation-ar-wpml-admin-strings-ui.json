@@ -1,0 +1,84 @@
+{
+   "domain": "messages",
+   "locale_data": {
+      "messages": {
+         "": {
+            "domain": "messages",
+            "plural_forms": "nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 ? 4 : 5);",
+            "lang": "ar"
+         },
+         "Not included in String Translation": [
+            "غير مدرج في ترجمة النصوص"
+         ],
+         "Registered and locked": [
+            "مسجل ومقفل"
+         ],
+         "Text": [
+            "نص"
+         ],
+         "Numeric": [
+            "رقمي"
+         ],
+         "All Types": [
+            "جميع الأنواع"
+         ],
+         "Search": [
+            "بحث"
+         ],
+         "Communication error": [
+            "خطأ في الاتصال"
+         ],
+         "The action failed.": [
+            "فشلت العملية."
+         ],
+         "All (%d)": [
+            "الكل (%d)"
+         ],
+         "Included in String Translation (%d)": [
+            "مدرج في ترجمة النصوص (%d)"
+         ],
+         "Not included in String Translation (%d)": [
+            "غير مدرج في ترجمة النصوص (%d)"
+         ],
+         "This setting is locked by a WPML configuration file.": [
+            "هذا الإعداد مقفل بواسطة ملف تكوين WPML."
+         ],
+         "Option": [
+            "خيار"
+         ],
+         "Value": [
+            "القيمة"
+         ],
+         "Type": [
+            "النوع"
+         ],
+         "State": [
+            "الحالة"
+         ],
+         "Export as a WPML configuration file": [
+            "تصدير كملف تكوين WPML"
+         ],
+         "Cancel": [
+            "إلغاء"
+         ],
+         "Save the following to a wpml-config.xml in the root of your theme or plugin.": [
+            "احفظ ما يلي في ملف wpml-config.xml في المجلد الجذري لقالبك أو إضافتك."
+         ],
+         "No options found.": [
+            "لم يتم العثور على خيارات."
+         ],
+         "Make sure you saved your theme options at least once. Some themes only add these to the wp_options table after the user explicitly saves changes to the theme defaults.": [
+            "تأكد من حفظ خيارات القالب الخاص بك مرة واحدة على الأقل. تضيف بعض القوالب هذه الخيارات إلى جدول wp_options فقط بعد أن يقوم المستخدم بحفظ التغييرات على الإعدادات الافتراضية للقالب بشكل صريح."
+         ],
+         "Add to String Translation": [
+            "أضف إلى ترجمة النصوص"
+         ],
+         "Remove from String Translation": [
+            "إزالة من ترجمة النصوص"
+         ],
+         "Included in String Translation": [
+            "مدرج في ترجمة النصوص"
+         ]
+      }
+   }
+}

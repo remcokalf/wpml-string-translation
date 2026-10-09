@@ -1,0 +1,57 @@
+{
+   "domain": "messages",
+   "locale_data": {
+      "messages": {
+         "": {
+            "domain": "messages",
+            "plural_forms": "nplurals=1; plural=0;",
+            "lang": "ko_KR"
+         },
+         "Edit %s": [
+            "%s 편집"
+         ],
+         "Shift+Tab": [
+            "Shift+tab"
+         ],
+         "Tab": [
+            "Tab"
+         ],
+         "Original:": [
+            "원본:"
+         ],
+         "Translation to:": [
+            "번역 대상:"
+         ],
+         "Copy from original": [
+            "원본에서 복사"
+         ],
+         "Use Shift+Enter to add a new line.": [
+            "Shift+Enter를 사용하여 줄바꿈을 추가하세요."
+         ],
+         "Add %s translation": [
+            "%s 번역 추가"
+         ],
+         "Edit %s translation": [
+            "%s 번역 편집"
+         ],
+         "Add %s translation (the string appears on the site and is not translated)": [
+            "%s 번역 추가 (문자열이 사이트에 표시되지만 번역되지 않음)"
+         ],
+         "Original language %s": [
+            "원본 언어: %s"
+         ],
+         "Waiting for translator to %s": [
+            "%s 번역가 대기 중"
+         ],
+         "Translation in progress to %s": [
+            "%s(으)로 번역 진행 중"
+         ],
+         "Translation saved.": [
+            "번역이 저장되었습니다."
+         ],
+         "Translation update failed.": [
+            "번역 업데이트에 실패했습니다."
+         ]
+      }
+   }
+}

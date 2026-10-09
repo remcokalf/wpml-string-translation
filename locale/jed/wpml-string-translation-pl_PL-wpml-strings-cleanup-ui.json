@@ -1,0 +1,66 @@
+{
+   "domain": "messages",
+   "locale_data": {
+      "messages": {
+         "": {
+            "domain": "messages",
+            "plural_forms": "nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);",
+            "lang": "pl_PL"
+         },
+         "Clean up the <b>String Translation</b> table by removing <strong>untranslated</strong> strings by domain.": [
+            "Wyczyść tabelę <b>String Translation</b>, usuwając <strong>nieprzetłumaczone</strong> ciągi znaków według domeny."
+         ],
+         "Remove strings by domain": [
+            "Usuń ciągi znaków według domeny"
+         ],
+         "Remove strings": [
+            "Usuń ciągi znaków"
+         ],
+         "Cancel": [
+            "Anuluj"
+         ],
+         "Remove": [
+            "Usuń"
+         ],
+         "The <b>String Translation</b> table currently contains strings from the domains listed below. If you do not plan to translate strings from a particular domain, select it below to remove its <strong>untranslated</strong> strings from the <b>String Translation</b> table. Any strings that already have translations will still be available.": [
+            "Tabela <b>String Translation</b> zawiera obecnie ciągi znaków z domen wymienionych poniżej. Jeśli nie planujesz tłumaczyć ciągów z konkretnej domeny, wybierz ją poniżej, aby usunąć jej <strong>nieprzetłumaczone</strong> ciągi z tabeli <b>String Translation</b>. Wszystkie ciągi, które mają już tłumaczenia, będą nadal dostępne."
+         ],
+         "Search": [
+            "Szukaj"
+         ],
+         "Strings that are queued for translation, in progress, or waiting for a retry.": [
+            "Ciągi znaków oczekujące na tłumaczenie, w trakcie tłumaczenia lub oczekujące na ponowną próbę."
+         ],
+         "Also remove strings waiting for translation": [
+            "Usuń również ciągi oczekujące na tłumaczenie"
+         ],
+         "Removing strings from <b>String Translation</b> table": [
+            "Usuwanie ciągów znaków z tabeli <b>tłumaczenia ciągów znaków</b>"
+         ],
+         "To add strings back to the <b>String Translation</b> table, you may need to rescan translation files or register strings as translatable.": [
+            "Aby ponownie dodać ciągi do tabeli <b>tłumaczenia ciągów znaków</b>, może być konieczne ponowne przeskanowanie plików tłumaczeń lub zarejestrowanie ciągów jako nadających się do tłumaczenia."
+         ],
+         "Read more about <a>scanning your site for strings and registering them as translatable</a>.": [
+            "Dowiedz się więcej o <a>skanowaniu witryny pod kątem ciągów znaków i rejestrowaniu ich jako nadających się do tłumaczenia</a>."
+         ],
+         "Successfully removed strings": [
+            "Pomyślnie usunięto ciągi znaków"
+         ],
+         "OK, Great": [
+            "OK, świetnie"
+         ],
+         "Domain": [
+            "Domena"
+         ],
+         "Strings count": [
+            "Liczba ciągów znaków"
+         ],
+         "Translated strings": [
+            "Przetłumaczone ciągi znaków"
+         ],
+         "Removing strings stopped before it finished. The strings that were not removed are still in the table. Try again to remove them.": [
+            "Usuwanie ciągów znaków zostało przerwane przed zakończeniem. Ciągi, które nie zostały usunięte, nadal znajdują się w tabeli. Spróbuj usunąć je ponownie."
+         ]
+      }
+   }
+}

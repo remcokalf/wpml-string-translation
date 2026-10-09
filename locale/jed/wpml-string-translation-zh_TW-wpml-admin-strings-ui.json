@@ -1,0 +1,84 @@
+{
+   "domain": "messages",
+   "locale_data": {
+      "messages": {
+         "": {
+            "domain": "messages",
+            "plural_forms": "nplurals=1; plural=0;",
+            "lang": "zh_TW"
+         },
+         "Not included in String Translation": [
+            "未包含在字串翻譯中"
+         ],
+         "Registered and locked": [
+            "已註冊並鎖定"
+         ],
+         "Text": [
+            "文字"
+         ],
+         "Numeric": [
+            "數值"
+         ],
+         "All Types": [
+            "所有類型"
+         ],
+         "Search": [
+            "搜尋"
+         ],
+         "Communication error": [
+            "通訊錯誤"
+         ],
+         "The action failed.": [
+            "操作失敗。"
+         ],
+         "All (%d)": [
+            "全部 (%d)"
+         ],
+         "Included in String Translation (%d)": [
+            "已包含在字串翻譯中 (%d)"
+         ],
+         "Not included in String Translation (%d)": [
+            "未包含在字串翻譯中 (%d)"
+         ],
+         "This setting is locked by a WPML configuration file.": [
+            "此設定已由 WPML 設定檔鎖定。"
+         ],
+         "Option": [
+            "選項"
+         ],
+         "Value": [
+            "值"
+         ],
+         "Type": [
+            "類型"
+         ],
+         "State": [
+            "狀態"
+         ],
+         "Export as a WPML configuration file": [
+            "匯出為 WPML 設定檔"
+         ],
+         "Cancel": [
+            "取消"
+         ],
+         "Save the following to a wpml-config.xml in the root of your theme or plugin.": [
+            "將以下內容儲存至佈景主題或外掛根目錄下的 wpml-config.xml。"
+         ],
+         "No options found.": [
+            "找不到選項。"
+         ],
+         "Make sure you saved your theme options at least once. Some themes only add these to the wp_options table after the user explicitly saves changes to the theme defaults.": [
+            "請確保您至少儲存過一次佈景主題選項。某些佈景主題只有在使用者明確儲存對佈景主題預設值的變更後，才會將這些選項新增至 wp_options 資料表。"
+         ],
+         "Add to String Translation": [
+            "新增至字串翻譯"
+         ],
+         "Remove from String Translation": [
+            "從字串翻譯中移除"
+         ],
+         "Included in String Translation": [
+            "已包含在字串翻譯中"
+         ]
+      }
+   }
+}

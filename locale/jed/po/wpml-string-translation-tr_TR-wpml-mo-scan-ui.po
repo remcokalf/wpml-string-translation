@@ -1,0 +1,140 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=utf-8\n"
+"X-Generator: babel-plugin-makepot\n"
+"Language: tr_TR\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: src/js/mo-scan/LocalizationPageUI.js:20
+msgid "WPML has detected changed or new MO files"
+msgstr "WPML değiştirilmiş veya yeni MO dosyaları algıladı"
+
+#: src/js/mo-scan/LocalizationPageUI.js:26
+msgid ""
+"There are new or updated .mo files. WPML needs to scan them to find strings "
+"for translation."
+msgstr "Yeni veya güncellenmiş.mo dosyaları var. WPML'nin çevrilecek dizeleri bulmak için bunları taraması gerekiyor."
+
+#: src/js/mo-scan/LocalizationPageUI.js:30
+#: src/js/mo-scan/texts.js:14
+msgid "Scan translation files"
+msgstr "Çeviri dosyalarını tara"
+
+#: src/js/mo-scan/LocalizationPageUI.js:31
+#: src/js/mo-scan/texts.js:15
+msgid "Scanned %1$d of %2$d files..."
+msgstr "%1$d/%2$d dosya tarandı..."
+
+#: src/js/mo-scan/pre-generate/UI.js:41
+msgid "Generated files for %1$d of %2$d sites..."
+msgstr "%1$d/%2$d site için dosyalar oluşturuldu..."
+
+#: src/js/mo-scan/pre-generate/UI.js:42
+msgid "Generated %1$d of %2$d files..."
+msgstr "%1$d/%2$d dosya oluşturuldu..."
+
+#: src/js/mo-scan/pre-generate/UI.js:46
+msgid "WPML needs to generate .mo files"
+msgstr "WPML'nin .mo dosyaları oluşturması gerekiyor"
+
+#: src/js/mo-scan/pre-generate/textProvider.js:10
+msgid ""
+"WPML String Translation uses .mo files instead of database calls. WPML "
+"needs to generate these .mo files in order for translations to appear on "
+"the front-end. However, the folder that should hold these .mo files is not "
+"open for writing."
+msgstr "WPML Dize Çevirisi, veritabanı çağrıları yerine .mo dosyalarını kullanır. Çevirilerin ön uçta görünmesi için WPML'nin bu .mo dosyalarını oluşturması gerekir. Ancak, bu .mo dosyalarını içermesi gereken klasör yazmaya açık değil."
+
+#: src/js/mo-scan/pre-generate/textProvider.js:13
+msgid ""
+"Please use your admin control panel or an FTP program to make the following "
+"folder writeable:"
+msgstr "Lütfen yönetici kontrol panelinizi veya bir FTP programını kullanarak aşağıdaki klasörü yazılabilir yapın:"
+
+#: src/js/mo-scan/pre-generate/textProvider.js:23
+msgid "There was a problem creating the .mo files"
+msgstr ".mo dosyaları oluşturulurken bir sorun oluştu"
+
+#: src/js/mo-scan/pre-generate/textProvider.js:26
+msgid "You can try again now or try again later by going to "
+msgstr "Şimdi tekrar deneyebilir veya daha sonra şu adrese giderek tekrar deneyebilirsiniz: "
+
+#: src/js/mo-scan/pre-generate/textProvider.js:34
+msgid "Translations are missing from the front-end until you generate .mo files"
+msgstr ".mo dosyalarını oluşturana kadar ön uçta çeviriler eksik kalacaktır"
+
+#: src/js/mo-scan/pre-generate/textProvider.js:37
+msgid ""
+"Your site doesn't have the .mo files that WPML needs in order to display "
+"translated strings on the front-end. To generate these .mo files, remember "
+"to go to "
+msgstr "Sitenizde, WPML'nin çevrilmiş dizeleri ön uçta görüntülemek için ihtiyaç duyduğu .mo dosyaları yok. Bu .mo dosyalarını oluşturmak için şu adrese gitmeyi unutmayın: "
+
+#: src/js/mo-scan/pre-generate/textProvider.js:38
+msgid "WPML->Theme and plugins localization."
+msgstr "WPML->Tema ve eklenti yerelleştirmesi."
+
+#: src/js/mo-scan/pre-generate/textProvider.js:43
+msgid ""
+"WPML String Translation uses .mo files instead of database calls. WPML "
+"needs to generate these .mo files in order for translations to appear on "
+"the front-end."
+msgstr "WPML Dize Çevirisi, veritabanı çağrıları yerine .mo dosyalarını kullanır. Çevirilerin ön uçta görünmesi için WPML'nin bu .mo dosyalarını oluşturması gerekir."
+
+#: src/js/mo-scan/pre-generate/textProvider.js:51
+msgid "Try again"
+msgstr "Tekrar dene"
+
+#: src/js/mo-scan/pre-generate/textProvider.js:54
+msgid "Generate .mo files"
+msgstr ".mo dosyalarını oluştur"
+
+#: src/js/mo-scan/pre-generate/textProvider.js:59
+msgid "Close this message"
+msgstr "Bu mesajı kapat"
+
+#: src/js/mo-scan/texts.js:10
+msgid ""
+"Find additional texts that WordPress, the theme and plugins created and "
+"choose which ones to translate"
+msgstr "WordPress, tema ve eklentilerin oluşturduğu ek metinleri bulun ve hangilerini çevireceğinizi seçin"
+
+#: src/js/mo-scan/texts.js:11
+msgid "Choose texts for translation"
+msgstr "Çevrilecek metinleri seçin"
+
+#: src/js/mo-scan/texts.js:12
+msgid "Some of the translations have changed"
+msgstr "Çevirilerden bazıları değişti"
+
+#: src/js/mo-scan/texts.js:13
+msgid "Scan the selected components to make new texts available for translation."
+msgstr "Yeni metinleri çeviri için kullanılabilir hale getirmek üzere seçilen bileşenleri tarayın."
+
+#: src/js/mo-scan/texts.js:3
+msgid "Select all"
+msgstr "Tümünü seç"
+
+#: src/js/mo-scan/texts.js:4
+msgid "Plugins:"
+msgstr "Eklentiler:"
+
+#: src/js/mo-scan/texts.js:5
+msgid "Themes:"
+msgstr "Temalar:"
+
+#: src/js/mo-scan/texts.js:6
+msgid "Core:"
+msgstr "Çekirdek:"
+
+#: src/js/mo-scan/texts.js:7
+msgid "Can't find the strings you're looking to translate?"
+msgstr "Çevirmek istediğiniz dizeleri bulamıyor musunuz?"
+
+#: src/js/mo-scan/texts.js:8
+msgid "Most likely you cannot see the strings you want to translate because:"
+msgstr "Büyük olasılıkla çevirmek istediğiniz dizeleri göremiyorsunuz çünkü:"
+
+#: src/js/mo-scan/texts.js:9
+msgid "Texts are not selected for translation"
+msgstr "Metinler çeviri için seçilmedi"

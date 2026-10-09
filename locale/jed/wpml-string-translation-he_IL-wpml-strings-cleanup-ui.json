@@ -1,0 +1,66 @@
+{
+   "domain": "messages",
+   "locale_data": {
+      "messages": {
+         "": {
+            "domain": "messages",
+            "plural_forms": "nplurals=2; plural=(n != 1);",
+            "lang": "he_IL"
+         },
+         "Clean up the <b>String Translation</b> table by removing <strong>untranslated</strong> strings by domain.": [
+            "נקה את טבלת ה-<b>String Translation</b> על ידי הסרת מחרוזות <strong>שאינן מתורגמות</strong> לפי דומיין."
+         ],
+         "Remove strings by domain": [
+            "הסרת מחרוזות לפי דומיין"
+         ],
+         "Remove strings": [
+            "הסר מחרוזות"
+         ],
+         "Cancel": [
+            "בטל"
+         ],
+         "Remove": [
+            "הסר"
+         ],
+         "The <b>String Translation</b> table currently contains strings from the domains listed below. If you do not plan to translate strings from a particular domain, select it below to remove its <strong>untranslated</strong> strings from the <b>String Translation</b> table. Any strings that already have translations will still be available.": [
+            "טבלת ה-<b>String Translation</b> מכילה כרגע מחרוזות מהדומיינים המפורטים להלן. אם אינך מתכנן לתרגם מחרוזות מדומיין מסוים, בחר אותו להלן כדי להסיר את המחרוזות <strong>שאינן מתורגמות</strong> שלו מטבלת ה-<b>String Translation</b>. מחרוזות שכבר יש להן תרגומים יישארו זמינות."
+         ],
+         "Search": [
+            "חיפוש"
+         ],
+         "Strings that are queued for translation, in progress, or waiting for a retry.": [
+            "מחרוזות שנמצאות בתור לתרגום, בתהליך או ממתינות לניסיון חוזר."
+         ],
+         "Also remove strings waiting for translation": [
+            "הסר גם מחרוזות הממתינות לתרגום"
+         ],
+         "Removing strings from <b>String Translation</b> table": [
+            "מסיר מחרוזות מטבלת <b>תרגום מחרוזות</b>"
+         ],
+         "To add strings back to the <b>String Translation</b> table, you may need to rescan translation files or register strings as translatable.": [
+            "כדי להוסיף מחרוזות בחזרה לטבלת <b>תרגום מחרוזות</b>, ייתכן שיהיה עליך לסרוק מחדש קובצי תרגום או לרשום מחרוזות כניתנות לתרגום."
+         ],
+         "Read more about <a>scanning your site for strings and registering them as translatable</a>.": [
+            "קרא עוד על <a>סריקת האתר שלך לאיתור מחרוזות ורישומן כניתנות לתרגום</a>."
+         ],
+         "Successfully removed strings": [
+            "המחרוזות הוסרו בהצלחה"
+         ],
+         "OK, Great": [
+            "אוקיי, מעולה"
+         ],
+         "Domain": [
+            "דומיין"
+         ],
+         "Strings count": [
+            "ספירת מחרוזות"
+         ],
+         "Translated strings": [
+            "מחרוזות מתורגמות"
+         ],
+         "Removing strings stopped before it finished. The strings that were not removed are still in the table. Try again to remove them.": [
+            "הסרת המחרוזות הופסקה לפני שהושלמה. המחרוזות שלא הוסרו עדיין נמצאות בטבלה. נסה להסיר אותן שוב."
+         ]
+      }
+   }
+}

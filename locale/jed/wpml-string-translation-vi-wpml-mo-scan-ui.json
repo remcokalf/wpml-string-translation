@@ -1,0 +1,96 @@
+{
+   "domain": "messages",
+   "locale_data": {
+      "messages": {
+         "": {
+            "domain": "messages",
+            "plural_forms": "nplurals=1; plural=0;",
+            "lang": "vi"
+         },
+         "WPML has detected changed or new MO files": [
+            "WPML đã phát hiện các tệp MO mới hoặc đã thay đổi"
+         ],
+         "There are new or updated .mo files. WPML needs to scan them to find strings for translation.": [
+            "Có các tệp .mo mới hoặc đã được cập nhật. WPML cần quét chúng để tìm các chuỗi cần dịch."
+         ],
+         "Scan translation files": [
+            "Quét các tệp bản dịch"
+         ],
+         "Scanned %1$d of %2$d files...": [
+            "Đã quét %1$d trên %2$d tệp..."
+         ],
+         "Generated files for %1$d of %2$d sites...": [
+            "Đã tạo tệp cho %1$d trên %2$d trang web..."
+         ],
+         "Generated %1$d of %2$d files...": [
+            "Đã tạo %1$d trên %2$d tệp..."
+         ],
+         "WPML needs to generate .mo files": [
+            "WPML cần tạo các tệp .mo"
+         ],
+         "WPML String Translation uses .mo files instead of database calls. WPML needs to generate these .mo files in order for translations to appear on the front-end. However, the folder that should hold these .mo files is not open for writing.": [
+            "WPML String Translation sử dụng các tệp .mo thay vì các lệnh gọi cơ sở dữ liệu. WPML cần tạo các tệp .mo này để các bản dịch hiển thị trên front-end. Tuy nhiên, thư mục chứa các tệp .mo này hiện không cho phép ghi."
+         ],
+         "Please use your admin control panel or an FTP program to make the following folder writeable:": [
+            "Vui lòng sử dụng bảng điều khiển quản trị hoặc chương trình FTP để cấp quyền ghi cho thư mục sau:"
+         ],
+         "There was a problem creating the .mo files": [
+            "Đã xảy ra sự cố khi tạo các tệp .mo"
+         ],
+         "You can try again now or try again later by going to <strong>WPML->Theme and plugins localization</strong>.": [
+            "Bạn có thể thử lại ngay bây giờ hoặc thử lại sau bằng cách đi tới <strong>WPML->Bản địa hóa giao diện và plugin</strong>."
+         ],
+         "Translations are missing from the front-end until you generate .mo files": [
+            "Các bản dịch sẽ bị thiếu ở front-end cho đến khi bạn tạo các tệp .mo"
+         ],
+         "Your site doesn't have the .mo files that WPML needs in order to display translated strings on the front-end. To generate these .mo files, remember to go to <strong>WPML->Theme and plugins localization</strong>.": [
+            "Trang web của bạn không có các tệp .mo mà WPML cần để hiển thị các chuỗi đã dịch trên front-end. Để tạo các tệp .mo này, hãy nhớ đi tới <strong>WPML->Bản địa hóa giao diện và plugin</strong>."
+         ],
+         "WPML String Translation uses .mo files instead of database calls. WPML needs to generate these .mo files in order for translations to appear on the front-end.": [
+            "WPML String Translation sử dụng các tệp .mo thay vì các lệnh gọi cơ sở dữ liệu. WPML cần tạo các tệp .mo này để các bản dịch hiển thị trên front-end."
+         ],
+         "Try again": [
+            "Thử lại"
+         ],
+         "Generate .mo files": [
+            "Tạo các tệp .mo"
+         ],
+         "Close this message": [
+            "Đóng thông báo này"
+         ],
+         "Find additional texts that WordPress, the theme and plugins created and choose which ones to translate": [
+            "Tìm các văn bản bổ sung mà WordPress, giao diện và plugin đã tạo và chọn những văn bản cần dịch"
+         ],
+         "Choose texts for translation": [
+            "Chọn văn bản để dịch"
+         ],
+         "Some of the translations have changed": [
+            "Một số bản dịch đã thay đổi"
+         ],
+         "Scan the selected components to make new texts available for translation.": [
+            "Quét các thành phần đã chọn để chuẩn bị các văn bản mới cho việc dịch thuật."
+         ],
+         "Select all": [
+            "Chọn tất cả"
+         ],
+         "Plugins:": [
+            "Plugin:"
+         ],
+         "Themes:": [
+            "Giao diện:"
+         ],
+         "Core:": [
+            "Core:"
+         ],
+         "Can't find the strings you're looking to translate?": [
+            "Không thể tìm thấy các chuỗi bạn đang muốn dịch?"
+         ],
+         "Most likely you cannot see the strings you want to translate because:": [
+            "Rất có thể bạn không thấy các chuỗi mình muốn dịch là vì:"
+         ],
+         "Texts are not selected for translation": [
+            "Các văn bản chưa được chọn để dịch"
+         ]
+      }
+   }
+}

@@ -1,0 +1,105 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=utf-8\n"
+"X-Generator: babel-plugin-makepot\n"
+"Language: he_IL\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: src/js/admin-strings/texts.js:10
+msgid "Not included in String Translation"
+msgstr "לא כלול בתרגום מחרוזות"
+
+#: src/js/admin-strings/texts.js:11
+msgid "Registered and locked"
+msgstr "רשום ונעול"
+
+#: src/js/admin-strings/texts.js:13
+msgid "Text"
+msgstr "טקסט"
+
+#: src/js/admin-strings/texts.js:14
+msgid "Numeric"
+msgstr "מספרי"
+
+#: src/js/admin-strings/texts.js:15
+msgid "All Types"
+msgstr "כל הסוגים"
+
+#: src/js/admin-strings/texts.js:17
+msgid "Search"
+msgstr "חיפוש"
+
+#: src/js/admin-strings/texts.js:19
+msgid "Communication error"
+msgstr "שגיאת תקשורת"
+
+#: src/js/admin-strings/texts.js:20
+msgid "The action failed."
+msgstr "הפעולה נכשלה."
+
+#: src/js/admin-strings/texts.js:22
+msgid "All (%d)"
+msgstr "כל (%d)"
+
+#: src/js/admin-strings/texts.js:23
+msgid "Included in String Translation (%d)"
+msgstr "כלול בתרגום מחרוזות (%d)"
+
+#: src/js/admin-strings/texts.js:24
+msgid "Not included in String Translation (%d)"
+msgstr "לא כלול בתרגום מחרוזות (%d)"
+
+#: src/js/admin-strings/texts.js:26
+msgid "This setting is locked by a WPML configuration file."
+msgstr "הגדרה זו נעולה על ידי קובץ תצורה של WPML."
+
+#: src/js/admin-strings/texts.js:28
+msgid "Option"
+msgstr "אפשרות"
+
+#: src/js/admin-strings/texts.js:29
+msgid "Value"
+msgstr "ערך"
+
+#: src/js/admin-strings/texts.js:30
+msgid "Type"
+msgstr "סוג"
+
+#: src/js/admin-strings/texts.js:31
+msgid "State"
+msgstr "מצב"
+
+#: src/js/admin-strings/texts.js:34
+msgid "Export as a WPML configuration file"
+msgstr "ייצוא כקובץ תצורה של WPML"
+
+#: src/js/admin-strings/texts.js:35
+msgid "Cancel"
+msgstr "ביטול"
+
+#: src/js/admin-strings/texts.js:36
+msgid "Save the following to a wpml-config.xml in the root of your theme or plugin."
+msgstr "שמור את הדברים הבאים לקובץ wpml-config.xml בתיקיית הבסיס של התבנית או התוסף שלך."
+
+#: src/js/admin-strings/texts.js:38
+msgid "No options found."
+msgstr "לא נמצאו אפשרויות."
+
+#: src/js/admin-strings/texts.js:39
+msgid ""
+"Make sure you saved your theme options at least once. Some themes only add "
+"these to the wp_options table after the user explicitly saves changes to "
+"the theme defaults."
+msgstr "ודא ששמרת את אפשרויות התבנית שלך לפחות פעם אחת. חלק מהתבניות מוסיפות אותן לטבלת wp_options רק לאחר שהמשתמש שומר במפורש שינויים לברירות המחדל של התבנית."
+
+#: src/js/admin-strings/texts.js:6
+msgid "Add to String Translation"
+msgstr "הוסף לתרגום מחרוזות"
+
+#: src/js/admin-strings/texts.js:7
+msgid "Remove from String Translation"
+msgstr "הסר מתרגום מחרוזות"
+
+#: src/js/admin-strings/texts.js:9
+msgid "Included in String Translation"
+msgstr "כלול בתרגום מחרוזות"

@@ -1,0 +1,66 @@
+{
+   "domain": "messages",
+   "locale_data": {
+      "messages": {
+         "": {
+            "domain": "messages",
+            "plural_forms": "nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 ? 4 : 5);",
+            "lang": "ar"
+         },
+         "Clean up the <b>String Translation</b> table by removing <strong>untranslated</strong> strings by domain.": [
+            "نظّف جدول <b>String Translation</b> عن طريق إزالة النصوص <strong>غير المترجمة</strong> حسب النطاق."
+         ],
+         "Remove strings by domain": [
+            "إزالة النصوص حسب النطاق"
+         ],
+         "Remove strings": [
+            "إزالة النصوص"
+         ],
+         "Cancel": [
+            "إلغاء"
+         ],
+         "Remove": [
+            "إزالة"
+         ],
+         "The <b>String Translation</b> table currently contains strings from the domains listed below. If you do not plan to translate strings from a particular domain, select it below to remove its <strong>untranslated</strong> strings from the <b>String Translation</b> table. Any strings that already have translations will still be available.": [
+            "يحتوي جدول <b>String Translation</b> حاليًا على نصوص من النطاقات المدرجة أدناه. إذا كنت لا تخطط لترجمة نصوص من نطاق معين، فحدده أدناه لإزالة نصوصه <strong>غير المترجمة</strong> من جدول <b>String Translation</b>. ستظل أي نصوص تحتوي بالفعل على ترجمات متاحة."
+         ],
+         "Search": [
+            "بحث"
+         ],
+         "Strings that are queued for translation, in progress, or waiting for a retry.": [
+            "النصوص الموجودة في قائمة انتظار الترجمة، أو قيد التنفيذ، أو في انتظار إعادة المحاولة."
+         ],
+         "Also remove strings waiting for translation": [
+            "إزالة النصوص التي تنتظر الترجمة أيضًا"
+         ],
+         "Removing strings from <b>String Translation</b> table": [
+            "جارٍ إزالة النصوص من جدول <b>ترجمة النصوص</b>"
+         ],
+         "To add strings back to the <b>String Translation</b> table, you may need to rescan translation files or register strings as translatable.": [
+            "لإضافة النصوص مرة أخرى إلى جدول <b>ترجمة النصوص</b>، قد تحتاج إلى إعادة فحص ملفات الترجمة أو تسجيل النصوص كقابلة للترجمة."
+         ],
+         "Read more about <a>scanning your site for strings and registering them as translatable</a>.": [
+            "اقرأ المزيد حول <a>فحص موقعك بحثًا عن النصوص وتسجيلها كقابلة للترجمة</a>."
+         ],
+         "Successfully removed strings": [
+            "تمت إزالة النصوص بنجاح"
+         ],
+         "OK, Great": [
+            "حسناً، رائع"
+         ],
+         "Domain": [
+            "النطاق"
+         ],
+         "Strings count": [
+            "عدد النصوص"
+         ],
+         "Translated strings": [
+            "النصوص المترجمة"
+         ],
+         "Removing strings stopped before it finished. The strings that were not removed are still in the table. Try again to remove them.": [
+            "توقفت عملية إزالة النصوص قبل انتهائها. لا تزال النصوص التي لم تتم إزالتها موجودة في الجدول. حاول مرة أخرى لإزالتها."
+         ]
+      }
+   }
+}

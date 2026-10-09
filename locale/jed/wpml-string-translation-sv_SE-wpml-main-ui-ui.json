@@ -1,0 +1,57 @@
+{
+   "domain": "messages",
+   "locale_data": {
+      "messages": {
+         "": {
+            "domain": "messages",
+            "plural_forms": "nplurals=2; plural=(n != 1);",
+            "lang": "sv_SE"
+         },
+         "Edit %s": [
+            "Redigera %s"
+         ],
+         "Shift+Tab": [
+            "Skift+tab"
+         ],
+         "Tab": [
+            "Tab"
+         ],
+         "Original:": [
+            "Original:"
+         ],
+         "Translation to:": [
+            "Översättning till:"
+         ],
+         "Copy from original": [
+            "Kopiera från original"
+         ],
+         "Use Shift+Enter to add a new line.": [
+            "Använd Skift+Enter för att lägga till en ny rad."
+         ],
+         "Add %s translation": [
+            "Lägg till översättning för %s"
+         ],
+         "Edit %s translation": [
+            "Redigera översättning för %s"
+         ],
+         "Add %s translation (the string appears on the site and is not translated)": [
+            "Lägg till översättning för %s (strängen visas på webbplatsen och är inte översatt)"
+         ],
+         "Original language %s": [
+            "Originalspråk %s"
+         ],
+         "Waiting for translator to %s": [
+            "Väntar på översättare till %s"
+         ],
+         "Translation in progress to %s": [
+            "Översättning pågår till %s"
+         ],
+         "Translation saved.": [
+            "Översättningen har sparats."
+         ],
+         "Translation update failed.": [
+            "Det gick inte att uppdatera översättningen."
+         ]
+      }
+   }
+}

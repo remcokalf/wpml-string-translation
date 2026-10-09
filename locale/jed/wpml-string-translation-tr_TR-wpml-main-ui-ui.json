@@ -1,0 +1,57 @@
+{
+   "domain": "messages",
+   "locale_data": {
+      "messages": {
+         "": {
+            "domain": "messages",
+            "plural_forms": "nplurals=2; plural=(n > 1);",
+            "lang": "tr_TR"
+         },
+         "Edit %s": [
+            "%s dilini düzenle"
+         ],
+         "Shift+Tab": [
+            "Shift+tab"
+         ],
+         "Tab": [
+            "Tab"
+         ],
+         "Original:": [
+            "Orijinal:"
+         ],
+         "Translation to:": [
+            "Hedef dil:"
+         ],
+         "Copy from original": [
+            "Orijinalden kopyala"
+         ],
+         "Use Shift+Enter to add a new line.": [
+            "Yeni satır eklemek için Shift+Enter tuşlarını kullanın."
+         ],
+         "Add %s translation": [
+            "%s çevirisi ekle"
+         ],
+         "Edit %s translation": [
+            "%s çevirisini düzenle"
+         ],
+         "Add %s translation (the string appears on the site and is not translated)": [
+            "%s çevirisi ekle (dizgi sitede görünüyor ve çevrilmemiş)"
+         ],
+         "Original language %s": [
+            "Orijinal dil: %s"
+         ],
+         "Waiting for translator to %s": [
+            "%s diline çeviri için çevirmen bekleniyor"
+         ],
+         "Translation in progress to %s": [
+            "%s diline çeviri devam ediyor"
+         ],
+         "Translation saved.": [
+            "Çeviri kaydedildi."
+         ],
+         "Translation update failed.": [
+            "Çeviri güncellemesi başarısız oldu."
+         ]
+      }
+   }
+}

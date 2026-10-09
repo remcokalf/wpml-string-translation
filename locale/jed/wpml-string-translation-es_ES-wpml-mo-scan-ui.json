@@ -1,0 +1,96 @@
+{
+   "domain": "messages",
+   "locale_data": {
+      "messages": {
+         "": {
+            "domain": "messages",
+            "plural_forms": "nplurals=2; plural=(n != 1);",
+            "lang": "es_ES"
+         },
+         "WPML has detected changed or new MO files": [
+            "WPML ha detectado archivos MO nuevos o modificados"
+         ],
+         "There are new or updated .mo files. WPML needs to scan them to find strings for translation.": [
+            "Hay archivos .mo nuevos o actualizados. WPML necesita escanearlos para buscar cadenas para traducir."
+         ],
+         "Scan translation files": [
+            "Escanear archivos de traducción"
+         ],
+         "Scanned %1$d of %2$d files...": [
+            "Escaneados %1$d de %2$d archivos..."
+         ],
+         "Generated files for %1$d of %2$d sites...": [
+            "Archivos generados para %1$d de %2$d sitios..."
+         ],
+         "Generated %1$d of %2$d files...": [
+            "Generados %1$d de %2$d archivos..."
+         ],
+         "WPML needs to generate .mo files": [
+            "WPML necesita generar archivos .mo"
+         ],
+         "WPML String Translation uses .mo files instead of database calls. WPML needs to generate these .mo files in order for translations to appear on the front-end. However, the folder that should hold these .mo files is not open for writing.": [
+            "WPML String Translation utiliza archivos .mo en lugar de llamadas a la base de datos. WPML necesita generar estos archivos .mo para que las traducciones aparezcan en el frontend. Sin embargo, la carpeta que debería contener estos archivos .mo no tiene permisos de escritura."
+         ],
+         "Please use your admin control panel or an FTP program to make the following folder writeable:": [
+            "Utilice su panel de control de administración o un programa FTP para dar permisos de escritura a la siguiente carpeta:"
+         ],
+         "There was a problem creating the .mo files": [
+            "Hubo un problema al crear los archivos .mo"
+         ],
+         "You can try again now or try again later by going to <strong>WPML->Theme and plugins localization</strong>.": [
+            "Puede intentarlo de nuevo ahora o más tarde dirigiéndose a <strong>WPML -> Localización de temas y plugins</strong>."
+         ],
+         "Translations are missing from the front-end until you generate .mo files": [
+            "Las traducciones no aparecerán en el frontend hasta que genere los archivos .mo"
+         ],
+         "Your site doesn't have the .mo files that WPML needs in order to display translated strings on the front-end. To generate these .mo files, remember to go to <strong>WPML->Theme and plugins localization</strong>.": [
+            "Su sitio no tiene los archivos .mo que WPML necesita para mostrar las cadenas traducidas en el frontend. Para generar estos archivos .mo, recuerde ir a <strong>WPML -> Localización de temas y plugins</strong>."
+         ],
+         "WPML String Translation uses .mo files instead of database calls. WPML needs to generate these .mo files in order for translations to appear on the front-end.": [
+            "WPML String Translation utiliza archivos .mo en lugar de llamadas a la base de datos. WPML necesita generar estos archivos .mo para que las traducciones aparezcan en el frontend."
+         ],
+         "Try again": [
+            "Intentar de nuevo"
+         ],
+         "Generate .mo files": [
+            "Generar archivos .mo"
+         ],
+         "Close this message": [
+            "Cerrar este mensaje"
+         ],
+         "Find additional texts that WordPress, the theme and plugins created and choose which ones to translate": [
+            "Busque textos adicionales creados por WordPress, el tema y los plugins, y elija cuáles traducir"
+         ],
+         "Choose texts for translation": [
+            "Elegir textos para traducción"
+         ],
+         "Some of the translations have changed": [
+            "Algunas de las traducciones han cambiado"
+         ],
+         "Scan the selected components to make new texts available for translation.": [
+            "Escanee los componentes seleccionados para que los nuevos textos estén disponibles para su traducción."
+         ],
+         "Select all": [
+            "Seleccionar todo"
+         ],
+         "Plugins:": [
+            "Plugins:"
+         ],
+         "Themes:": [
+            "Temas:"
+         ],
+         "Core:": [
+            "Core:"
+         ],
+         "Can't find the strings you're looking to translate?": [
+            "¿No encuentra las cadenas que quiere traducir?"
+         ],
+         "Most likely you cannot see the strings you want to translate because:": [
+            "Lo más probable es que no pueda ver las cadenas que desea traducir porque:"
+         ],
+         "Texts are not selected for translation": [
+            "Los textos no se han seleccionado para traducción"
+         ]
+      }
+   }
+}

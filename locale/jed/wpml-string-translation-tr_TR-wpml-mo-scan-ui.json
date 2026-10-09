@@ -1,0 +1,96 @@
+{
+   "domain": "messages",
+   "locale_data": {
+      "messages": {
+         "": {
+            "domain": "messages",
+            "plural_forms": "nplurals=2; plural=(n > 1);",
+            "lang": "tr_TR"
+         },
+         "WPML has detected changed or new MO files": [
+            "WPML değişen veya yeni MO dosyaları tespit etti"
+         ],
+         "There are new or updated .mo files. WPML needs to scan them to find strings for translation.": [
+            "Yeni veya güncellenmiş.mo dosyaları var. WPML'nin çevrilecek dizgileri bulmak için bunları taraması gerekiyor."
+         ],
+         "Scan translation files": [
+            "Çeviri dosyalarını tara"
+         ],
+         "Scanned %1$d of %2$d files...": [
+            "%2$d dosyanın %1$d tanesi tarandı..."
+         ],
+         "Generated files for %1$d of %2$d sites...": [
+            "%2$d sitenin %1$d tanesi için dosyalar oluşturuldu..."
+         ],
+         "Generated %1$d of %2$d files...": [
+            "%2$d dosyanın %1$d tanesi oluşturuldu..."
+         ],
+         "WPML needs to generate .mo files": [
+            "WPML'nin .mo dosyaları oluşturması gerekiyor"
+         ],
+         "WPML String Translation uses .mo files instead of database calls. WPML needs to generate these .mo files in order for translations to appear on the front-end. However, the folder that should hold these .mo files is not open for writing.": [
+            "WPML String Translation, veritabanı çağrıları yerine .mo dosyalarını kullanır. Çevirilerin ön yüzde görünmesi için WPML'nin bu .mo dosyalarını oluşturması gerekir. Ancak bu .mo dosyalarının tutulması gereken klasör yazmaya açık değil."
+         ],
+         "Please use your admin control panel or an FTP program to make the following folder writeable:": [
+            "Lütfen aşağıdaki klasörü yazılabilir hale getirmek için yönetim panelinizi veya bir FTP programını kullanın:"
+         ],
+         "There was a problem creating the .mo files": [
+            ".mo dosyaları oluşturulurken bir sorun oluştu"
+         ],
+         "You can try again now or try again later by going to <strong>WPML->Theme and plugins localization</strong>.": [
+            "Şimdi tekrar deneyebilir veya daha sonra <strong>WPML->Tema ve eklenti yerelleştirmesi</strong> bölümüne giderek tekrar deneyebilirsiniz."
+         ],
+         "Translations are missing from the front-end until you generate .mo files": [
+            ".mo dosyalarını oluşturana kadar çeviriler ön yüzde eksik görünecektir"
+         ],
+         "Your site doesn't have the .mo files that WPML needs in order to display translated strings on the front-end. To generate these .mo files, remember to go to <strong>WPML->Theme and plugins localization</strong>.": [
+            "Sitenizde, WPML'nin çevrilmiş dizgileri ön yüzde görüntülemek için ihtiyaç duyduğu .mo dosyaları bulunmuyor. Bu .mo dosyalarını oluşturmak için <strong>WPML->Tema ve eklenti yerelleştirmesi</strong> bölümüne gitmeyi unutmayın."
+         ],
+         "WPML String Translation uses .mo files instead of database calls. WPML needs to generate these .mo files in order for translations to appear on the front-end.": [
+            "WPML String Translation, veritabanı çağrıları yerine .mo dosyalarını kullanır. Çevirilerin ön yüzde görünmesi için WPML'nin bu .mo dosyalarını oluşturması gerekir."
+         ],
+         "Try again": [
+            "Tekrar dene"
+         ],
+         "Generate .mo files": [
+            ".mo dosyalarını oluştur"
+         ],
+         "Close this message": [
+            "Bu mesajı kapat"
+         ],
+         "Find additional texts that WordPress, the theme and plugins created and choose which ones to translate": [
+            "WordPress, tema ve eklentilerin oluşturduğu ek metinleri bulun ve hangilerinin çevrileceğini seçin"
+         ],
+         "Choose texts for translation": [
+            "Çeviri için metinleri seçin"
+         ],
+         "Some of the translations have changed": [
+            "Bazı çeviriler değişti"
+         ],
+         "Scan the selected components to make new texts available for translation.": [
+            "Yeni metinleri çeviriye hazır hale getirmek için seçili bileşenleri tarayın."
+         ],
+         "Select all": [
+            "Tümünü seç"
+         ],
+         "Plugins:": [
+            "Eklentiler:"
+         ],
+         "Themes:": [
+            "Temalar:"
+         ],
+         "Core:": [
+            "Çekirdek:"
+         ],
+         "Can't find the strings you're looking to translate?": [
+            "Çevirmek istediğiniz dizgileri bulamıyor musunuz?"
+         ],
+         "Most likely you cannot see the strings you want to translate because:": [
+            "Büyük olasılıkla çevirmek istediğiniz dizgileri şu nedenlerle göremiyorsunuz:"
+         ],
+         "Texts are not selected for translation": [
+            "Metinler çeviri için seçilmemiş"
+         ]
+      }
+   }
+}

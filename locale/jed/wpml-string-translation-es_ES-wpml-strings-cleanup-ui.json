@@ -1,0 +1,66 @@
+{
+   "domain": "messages",
+   "locale_data": {
+      "messages": {
+         "": {
+            "domain": "messages",
+            "plural_forms": "nplurals=2; plural=(n != 1);",
+            "lang": "es_ES"
+         },
+         "Clean up the <b>String Translation</b> table by removing <strong>untranslated</strong> strings by domain.": [
+            "Limpie la tabla de <b>String Translation</b> eliminando las cadenas <strong>sin traducir</strong> por dominio."
+         ],
+         "Remove strings by domain": [
+            "Eliminar cadenas por dominio"
+         ],
+         "Remove strings": [
+            "Eliminar cadenas"
+         ],
+         "Cancel": [
+            "Cancelar"
+         ],
+         "Remove": [
+            "Eliminar"
+         ],
+         "The <b>String Translation</b> table currently contains strings from the domains listed below. If you do not plan to translate strings from a particular domain, select it below to remove its <strong>untranslated</strong> strings from the <b>String Translation</b> table. Any strings that already have translations will still be available.": [
+            "La tabla de <b>String Translation</b> contiene actualmente cadenas de los dominios que se enumeran a continuación. Si no tiene previsto traducir las cadenas de un dominio concreto, selecciónelo a continuación para eliminar sus cadenas <strong>sin traducir</strong> de la tabla de <b>String Translation</b>. Las cadenas que ya tengan traducciones seguirán estando disponibles."
+         ],
+         "Search": [
+            "Buscar"
+         ],
+         "Strings that are queued for translation, in progress, or waiting for a retry.": [
+            "Cadenas que están en la cola de traducción, en progreso o esperando un reintento."
+         ],
+         "Also remove strings waiting for translation": [
+            "Eliminar también las cadenas en espera de traducción"
+         ],
+         "Removing strings from <b>String Translation</b> table": [
+            "Eliminando cadenas de la tabla de <b>Traducción de cadenas</b>"
+         ],
+         "To add strings back to the <b>String Translation</b> table, you may need to rescan translation files or register strings as translatable.": [
+            "Para volver a añadir cadenas a la tabla de <b>Traducción de cadenas</b>, es posible que deba volver a escanear los archivos de traducción o registrar las cadenas como traducibles."
+         ],
+         "Read more about <a>scanning your site for strings and registering them as translatable</a>.": [
+            "Lea más sobre cómo <a>escanear su sitio en busca de cadenas y registrarlas como traducibles</a>."
+         ],
+         "Successfully removed strings": [
+            "Cadenas eliminadas correctamente"
+         ],
+         "OK, Great": [
+            "Aceptar, genial"
+         ],
+         "Domain": [
+            "Dominio"
+         ],
+         "Strings count": [
+            "Recuento de cadenas"
+         ],
+         "Translated strings": [
+            "Cadenas traducidas"
+         ],
+         "Removing strings stopped before it finished. The strings that were not removed are still in the table. Try again to remove them.": [
+            "La eliminación de cadenas se detuvo antes de finalizar. Las cadenas que no se eliminaron siguen en la tabla. Intente eliminarlas de nuevo."
+         ]
+      }
+   }
+}

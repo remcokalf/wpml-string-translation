@@ -1,0 +1,84 @@
+{
+   "domain": "messages",
+   "locale_data": {
+      "messages": {
+         "": {
+            "domain": "messages",
+            "plural_forms": "nplurals=2; plural=(n != 1);",
+            "lang": "he_IL"
+         },
+         "Not included in String Translation": [
+            "לא כלול בתרגום מחרוזות"
+         ],
+         "Registered and locked": [
+            "רשום ונעול"
+         ],
+         "Text": [
+            "טקסט"
+         ],
+         "Numeric": [
+            "מספרי"
+         ],
+         "All Types": [
+            "כל הסוגים"
+         ],
+         "Search": [
+            "חיפוש"
+         ],
+         "Communication error": [
+            "שגיאת תקשורת"
+         ],
+         "The action failed.": [
+            "הפעולה נכשלה."
+         ],
+         "All (%d)": [
+            "הכל (%d)"
+         ],
+         "Included in String Translation (%d)": [
+            "כלול בתרגום מחרוזות (%d)"
+         ],
+         "Not included in String Translation (%d)": [
+            "לא כלול בתרגום מחרוזות (%d)"
+         ],
+         "This setting is locked by a WPML configuration file.": [
+            "הגדרה זו נעולה על ידי קובץ הגדרות של WPML."
+         ],
+         "Option": [
+            "אפשרות"
+         ],
+         "Value": [
+            "ערך"
+         ],
+         "Type": [
+            "סוג"
+         ],
+         "State": [
+            "מצב"
+         ],
+         "Export as a WPML configuration file": [
+            "ייצוא כקובץ הגדרות של WPML"
+         ],
+         "Cancel": [
+            "ביטול"
+         ],
+         "Save the following to a wpml-config.xml in the root of your theme or plugin.": [
+            "שמור את התוכן הבא לקובץ wpml-config.xml בתיקיית השורש של ערכת העיצוב או התוסף שלך."
+         ],
+         "No options found.": [
+            "לא נמצאו אפשרויות."
+         ],
+         "Make sure you saved your theme options at least once. Some themes only add these to the wp_options table after the user explicitly saves changes to the theme defaults.": [
+            "ודא ששמרת את אפשרויות ערכת העיצוב לפחות פעם אחת. חלק מערכות העיצוב מוסיפות אותן לטבלת wp_options רק לאחר שהמשתמש שומר במפורש שינויים בברירות המחדל של ערכת העיצוב."
+         ],
+         "Add to String Translation": [
+            "הוסף לתרגום מחרוזות"
+         ],
+         "Remove from String Translation": [
+            "הסר מתרגום מחרוזות"
+         ],
+         "Included in String Translation": [
+            "כלול בתרגום מחרוזות"
+         ]
+      }
+   }
+}

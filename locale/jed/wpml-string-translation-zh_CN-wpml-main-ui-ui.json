@@ -1,0 +1,57 @@
+{
+   "domain": "messages",
+   "locale_data": {
+      "messages": {
+         "": {
+            "domain": "messages",
+            "plural_forms": "nplurals=1; plural=0;",
+            "lang": "zh_CN"
+         },
+         "Edit %s": [
+            "编辑 %s"
+         ],
+         "Shift+Tab": [
+            "Shift+tab"
+         ],
+         "Tab": [
+            "Tab"
+         ],
+         "Original:": [
+            "原文："
+         ],
+         "Translation to:": [
+            "翻译为："
+         ],
+         "Copy from original": [
+            "从原文复制"
+         ],
+         "Use Shift+Enter to add a new line.": [
+            "使用 Shift+Enter 添加新行。"
+         ],
+         "Add %s translation": [
+            "添加 %s 翻译"
+         ],
+         "Edit %s translation": [
+            "编辑 %s 翻译"
+         ],
+         "Add %s translation (the string appears on the site and is not translated)": [
+            "添加 %s 翻译（该字符串已在站点上显示但尚未翻译）"
+         ],
+         "Original language %s": [
+            "源语言 %s"
+         ],
+         "Waiting for translator to %s": [
+            "正在等待翻译为 %s 的译员"
+         ],
+         "Translation in progress to %s": [
+            "正在翻译为 %s"
+         ],
+         "Translation saved.": [
+            "翻译已保存。"
+         ],
+         "Translation update failed.": [
+            "翻译更新失败。"
+         ]
+      }
+   }
+}

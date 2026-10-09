@@ -1,0 +1,66 @@
+{
+   "domain": "messages",
+   "locale_data": {
+      "messages": {
+         "": {
+            "domain": "messages",
+            "plural_forms": "nplurals=2; plural=(n != 1);",
+            "lang": "sv_SE"
+         },
+         "Clean up the <b>String Translation</b> table by removing <strong>untranslated</strong> strings by domain.": [
+            "Rensa tabellen för <b>String Translation</b> genom att ta bort <strong>oöversatta</strong> strängar per domän."
+         ],
+         "Remove strings by domain": [
+            "Ta bort strängar per domän"
+         ],
+         "Remove strings": [
+            "Ta bort strängar"
+         ],
+         "Cancel": [
+            "Avbryt"
+         ],
+         "Remove": [
+            "Ta bort"
+         ],
+         "The <b>String Translation</b> table currently contains strings from the domains listed below. If you do not plan to translate strings from a particular domain, select it below to remove its <strong>untranslated</strong> strings from the <b>String Translation</b> table. Any strings that already have translations will still be available.": [
+            "Tabellen för <b>String Translation</b> innehåller för närvarande strängar från domänerna som listas nedan. Om du inte planerar att översätta strängar från en viss domän kan du välja den nedan för att ta bort dess <strong>oöversatta</strong> strängar från tabellen för <b>String Translation</b>. Strängar som redan har översättningar kommer fortfarande att vara tillgängliga."
+         ],
+         "Search": [
+            "Sök"
+         ],
+         "Strings that are queued for translation, in progress, or waiting for a retry.": [
+            "Strängar som står i kö för översättning, pågår eller väntar på ett nytt försök."
+         ],
+         "Also remove strings waiting for translation": [
+            "Ta även bort strängar som väntar på översättning"
+         ],
+         "Removing strings from <b>String Translation</b> table": [
+            "Tar bort strängar från tabellen för <b>String Translation</b>"
+         ],
+         "To add strings back to the <b>String Translation</b> table, you may need to rescan translation files or register strings as translatable.": [
+            "För att lägga till strängar i tabellen för <b>String Translation</b> igen kan du behöva skanna om översättningsfiler eller registrera strängar som översättningsbara."
+         ],
+         "Read more about <a>scanning your site for strings and registering them as translatable</a>.": [
+            "Läs mer om att <a>skanna din webbplats efter strängar och registrera dem som översättningsbara</a>."
+         ],
+         "Successfully removed strings": [
+            "Strängarna har tagits bort"
+         ],
+         "OK, Great": [
+            "Okej, bra"
+         ],
+         "Domain": [
+            "Domän"
+         ],
+         "Strings count": [
+            "Antal strängar"
+         ],
+         "Translated strings": [
+            "Översatta strängar"
+         ],
+         "Removing strings stopped before it finished. The strings that were not removed are still in the table. Try again to remove them.": [
+            "Borttagningen av strängar stoppades innan den slutfördes. Strängarna som inte togs bort finns kvar i tabellen. Försök igen för att ta bort dem."
+         ]
+      }
+   }
+}

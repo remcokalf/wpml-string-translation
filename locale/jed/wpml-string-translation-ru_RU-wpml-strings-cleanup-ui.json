@@ -1,0 +1,66 @@
+{
+   "domain": "messages",
+   "locale_data": {
+      "messages": {
+         "": {
+            "domain": "messages",
+            "plural_forms": "nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);",
+            "lang": "ru_RU"
+         },
+         "Clean up the <b>String Translation</b> table by removing <strong>untranslated</strong> strings by domain.": [
+            "Очистите таблицу <b>String Translation</b>, удалив <strong>непереведенные</strong> строки по доменам."
+         ],
+         "Remove strings by domain": [
+            "Удалить строки по домену"
+         ],
+         "Remove strings": [
+            "Удалить строки"
+         ],
+         "Cancel": [
+            "Отмена"
+         ],
+         "Remove": [
+            "Удалить"
+         ],
+         "The <b>String Translation</b> table currently contains strings from the domains listed below. If you do not plan to translate strings from a particular domain, select it below to remove its <strong>untranslated</strong> strings from the <b>String Translation</b> table. Any strings that already have translations will still be available.": [
+            "В настоящее время таблица <b>String Translation</b> содержит строки из доменов, перечисленных ниже. Если вы не планируете переводить строки из определенного домена, выберите его ниже, чтобы удалить его <strong>непереведенные</strong> строки из таблицы <b>String Translation</b>. Любые строки, у которых уже есть переводы, по-прежнему будут доступны."
+         ],
+         "Search": [
+            "Поиск"
+         ],
+         "Strings that are queued for translation, in progress, or waiting for a retry.": [
+            "Строки, которые находятся в очереди на перевод, в процессе перевода или ожидают повторной попытки."
+         ],
+         "Also remove strings waiting for translation": [
+            "Также удалить строки, ожидающие перевода"
+         ],
+         "Removing strings from <b>String Translation</b> table": [
+            "Удаление строк из таблицы <b>Перевод строк</b>"
+         ],
+         "To add strings back to the <b>String Translation</b> table, you may need to rescan translation files or register strings as translatable.": [
+            "Чтобы снова добавить строки в таблицу <b>Перевод строк</b>, вам может потребоваться повторно просканировать файлы перевода или зарегистрировать строки как переводимые."
+         ],
+         "Read more about <a>scanning your site for strings and registering them as translatable</a>.": [
+            "Узнайте больше о том, как <a>сканировать ваш сайт на наличие строк и регистрировать их как переводимые</a>."
+         ],
+         "Successfully removed strings": [
+            "Строки успешно удалены"
+         ],
+         "OK, Great": [
+            "ОК, отлично"
+         ],
+         "Domain": [
+            "Домен"
+         ],
+         "Strings count": [
+            "Количество строк"
+         ],
+         "Translated strings": [
+            "Переведенные строки"
+         ],
+         "Removing strings stopped before it finished. The strings that were not removed are still in the table. Try again to remove them.": [
+            "Удаление строк было остановлено до его завершения. Строки, которые не были удалены, все еще находятся в таблице. Попробуйте удалить их еще раз."
+         ]
+      }
+   }
+}

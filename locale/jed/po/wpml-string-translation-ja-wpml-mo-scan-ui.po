@@ -1,0 +1,140 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=utf-8\n"
+"X-Generator: babel-plugin-makepot\n"
+"Language: ja\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: src/js/mo-scan/LocalizationPageUI.js:20
+msgid "WPML has detected changed or new MO files"
+msgstr "WPMLが変更または新規のMOファイルを検出しました"
+
+#: src/js/mo-scan/LocalizationPageUI.js:26
+msgid ""
+"There are new or updated .mo files. WPML needs to scan them to find strings "
+"for translation."
+msgstr "新規または更新された.moファイルがあります。WPMLは、翻訳する文字列を見つけるためにそれらをスキャンする必要があります。"
+
+#: src/js/mo-scan/LocalizationPageUI.js:30
+#: src/js/mo-scan/texts.js:14
+msgid "Scan translation files"
+msgstr "翻訳ファイルをスキャン"
+
+#: src/js/mo-scan/LocalizationPageUI.js:31
+#: src/js/mo-scan/texts.js:15
+msgid "Scanned %1$d of %2$d files..."
+msgstr "%1$d/%2$dファイルをスキャンしました..."
+
+#: src/js/mo-scan/pre-generate/UI.js:41
+msgid "Generated files for %1$d of %2$d sites..."
+msgstr "%1$d/%2$dサイトのファイルを生成しました..."
+
+#: src/js/mo-scan/pre-generate/UI.js:42
+msgid "Generated %1$d of %2$d files..."
+msgstr "%1$d/%2$dファイルを生成しました..."
+
+#: src/js/mo-scan/pre-generate/UI.js:46
+msgid "WPML needs to generate .mo files"
+msgstr "WPMLは.moファイルを生成する必要があります"
+
+#: src/js/mo-scan/pre-generate/textProvider.js:10
+msgid ""
+"WPML String Translation uses .mo files instead of database calls. WPML "
+"needs to generate these .mo files in order for translations to appear on "
+"the front-end. However, the folder that should hold these .mo files is not "
+"open for writing."
+msgstr "WPML String Translationは、データベース呼び出しの代わりに.moファイルを使用します。WPMLは、フロントエンドに翻訳を表示するためにこれらの.moファイルを生成する必要があります。ただし、これらの.moファイルを保持するべきフォルダーは書き込み可能ではありません。"
+
+#: src/js/mo-scan/pre-generate/textProvider.js:13
+msgid ""
+"Please use your admin control panel or an FTP program to make the following "
+"folder writeable:"
+msgstr "管理コントロールパネルまたはFTPプログラムを使用して、以下のフォルダーを書き込み可能にしてください。"
+
+#: src/js/mo-scan/pre-generate/textProvider.js:23
+msgid "There was a problem creating the .mo files"
+msgstr ".moファイルの作成中に問題が発生しました"
+
+#: src/js/mo-scan/pre-generate/textProvider.js:26
+msgid "You can try again now or try again later by going to "
+msgstr "今すぐ再試行するか、後で「」に移動して再試行できます。 "
+
+#: src/js/mo-scan/pre-generate/textProvider.js:34
+msgid "Translations are missing from the front-end until you generate .mo files"
+msgstr ".moファイルを生成するまで、フロントエンドから翻訳が欠落しています"
+
+#: src/js/mo-scan/pre-generate/textProvider.js:37
+msgid ""
+"Your site doesn't have the .mo files that WPML needs in order to display "
+"translated strings on the front-end. To generate these .mo files, remember "
+"to go to "
+msgstr "サイトには、WPMLがフロントエンドに翻訳された文字列を表示するために必要な.moファイルがありません。これらの.moファイルを生成するには、「」に移動することを忘れないでください。 "
+
+#: src/js/mo-scan/pre-generate/textProvider.js:38
+msgid "WPML->Theme and plugins localization."
+msgstr "WPML->テーマとプラグインのローカリゼーション。"
+
+#: src/js/mo-scan/pre-generate/textProvider.js:43
+msgid ""
+"WPML String Translation uses .mo files instead of database calls. WPML "
+"needs to generate these .mo files in order for translations to appear on "
+"the front-end."
+msgstr "WPML String Translationは、データベース呼び出しの代わりに.moファイルを使用します。WPMLは、フロントエンドに翻訳を表示するためにこれらの.moファイルを生成する必要があります。"
+
+#: src/js/mo-scan/pre-generate/textProvider.js:51
+msgid "Try again"
+msgstr "再試行"
+
+#: src/js/mo-scan/pre-generate/textProvider.js:54
+msgid "Generate .mo files"
+msgstr ".moファイルを生成"
+
+#: src/js/mo-scan/pre-generate/textProvider.js:59
+msgid "Close this message"
+msgstr "このメッセージを閉じる"
+
+#: src/js/mo-scan/texts.js:10
+msgid ""
+"Find additional texts that WordPress, the theme and plugins created and "
+"choose which ones to translate"
+msgstr "WordPress、テーマ、プラグインが作成した追加のテキストを見つけて、翻訳するものを選択します"
+
+#: src/js/mo-scan/texts.js:11
+msgid "Choose texts for translation"
+msgstr "翻訳するテキストを選択"
+
+#: src/js/mo-scan/texts.js:12
+msgid "Some of the translations have changed"
+msgstr "一部の翻訳が変更されました"
+
+#: src/js/mo-scan/texts.js:13
+msgid "Scan the selected components to make new texts available for translation."
+msgstr "選択したコンポーネントをスキャンして、新しいテキストを翻訳可能にします。"
+
+#: src/js/mo-scan/texts.js:3
+msgid "Select all"
+msgstr "すべて選択"
+
+#: src/js/mo-scan/texts.js:4
+msgid "Plugins:"
+msgstr "プラグイン："
+
+#: src/js/mo-scan/texts.js:5
+msgid "Themes:"
+msgstr "テーマ："
+
+#: src/js/mo-scan/texts.js:6
+msgid "Core:"
+msgstr "コア："
+
+#: src/js/mo-scan/texts.js:7
+msgid "Can't find the strings you're looking to translate?"
+msgstr "翻訳したい文字列が見つかりませんか？"
+
+#: src/js/mo-scan/texts.js:8
+msgid "Most likely you cannot see the strings you want to translate because:"
+msgstr "翻訳したい文字列が表示されないのは、おそらく次の理由によるものです。"
+
+#: src/js/mo-scan/texts.js:9
+msgid "Texts are not selected for translation"
+msgstr "テキストが翻訳用に選択されていません"

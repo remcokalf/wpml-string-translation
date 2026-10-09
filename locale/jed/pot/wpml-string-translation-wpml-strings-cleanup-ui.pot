@@ -1,0 +1,110 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=utf-8\n"
+"X-Generator: babel-plugin-makepot\n"
+
+#: src/js/strings-cleanup/App.js:18
+#. Line in the panel on the String Translation page for removing texts. The bold tags mark the product name, which stays in English; the strong tags mark the word the sentence stresses, translate it.
+msgid ""
+"Clean up the <b>String Translation</b> table by removing "
+"<strong>untranslated</strong> strings by domain."
+msgstr ""
+
+#: src/js/strings-cleanup/App.js:31
+#: src/js/strings-cleanup/components/CleanupModal.js:45
+#. Heading of the panel on the String Translation page for removing texts, and the title of the dialog it opens. Verb phrase, imperative.
+msgid "Remove strings by domain"
+msgstr ""
+
+#: src/js/strings-cleanup/components/CleanupButton.js:12
+#. Button label that opens the dialog for removing texts by domain. Verb phrase, imperative.
+msgid "Remove strings"
+msgstr ""
+
+#: src/js/strings-cleanup/components/CleanupModal.js:58
+#. Button label that closes a dialog without saving, on the Admin Text Translation page and in the dialog for removing texts by domain. Verb, imperative, not the noun "a cancellation".
+msgid "Cancel"
+msgstr ""
+
+#: src/js/strings-cleanup/components/CleanupModal.js:62
+#. Button label in the dialog for removing texts by domain: it removes the texts of the chosen domains. Verb, imperative.
+msgid "Remove"
+msgstr ""
+
+#: src/js/strings-cleanup/components/CleanupModal.js:68
+#. Line at the top of the dialog for removing texts by domain, above the table of domains. The bold tags mark the product name, which stays in English; the strong tags mark the word the sentence stresses, translate it.
+msgid ""
+"The <b>String Translation</b> table currently contains strings from the "
+"domains listed below. If you do not plan to translate strings from a "
+"particular domain, select it below to remove its "
+"<strong>untranslated</strong> strings from the <b>String Translation</b> "
+"table. Any strings that already have translations will still be available."
+msgstr ""
+
+#: src/js/strings-cleanup/components/CleanupModal.js:73
+#. Placeholder text inside a search field, on the Admin Text Translation page and in the dialog for removing texts by domain. Noun, the word shown in an empty search box.
+msgid "Search"
+msgstr ""
+
+#: src/js/strings-cleanup/components/CleanupModal.js:79
+#. Hint under the checkbox in the dialog for removing texts by domain, listing the three kinds of waiting texts the checkbox adds to the removal.
+msgid ""
+"Strings that are queued for translation, in progress, or waiting for a "
+"retry."
+msgstr ""
+
+#: src/js/strings-cleanup/components/CleanupModal.js:85
+#. Checkbox label in the dialog for removing texts by domain, unticked by default. Ticking it also removes the texts whose translation is still on its way.
+msgid "Also remove strings waiting for translation"
+msgstr ""
+
+#: src/js/strings-cleanup/components/CleanupProgress.js:22
+#. Heading shown while the texts are being removed. The bold tags mark the product name, which stays in English.
+msgid "Removing strings from <b>String Translation</b> table"
+msgstr ""
+
+#: src/js/strings-cleanup/components/CleanupSuccess.js:38
+#. Line shown after the texts have been removed. The bold tags mark the product name, which stays in English.
+msgid ""
+"To add strings back to the <b>String Translation</b> table, you may need to "
+"rescan translation files or register strings as translatable."
+msgstr ""
+
+#: src/js/strings-cleanup/components/CleanupSuccess.js:41
+#. Second line shown after the texts have been removed. The words between the tags become a link to the WPML documentation.
+msgid ""
+"Read more about <a>scanning your site for strings and registering them as "
+"translatable</a>."
+msgstr ""
+
+#: src/js/strings-cleanup/components/CleanupSuccess.js:53
+#. Heading shown after the texts have been removed.
+msgid "Successfully removed strings"
+msgstr ""
+
+#: src/js/strings-cleanup/components/CleanupSuccess.js:57
+#. Button label that closes the dialog after the texts have been removed. Short for "all right".
+msgid "OK, Great"
+msgstr ""
+
+#: src/js/strings-cleanup/components/CleanupTable.js:14
+#. Column heading in the table of domains: the theme, plugin or area the texts come from. Noun.
+msgid "Domain"
+msgstr ""
+
+#: src/js/strings-cleanup/components/CleanupTable.js:18
+#. Column heading in the table of domains: how many texts that domain has.
+msgid "Strings count"
+msgstr ""
+
+#: src/js/strings-cleanup/components/CleanupTable.js:24
+#. Column heading in the table of domains: how many of its texts already have a translation.
+msgid "Translated strings"
+msgstr ""
+
+#: src/js/strings-cleanup/models/RemoveStrings.js:34
+#. Error shown in the dialog for removing texts by domain when the removal could not finish.
+msgid ""
+"Removing strings stopped before it finished. The strings that were not "
+"removed are still in the table. Try again to remove them."
+msgstr ""

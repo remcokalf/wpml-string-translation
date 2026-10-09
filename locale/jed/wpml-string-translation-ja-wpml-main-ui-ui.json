@@ -1,0 +1,57 @@
+{
+   "domain": "messages",
+   "locale_data": {
+      "messages": {
+         "": {
+            "domain": "messages",
+            "plural_forms": "nplurals=1; plural=0;",
+            "lang": "ja"
+         },
+         "Edit %s": [
+            "%s を編集"
+         ],
+         "Shift+Tab": [
+            "Shift+tab"
+         ],
+         "Tab": [
+            "Tab"
+         ],
+         "Original:": [
+            "元言語："
+         ],
+         "Translation to:": [
+            "翻訳先："
+         ],
+         "Copy from original": [
+            "元言語からコピー"
+         ],
+         "Use Shift+Enter to add a new line.": [
+            "Shift+Enter で改行を追加できます。"
+         ],
+         "Add %s translation": [
+            "%s の翻訳を追加"
+         ],
+         "Edit %s translation": [
+            "%s の翻訳を編集"
+         ],
+         "Add %s translation (the string appears on the site and is not translated)": [
+            "%s の翻訳を追加（この文字列はサイトに表示されていますが、翻訳されていません）"
+         ],
+         "Original language %s": [
+            "元言語 %s"
+         ],
+         "Waiting for translator to %s": [
+            "%s への翻訳者の対応待ち"
+         ],
+         "Translation in progress to %s": [
+            "%s への翻訳が進行中"
+         ],
+         "Translation saved.": [
+            "翻訳が保存されました。"
+         ],
+         "Translation update failed.": [
+            "翻訳の更新に失敗しました。"
+         ]
+      }
+   }
+}

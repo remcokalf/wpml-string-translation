@@ -1,0 +1,96 @@
+{
+   "domain": "messages",
+   "locale_data": {
+      "messages": {
+         "": {
+            "domain": "messages",
+            "plural_forms": "nplurals=1; plural=0;",
+            "lang": "ja"
+         },
+         "WPML has detected changed or new MO files": [
+            "WPML が変更または新規の MO ファイルを検出しました"
+         ],
+         "There are new or updated .mo files. WPML needs to scan them to find strings for translation.": [
+            "新規または更新された .mo ファイルがあります。翻訳する文字列を見つけるために、WPML でこれらをスキャンする必要があります。"
+         ],
+         "Scan translation files": [
+            "翻訳ファイルをスキャンする"
+         ],
+         "Scanned %1$d of %2$d files...": [
+            "%2$d 個中 %1$d 個のファイルをスキャンしました..."
+         ],
+         "Generated files for %1$d of %2$d sites...": [
+            "%2$d 個中 %1$d 個のサイトのファイルを生成しました..."
+         ],
+         "Generated %1$d of %2$d files...": [
+            "%2$d 個中 %1$d 個のファイルを生成しました..."
+         ],
+         "WPML needs to generate .mo files": [
+            "WPML が .mo ファイルを生成する必要があります"
+         ],
+         "WPML String Translation uses .mo files instead of database calls. WPML needs to generate these .mo files in order for translations to appear on the front-end. However, the folder that should hold these .mo files is not open for writing.": [
+            "WPML String Translation は、データベース呼び出しの代わりに .mo ファイルを使用します。フロントエンドに翻訳を表示するには、WPML がこれらの .mo ファイルを生成する必要があります。しかし、これらの .mo ファイルを保持するフォルダが書き込み禁止になっています。"
+         ],
+         "Please use your admin control panel or an FTP program to make the following folder writeable:": [
+            "管理コントロールパネルまたは FTP プログラムを使用して、次のフォルダを書き込み可能にしてください："
+         ],
+         "There was a problem creating the .mo files": [
+            ".mo ファイルの作成中に問題が発生しました"
+         ],
+         "You can try again now or try again later by going to <strong>WPML->Theme and plugins localization</strong>.": [
+            "今すぐ再試行するか、後で <strong>WPML -> テーマとプラグインのローカライズ</strong> に移動して再試行してください。"
+         ],
+         "Translations are missing from the front-end until you generate .mo files": [
+            ".mo ファイルを生成するまで、フロントエンドに翻訳が表示されません"
+         ],
+         "Your site doesn't have the .mo files that WPML needs in order to display translated strings on the front-end. To generate these .mo files, remember to go to <strong>WPML->Theme and plugins localization</strong>.": [
+            "フロントエンドに翻訳された文字列を表示するために WPML が必要とする .mo ファイルがサイトにありません。.mo ファイルを生成するには、<strong>WPML -> テーマとプラグインのローカライズ</strong> に移動してください。"
+         ],
+         "WPML String Translation uses .mo files instead of database calls. WPML needs to generate these .mo files in order for translations to appear on the front-end.": [
+            "WPML String Translation は、データベース呼び出しの代わりに .mo ファイルを使用します。フロントエンドに翻訳を表示するには、WPML がこれらの .mo ファイルを生成する必要があります。"
+         ],
+         "Try again": [
+            "再試行"
+         ],
+         "Generate .mo files": [
+            ".mo ファイルを生成する"
+         ],
+         "Close this message": [
+            "このメッセージを閉じる"
+         ],
+         "Find additional texts that WordPress, the theme and plugins created and choose which ones to translate": [
+            "WordPress、テーマ、プラグインによって作成された追加のテキストを見つけ、翻訳するものを選びます"
+         ],
+         "Choose texts for translation": [
+            "翻訳するテキストを選択する"
+         ],
+         "Some of the translations have changed": [
+            "一部の翻訳が変更されました"
+         ],
+         "Scan the selected components to make new texts available for translation.": [
+            "選択したコンポーネントをスキャンして、新しいテキストを翻訳できるようにします。"
+         ],
+         "Select all": [
+            "すべて選択"
+         ],
+         "Plugins:": [
+            "プラグイン："
+         ],
+         "Themes:": [
+            "テーマ："
+         ],
+         "Core:": [
+            "コア："
+         ],
+         "Can't find the strings you're looking to translate?": [
+            "翻訳したい文字列が見つかりませんか？"
+         ],
+         "Most likely you cannot see the strings you want to translate because:": [
+            "翻訳したい文字列が表示されない主な理由は以下の通りです："
+         ],
+         "Texts are not selected for translation": [
+            "テキストが翻訳対象として選択されていません"
+         ]
+      }
+   }
+}

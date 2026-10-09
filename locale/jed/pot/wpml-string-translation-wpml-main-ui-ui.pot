@@ -1,0 +1,79 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=utf-8\n"
+"X-Generator: babel-plugin-makepot\n"
+
+#: src/js/main-ui/components/Actions.js:46
+#. Button label in the translation popup on the String Translation page that moves to another language. %s: the language name.
+msgid "Edit %s"
+msgstr ""
+
+#: src/js/main-ui/components/Actions.js:57
+#. Keyboard shortcut shown under the button that moves to the previous language. Keep the key names as they are printed on the keyboard.
+msgid "Shift+Tab"
+msgstr ""
+
+#: src/js/main-ui/components/Actions.js:62
+#. Keyboard shortcut shown next to the button that moves to the next language. Keep the key name as it is printed on the keyboard.
+msgid "Tab"
+msgstr ""
+
+#: src/js/main-ui/components/EditTranslationPopup.js:102
+#. Label above the original text in the translation popup, followed by the flag and the name of the original language. Noun.
+msgid "Original:"
+msgstr ""
+
+#: src/js/main-ui/components/EditTranslationPopup.js:109
+#. Label above the translation box in the translation popup, followed by the flag and the name of the language being translated into.
+msgid "Translation to:"
+msgstr ""
+
+#: src/js/main-ui/components/EditTranslationPopup.js:128
+#. Tooltip on the button in the translation popup that copies the original text into the translation box. Verb phrase, imperative.
+msgid "Copy from original"
+msgstr ""
+
+#: src/js/main-ui/components/EditTranslationPopup.js:143
+#. Hint under the translation box. Keep the key names as they are printed on the keyboard.
+msgid "Use Shift+Enter to add a new line."
+msgstr ""
+
+#: src/js/main-ui/components/LanguagesCell.js:163
+#. Tooltip on the icon in the language column of the String Translation page that opens an empty translation box. %s: the language name.
+msgid "Add %s translation"
+msgstr ""
+
+#: src/js/main-ui/components/LanguagesCell.js:182
+#. Tooltip on the icon in the language column of the String Translation page that opens the existing translation for editing. %s: the language name.
+msgid "Edit %s translation"
+msgstr ""
+
+#: src/js/main-ui/components/LanguagesCell.js:192
+#. Tooltip on the icon in the language column of the String Translation page for a text that was seen on the site and has no translation yet. %s: the language name.
+msgid "Add %s translation (the string appears on the site and is not translated)"
+msgstr ""
+
+#: src/js/main-ui/components/LanguagesCell.js:62
+#. Tooltip on the icon in the language column of the String Translation page: this is the language the text was written in. %s: the language name.
+msgid "Original language %s"
+msgstr ""
+
+#: src/js/main-ui/components/LanguagesCell.js:69
+#. Tooltip on the icon in the language column of the String Translation page: the text has been sent out and a translator has not started yet. %s: the name of the language it is being translated into.
+msgid "Waiting for translator to %s"
+msgstr ""
+
+#: src/js/main-ui/components/LanguagesCell.js:76
+#. Tooltip on the icon in the language column of the String Translation page: a translator is working on the text. %s: the name of the language it is being translated into.
+msgid "Translation in progress to %s"
+msgstr ""
+
+#: src/js/main-ui/components/notification.js:13
+#. Notice shown after a translation has been saved on the String Translation page.
+msgid "Translation saved."
+msgstr ""
+
+#: src/js/main-ui/components/notification.js:17
+#. Notice shown when saving a translation on the String Translation page fails.
+msgid "Translation update failed."
+msgstr ""

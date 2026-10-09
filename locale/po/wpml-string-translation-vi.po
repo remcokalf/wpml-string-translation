@@ -1,0 +1,1262 @@
+# Copyright (C) 2026 OnTheGoSystems
+# This file is distributed under the same license as the WPML String Translation plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: WPML String Translation 3.5.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wpml-string-translation\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-01-22T11:18:00+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.11.0\n"
+"X-Domain: wpml-string-translation\n"
+"Language: vi\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. Plugin Name of the plugin
+#: plugin.php
+msgid "WPML String Translation"
+msgstr "WPML String Translation"
+
+#. Plugin URI of the plugin
+#: plugin.php
+msgid "https://wpml.org/"
+msgstr "https://wpml.org/"
+
+#. Description of the plugin
+#: plugin.php
+msgid "Adds theme and plugins localization capabilities to WPML | <a href=\"https://wpml.org/documentation/getting-started-guide/string-translation/\">Documentation</a> | <a href=\"https://wpml.org/version/wpml-string-translation-3-5-0/\">WPML String Translation 3.5.0 release notes</a>"
+msgstr "Thêm khả năng bản địa hóa chủ đề và plugin vào WPML | <a href=\"https://wpml.org/documentation/getting-started-guide/string-translation/\">Tài liệu</a> | <a href=\"https://wpml.org/version/wpml-string-translation-3-5-0/\">Ghi chú phát hành WPML String Translation 3.5.0</a>"
+
+#. Author of the plugin
+#: plugin.php
+msgid "OnTheGoSystems"
+msgstr "OnTheGoSystems"
+
+#. Author URI of the plugin
+#: plugin.php
+msgid "http://www.onthegosystems.com/"
+msgstr "http://www.onthegosystems.com/"
+
+#: classes/API/rest/mo/Import.php:65
+msgid "WPML found %s new or updated .mo files. Their texts were added to the translations table."
+msgstr "WPML đã tìm thấy %s tệp .mo mới hoặc đã cập nhật. Các văn bản của chúng đã được thêm vào bảng dịch."
+
+#: classes/AutoRegisterStringsNotice.php:26
+msgid "Click here to enable it"
+msgstr "Nhấp vào đây để bật"
+
+#: classes/AutoRegisterStringsNotice.php:27
+msgid "String auto registration is disabled. "
+msgstr "Tự động đăng ký chuỗi đã bị tắt. "
+
+#: classes/batch-action/ChangeLanguageOfStringsInDomain.php:43
+#: classes/batch-action/ChangeTranslationPriorityOfStringsInDomain.php:43
+#: classes/batch-action/CountStringsInDomain.php:16
+#: classes/batch-action/CountStringsInDomainWithDifferentPriority.php:27
+#: classes/batch-action/DeleteStringsInDomain.php:29
+#: classes/batch-action/InitChangeStringLangOfDomain.php:49
+#: classes/strings-cleanup/ajax/InitStringsRemoving.php:33
+#: classes/strings-cleanup/ajax/RemoveStringsFromDomains.php:34
+msgid "Error: please try again"
+msgstr "Lỗi: vui lòng thử lại"
+
+#: classes/class-wpml-st-string-statuses.php:14
+msgid "Translation complete"
+msgstr "Dịch hoàn tất"
+
+#: classes/class-wpml-st-string-statuses.php:17
+msgid "Partial translation"
+msgstr "Dịch một phần"
+
+#: classes/class-wpml-st-string-statuses.php:20
+msgid "Translation needs update"
+msgstr "Bản dịch cần cập nhật"
+
+#: classes/class-wpml-st-string-statuses.php:23
+#: inc/package-translation/inc/wpml-package-translation-metabox.class.php:403
+#: inc/package-translation/inc/wpml-package-translation-metabox.class.php:443
+msgid "Not translated"
+msgstr "Chưa dịch"
+
+#: classes/class-wpml-st-string-statuses.php:26
+#: inc/package-translation/inc/wpml-package-translation-metabox.class.php:391
+#: menu/string-translation.php:215
+msgid "Waiting for translator"
+msgstr "Đang chờ người dịch"
+
+#: classes/class-wpml-st-verify-dependencies.php:36
+msgid "Please activate WPML Multilingual CMS to have WPML String Translation working."
+msgstr "Vui lòng kích hoạt WPML Multilingual CMS để WPML String Translation hoạt động."
+
+#: classes/class-wpml-st-verify-dependencies.php:45
+msgid "WPML String Translation is enabled but not effective, because WPML is outdated. Please update WPML first."
+msgstr "WPML String Translation đã được bật nhưng không hiệu quả, vì WPML đã lỗi thời. Vui lòng cập nhật WPML trước."
+
+#: classes/filters/class-wpml-st-taxonomy-labels-translation.php:205
+msgid "Missing parameters"
+msgstr "Thiếu tham số"
+
+#: classes/filters/class-wpml-st-taxonomy-labels-translation.php:230
+msgid "Invalid nonce"
+msgstr "Nonce không hợp lệ"
+
+#: classes/gettext-hooks/AutoRegisterSettings.php:230
+msgid "Nonce value is invalid"
+msgstr "Giá trị nonce không hợp lệ"
+
+#: classes/gettext-hooks/AutoRegisterSettings.php:237
+msgid "Automatic string registration will remain active for <span class='counter-msg'>%s</span>. Please visit the site's front-end to allow WPML to find strings for translation."
+msgstr "Tự động đăng ký chuỗi sẽ vẫn hoạt động trong <span class='counter-msg'>%s</span>. Vui lòng truy cập giao diện người dùng của trang web để cho phép WPML tìm các chuỗi cần dịch."
+
+#: classes/gettext-hooks/AutoRegisterSettings.php:242
+msgid "* This feature is only intended for sites that are in development. It will significantly slow down the site, but help you find strings that WPML cannot detect in the PHP code."
+msgstr "* Tính năng này chỉ dành cho các trang web đang phát triển. Nó sẽ làm chậm đáng kể trang web, nhưng giúp bạn tìm các chuỗi mà WPML không thể phát hiện trong mã PHP."
+
+#: classes/menus/theme-plugin-localization-ui/class-st-theme-plugin-localization-options-ui.php:30
+msgid "Use theme or plugin text domains when gettext calls do not use a string literal"
+msgstr "Sử dụng miền văn bản của giao diện hoặc plugin khi các lệnh gọi gettext không sử dụng chuỗi ký tự"
+
+#: classes/menus/theme-plugin-localization-ui/class-st-theme-plugin-localization-options-ui.php:31
+msgid "Some themes and plugins don't properly set the textdomain (second argument) in GetText calls. When you select this option, WPML will assume that the strings found in GetText calls in the PHP files of the theme and plugin should have the textdomain with the theme/plugin's name."
+msgstr "Một số giao diện và plugin không đặt đúng miền văn bản (đối số thứ hai) trong các lệnh gọi GetText. Khi bạn chọn tùy chọn này, WPML sẽ giả định rằng các chuỗi được tìm thấy trong các lệnh gọi GetText trong các tệp PHP của giao diện và plugin nên có miền văn bản với tên của giao diện/plugin."
+
+#: classes/menus/theme-plugin-localization-ui/strategy/class-wpml-st-plugin-localization-ui.php:40
+#: classes/menus/theme-plugin-localization-ui/strategy/OtherLocalizationUI.php:40
+msgid "Scan selected plugins for strings"
+msgstr "Quét các plugin đã chọn để tìm chuỗi"
+
+#: classes/menus/theme-plugin-localization-ui/strategy/class-wpml-st-plugin-localization-ui.php:41
+#: classes/menus/theme-plugin-localization-ui/strategy/class-wpml-st-theme-localization-ui.php:38
+#: classes/menus/theme-plugin-localization-ui/strategy/OtherLocalizationUI.php:41
+#: inc/wpml-string-translation.class.php:551
+msgid "Completely translated strings"
+msgstr "Các chuỗi đã dịch hoàn chỉnh"
+
+#: classes/menus/theme-plugin-localization-ui/strategy/class-wpml-st-plugin-localization-ui.php:42
+#: classes/menus/theme-plugin-localization-ui/strategy/class-wpml-st-theme-localization-ui.php:39
+#: classes/menus/theme-plugin-localization-ui/strategy/OtherLocalizationUI.php:42
+msgid "Strings in need of translation"
+msgstr "Các chuỗi cần dịch"
+
+#: classes/menus/theme-plugin-localization-ui/strategy/class-wpml-st-plugin-localization-ui.php:43
+msgid "Plugins"
+msgstr "Plugin"
+
+#: classes/menus/theme-plugin-localization-ui/strategy/class-wpml-st-plugin-localization-ui.php:44
+#: classes/menus/theme-plugin-localization-ui/strategy/class-wpml-st-theme-localization-ui.php:41
+#: classes/menus/theme-plugin-localization-ui/strategy/OtherLocalizationUI.php:44
+#: inc/wpml-string-translation.class.php:549
+msgid "Textdomain"
+msgstr "Miền văn bản"
+
+#: classes/menus/theme-plugin-localization-ui/strategy/class-wpml-st-plugin-localization-ui.php:45
+#: classes/menus/theme-plugin-localization-ui/strategy/class-wpml-st-theme-localization-ui.php:42
+msgid "All"
+msgstr "Tất cả"
+
+#: classes/menus/theme-plugin-localization-ui/strategy/class-wpml-st-plugin-localization-ui.php:46
+#: classes/menus/theme-plugin-localization-ui/strategy/class-wpml-st-theme-localization-ui.php:43
+#: inc/package-translation/inc/wpml-package-translation.class.php:344
+msgid "Active"
+msgstr "Hoạt động"
+
+#: classes/menus/theme-plugin-localization-ui/strategy/class-wpml-st-plugin-localization-ui.php:47
+#: classes/menus/theme-plugin-localization-ui/strategy/class-wpml-st-theme-localization-ui.php:44
+msgid "Inactive"
+msgstr "Không hoạt động"
+
+#: classes/menus/theme-plugin-localization-ui/strategy/class-wpml-st-plugin-localization-ui.php:48
+#: classes/menus/theme-plugin-localization-ui/strategy/class-wpml-st-theme-localization-ui.php:45
+#: classes/menus/theme-plugin-localization-ui/strategy/OtherLocalizationUI.php:45
+msgid "show textdomains"
+msgstr "hiển thị miền văn bản"
+
+#: classes/menus/theme-plugin-localization-ui/strategy/class-wpml-st-plugin-localization-ui.php:49
+#: classes/menus/theme-plugin-localization-ui/strategy/class-wpml-st-theme-localization-ui.php:46
+#: classes/menus/theme-plugin-localization-ui/strategy/OtherLocalizationUI.php:46
+msgid "hide textdomains"
+msgstr "ẩn miền văn bản"
+
+#: classes/menus/theme-plugin-localization-ui/strategy/class-wpml-st-plugin-localization-ui.php:92
+#: classes/menus/theme-plugin-localization-ui/strategy/class-wpml-st-theme-localization-ui.php:79
+msgid "Not scanned yet"
+msgstr "Chưa quét"
+
+#: classes/menus/theme-plugin-localization-ui/strategy/class-wpml-st-plugin-localization-ui.php:98
+#: classes/menus/theme-plugin-localization-ui/strategy/class-wpml-st-theme-localization-ui.php:85
+msgid "Scanned"
+msgstr "Đã quét"
+
+#: classes/menus/theme-plugin-localization-ui/strategy/class-wpml-st-plugin-localization-ui.php:104
+#: classes/menus/theme-plugin-localization-ui/strategy/class-wpml-st-theme-localization-ui.php:91
+#: classes/menus/theme-plugin-localization-ui/strategy/OtherLocalizationUI.php:78
+msgid "Needs re-scanning"
+msgstr "Cần quét lại"
+
+#: classes/menus/theme-plugin-localization-ui/strategy/class-wpml-st-theme-localization-ui.php:37
+msgid "Scan selected themes for strings"
+msgstr "Quét các giao diện đã chọn để tìm chuỗi"
+
+#: classes/menus/theme-plugin-localization-ui/strategy/class-wpml-st-theme-localization-ui.php:40
+msgid "Themes"
+msgstr "Giao diện"
+
+#: classes/menus/theme-plugin-localization-ui/strategy/OtherLocalizationUI.php:43
+msgid "Core"
+msgstr "Cốt lõi"
+
+#: classes/MO/File/FailureHooks.php:87
+msgid "WPML String Translation is attempting to write .mo files with translations to folder:"
+msgstr "WPML String Translation đang cố gắng ghi các tệp .mo với bản dịch vào thư mục:"
+
+#: classes/MO/File/FailureHooks.php:92
+msgid "This folder appears to be not writable. This is blocking translation for strings from appearing on the site."
+msgstr "Thư mục này dường như không thể ghi được. Điều này đang chặn bản dịch cho các chuỗi xuất hiện trên trang web."
+
+#: classes/MO/File/FailureHooks.php:97
+msgid "If this is a %1$slocal development site%2$s, make sure that your local server can write to this folder."
+msgstr "Nếu đây là một %1$strang web phát triển cục bộ%2$s, hãy đảm bảo rằng máy chủ cục bộ của bạn có thể ghi vào thư mục này."
+
+#: classes/MO/File/FailureHooks.php:102
+msgid "If it's an %1$sonline site%2$s, contact your hosting company and request that they make that folder writable."
+msgstr "Nếu đây là một %1$strang web trực tuyến%2$s, hãy liên hệ với công ty lưu trữ của bạn và yêu cầu họ làm cho thư mục đó có thể ghi được."
+
+#: classes/MO/File/FailureHooks.php:110
+msgid "WPML's documentation on troubleshooting .mo files generation."
+msgstr "Tài liệu của WPML về khắc phục sự cố tạo tệp .mo."
+
+#: classes/MO/File/FailureHooks.php:114
+msgid "For more details, see %s."
+msgstr "Để biết thêm chi tiết, xem %s."
+
+#: classes/po-import/class-wpml-po-import-strings.php:32
+msgid "File upload error"
+msgstr "Lỗi tải tệp lên"
+
+#. translators: 1: Language name, 2: Language name, 3: Opening anchor tag, 4: Closing anchor tag.
+#: classes/po-import/class-wpml-po-import-strings.php:83
+msgid "You're trying to import strings that are already registered in %1$s. To import them as %2$s, first %3$schange the source language of existing strings%4$s using String Translation. Then, try importing them again."
+msgstr "Bạn đang cố gắng nhập các chuỗi đã được đăng ký trong %1$s. Để nhập chúng dưới dạng %2$s, trước tiên hãy %3$sthay đổi ngôn ngữ nguồn của các chuỗi hiện có%4$s bằng cách sử dụng String Translation. Sau đó, thử nhập lại."
+
+#: classes/privacy/class-wpml-st-privacy-content.php:19
+msgid "WPML String Translation will send all strings to WPML’s Advanced Translation Editor and to the translation services which are used."
+msgstr "WPML String Translation sẽ gửi tất cả các chuỗi đến Trình chỉnh sửa dịch nâng cao của WPML và đến các dịch vụ dịch đang được sử dụng."
+
+#. translators: %s: translation dashboard link
+#: classes/SendStringsForTranslationNotice.php:21
+msgid "To translate strings automatically, by your translators or a translation service, use the %sTranslation Dashboard%s."
+msgstr "Để dịch các chuỗi tự động, bởi người dịch của bạn hoặc dịch vụ dịch, hãy sử dụng %sBảng điều khiển dịch%s."
+
+#: classes/slug-translation/wpml-st-element-slug-translation-ui-model.php:54
+msgid "Set different slugs in different languages for %s."
+msgstr "Đặt các slug khác nhau bằng các ngôn ngữ khác nhau cho %s."
+
+#: classes/slug-translation/wpml-st-element-slug-translation-ui-model.php:55
+msgid "Not marked as 'complete'. Press 'Save' to enable."
+msgstr "Không được đánh dấu là “hoàn thành”. Nhấn “Lưu” để bật."
+
+#: classes/slug-translation/wpml-st-element-slug-translation-ui-model.php:56
+msgid "(original)"
+msgstr "(nguyên bản)"
+
+#: classes/slug-translation/wpml-st-element-slug-translation-ui-model.php:66
+msgid "%s slugs are set to be translated, but they are missing their translation"
+msgstr "Các slug %s được đặt để dịch, nhưng chúng thiếu bản dịch"
+
+#: classes/string-tracking/class-wpml-st-string-positions-in-source.php:52
+msgid "No records found"
+msgstr "Không tìm thấy bản ghi nào"
+
+#: classes/string-translation-ui/class-wpml-change-string-domain-language-dialog.php:28
+msgid "Language of domains"
+msgstr "Ngôn ngữ của các miền"
+
+#: classes/string-translation-ui/class-wpml-change-string-domain-language-dialog.php:30
+#: inc/wpml-string-translation.class.php:498
+#: menu/string-translation.php:366
+#: menu/string-translation.php:1028
+#: menu/string-translation.php:1104
+msgid "Apply"
+msgstr "Áp dụng"
+
+#: classes/string-translation-ui/class-wpml-change-string-domain-language-dialog.php:31
+#: menu/auto-download-mo.php:207
+#: menu/string-translation.php:192
+#: menu/string-translation.php:367
+msgid "Cancel"
+msgstr "Hủy"
+
+#: classes/string-translation-ui/class-wpml-change-string-domain-language-dialog.php:36
+msgid "Select for which domain to set the language: "
+msgstr "Chọn miền để đặt ngôn ngữ: "
+
+#: classes/string-translation-ui/class-wpml-change-string-domain-language-dialog.php:41
+msgid "-- Please select --"
+msgstr "-- Vui lòng chọn --"
+
+#: classes/string-translation-ui/class-wpml-change-string-domain-language-dialog.php:78
+msgid "This domain currently has the following strings:"
+msgstr "Miền này hiện có các chuỗi sau:"
+
+#: classes/string-translation-ui/class-wpml-change-string-domain-language-dialog.php:85
+msgid "Current source language"
+msgstr "Ngôn ngữ nguồn hiện tại"
+
+#: classes/string-translation-ui/class-wpml-change-string-domain-language-dialog.php:86
+msgid "Number of strings"
+msgstr "Số lượng chuỗi"
+
+#: classes/string-translation-ui/class-wpml-change-string-domain-language-dialog.php:96
+msgid "Set the source language of these strings to:"
+msgstr "Đặt ngôn ngữ nguồn của các chuỗi này thành:"
+
+#: classes/string-translation-ui/class-wpml-change-string-domain-language-dialog.php:108
+msgid "Use this language as the default language for new strings in this domain"
+msgstr "Sử dụng ngôn ngữ này làm ngôn ngữ mặc định cho các chuỗi mới trong miền này"
+
+#: classes/string-translation-ui/class-wpml-change-string-language-select.php:31
+msgid "Change the language of selected strings"
+msgstr "Thay đổi ngôn ngữ của các chuỗi đã chọn"
+
+#: classes/string-translation-ui/class-wpml-string-translation-table.php:63
+msgid "No strings found"
+msgstr "Không tìm thấy chuỗi nào"
+
+#: classes/string-translation-ui/class-wpml-string-translation-table.php:79
+msgid "Processing"
+msgstr "Đang xử lý"
+
+#: classes/string-translation-ui/class-wpml-string-translation-table.php:158
+#: classes/string-translation-ui/class-wpml-string-translation-table.php:286
+msgid "Domain"
+msgstr "Miền"
+
+#: classes/string-translation-ui/class-wpml-string-translation-table.php:160
+msgid "Context"
+msgstr "Ngữ cảnh"
+
+#: classes/string-translation-ui/class-wpml-string-translation-table.php:163
+#: inc/package-translation/inc/wpml-package-translation-html-packages.class.php:103
+#: inc/wpml-string-translation.class.php:547
+msgid "Name"
+msgstr "Tên"
+
+#: classes/string-translation-ui/class-wpml-string-translation-table.php:166
+msgid "Usage"
+msgstr "Sử dụng"
+
+#: classes/string-translation-ui/class-wpml-string-translation-table.php:168
+#: classes/string-translation-ui/class-wpml-string-translation-table.php:287
+#: menu/auto-download-mo.php:128
+#: menu/auto-download-mo.php:161
+#: menu/auto-download-mo.php:175
+#: menu/auto-download-mo.php:193
+#: menu/string-translation.php:149
+#: menu/string-translation.php:155
+msgid "String"
+msgstr "Chuỗi"
+
+#: classes/string-translation-ui/class-wpml-string-translation-table.php:182
+msgid "All %d strings on this page are selected."
+msgstr "Tất cả %d chuỗi trên trang này đã được chọn."
+
+#: classes/string-translation-ui/class-wpml-string-translation-table.php:183
+msgid "Select all strings that match this search"
+msgstr "Chọn tất cả các chuỗi khớp với tìm kiếm này"
+
+#: classes/string-translation-ui/class-wpml-string-translation-table.php:184
+msgid "All %d strings from all pages are selected."
+msgstr "Tất cả %d chuỗi từ tất cả các trang đã được chọn."
+
+#: classes/string-translation-ui/class-wpml-string-translation-table.php:185
+msgid "Unselect all strings that match this search"
+msgstr "Bỏ chọn tất cả các chuỗi khớp với tìm kiếm này"
+
+#: classes/string-translation-ui/class-wpml-string-translation-table.php:290
+msgid "Preview string on site"
+msgstr "Xem trước chuỗi trên trang web"
+
+#: classes/string-translation-ui/class-wpml-string-translation-table.php:291
+msgid "This preview shows where the selected string appears on your site’s front-end."
+msgstr "Bản xem trước này hiển thị nơi chuỗi đã chọn xuất hiện trên giao diện người dùng của trang web của bạn."
+
+#: classes/string-translation-ui/class-wpml-string-translation-table.php:292
+msgid "Frontend preview"
+msgstr "Xem trước giao diện người dùng"
+
+#: classes/string-translation-ui/class-wpml-string-translation-table.php:295
+msgid "Preview where this string appears on your site"
+msgstr "Xem trước nơi chuỗi này xuất hiện trên trang web của bạn"
+
+#: classes/string-translation-ui/class-wpml-translation-priority-select.php:20
+msgid "Change translation priority of selected strings"
+msgstr "Thay đổi mức độ ưu tiên dịch của các chuỗi đã chọn"
+
+#: classes/strings-scanning/class-wpml-themes-and-plugins-settings.php:40
+msgid "Dismiss all notices"
+msgstr "Bỏ qua tất cả các thông báo"
+
+#: classes/strings-scanning/class-wpml-themes-and-plugins-settings.php:41
+msgid "Also prevent similar messages in the future?"
+msgstr "Cũng ngăn chặn các tin nhắn tương tự trong tương lai?"
+
+#: classes/strings-scanning/class-wpml-themes-and-plugins-settings.php:42
+msgid "No - keep showing these message"
+msgstr "Không - tiếp tục hiển thị các tin nhắn này"
+
+#: classes/strings-scanning/class-wpml-themes-and-plugins-settings.php:43
+msgid "Yes - disable these notifications completely"
+msgstr "Có - tắt hoàn toàn các thông báo này"
+
+#: classes/strings-scanning/JS/SettingsHooks.php:67
+msgid "Detect strings in JavaScript files"
+msgstr "Phát hiện chuỗi trong tệp JavaScript"
+
+#. translators: Placeholders are for open and close link tag
+#: classes/strings-scanning/JS/SettingsHooks.php:73
+msgid "When enabled, WPML tracks JavaScript files loaded on your site's pages. Texts (strings) from these files will be included when you scan a theme or plugin in %1$sWPML > Theme and plugins localization%2$s."
+msgstr "Khi được bật, WPML theo dõi các tệp JavaScript được tải trên các trang của trang web của bạn. Văn bản (chuỗi) từ các tệp này sẽ được bao gồm khi bạn quét một giao diện hoặc plugin trong %1$sWPML > Bản địa hóa giao diện và plugin%2$s."
+
+#. translators: Placeholders are for open and close bold tag
+#: classes/strings-scanning/JS/SettingsHooks.php:93
+msgid "%1$sNote:%2$s This feature may affect site performance. We recommend disabling it after scanning is complete."
+msgstr "%1$sLưu ý:%2$s Tính năng này có thể ảnh hưởng đến hiệu suất trang web. Chúng tôi khuyên bạn nên tắt nó sau khi quá trình quét hoàn tất."
+
+#: classes/strings-scanning/JS/SettingsHooks.php:122
+#: inc/wpml-string-translation.class.php:443
+#: inc/wpml-string-translation.class.php:444
+msgid "String Translation"
+msgstr "Dịch chuỗi"
+
+#. translators: Placeholders are for open and close link tag
+#: classes/strings-scanning/JS/SettingsHooks.php:131
+msgid "JavaScript file scanning is active and may affect performance. %1$sDisable this feature%2$s in WPML Settings once your texts (strings) are registered."
+msgstr "Quét tệp JavaScript đang hoạt động và có thể ảnh hưởng đến hiệu suất. %1$sTắt tính năng này%2$s trong Cài đặt WPML sau khi các văn bản (chuỗi) của bạn được đăng ký."
+
+#. translators: Placeholders are for open and close link tag
+#: classes/strings-scanning/JS/SettingsHooks.php:138
+msgid "Missing texts (strings) after scanning? %1$sEnable Scan strings in JavaScript files%2$s in WPML Settings, visit the page containing the string, then scan again."
+msgstr "Thiếu văn bản (chuỗi) sau khi quét? %1$sBật Quét chuỗi trong tệp JavaScript%2$s trong Cài đặt WPML, truy cập trang chứa chuỗi, sau đó quét lại."
+
+#: classes/strings-scanning/wpml-st-theme-plugin-scan-dir-ajax.php:54
+msgid "Files already scanned."
+msgstr "Các tệp đã được quét."
+
+#: classes/support/class-wpml-st-support-info-filter.php:27
+msgid "Multibyte String extension"
+msgstr "Tiện ích mở rộng chuỗi đa byte"
+
+#: classes/support/class-wpml-st-support-info-filter.php:28
+msgid "Loaded"
+msgstr "Đã tải"
+
+#: classes/support/class-wpml-st-support-info-filter.php:28
+msgid "Not loaded"
+msgstr "Chưa tải"
+
+#: classes/support/class-wpml-st-support-info-filter.php:31
+msgid "Multibyte String extension is required for WPML String Translation."
+msgstr "Tiện ích mở rộng chuỗi đa byte là bắt buộc đối với WPML String Translation."
+
+#: classes/translations-file-scan/wpml-st-translations-file-scan-ui-block.php:54
+msgctxt "MO Import blocked short 1/3"
+msgid "WPML cannot replace .mo files because of technical problems in the String Translation table."
+msgstr "WPML không thể thay thế các tệp .mo do các vấn đề kỹ thuật trong bảng String Translation."
+
+#: classes/translations-file-scan/wpml-st-translations-file-scan-ui-block.php:60
+msgctxt "MO Import blocked short 2/3"
+msgid "WPML support team knows how to fix it."
+msgstr "Đội ngũ hỗ trợ WPML biết cách khắc phục nó."
+
+#: classes/translations-file-scan/wpml-st-translations-file-scan-ui-block.php:67
+msgctxt "MO Import blocked short 3/3"
+msgid "Please add a message in the relevant <a href=\"%s\" target=\"_blank\" >support thread</a> and we'll fix it for you."
+msgstr "Vui lòng thêm tin nhắn vào <a href=\"%s\" target=\"_blank\" >chủ đề hỗ trợ</a> có liên quan và chúng tôi sẽ khắc phục nó cho bạn."
+
+#: classes/translations-file-scan/wpml-st-translations-file-scan-ui-block.php:79
+msgctxt "MO Import blocked 1/4"
+msgid "There is a problem with the String Translation table in your site."
+msgstr "Có vấn đề với bảng String Translation trong trang web của bạn."
+
+#: classes/translations-file-scan/wpml-st-translations-file-scan-ui-block.php:85
+msgctxt "MO Import blocked 2/4"
+msgid "This problem is not causing a problem running the site right now, but can become a critical issue in the future."
+msgstr "Vấn đề này hiện không gây ra sự cố khi chạy trang web, nhưng có thể trở thành một vấn đề nghiêm trọng trong tương lai."
+
+#: classes/translations-file-scan/wpml-st-translations-file-scan-ui-block.php:91
+msgctxt "MO Import blocked 3/4"
+msgid "WPML support team knows how to fix it."
+msgstr "Đội ngũ hỗ trợ WPML biết cách khắc phục nó."
+
+#: classes/translations-file-scan/wpml-st-translations-file-scan-ui-block.php:98
+msgctxt "MO Import blocked 4/4"
+msgid "Please add a message in the relevant <a href=\"%s\" target=\"_blank\">support thread</a> and we'll fix it for you."
+msgstr "Vui lòng thêm tin nhắn vào <a href=\"%s\" target=\"_blank\">chủ đề hỗ trợ</a> có liên quan và chúng tôi sẽ khắc phục nó cho bạn."
+
+#: classes/Troubleshooting/BackendHooks.php:33
+msgid "Show custom MO Files Pre-generation dialog box"
+msgstr "Hiển thị hộp thoại Tạo trước tệp MO tùy chỉnh"
+
+#: classes/Troubleshooting/BackendHooks.php:40
+msgid "Cleanup and optimize string tables"
+msgstr "Dọn dẹp và tối ưu hóa bảng chuỗi"
+
+#: classes/Troubleshooting/BackendHooks.php:41
+msgid "Cleanup and optimization completed!"
+msgstr "Dọn dẹp và tối ưu hóa hoàn tất!"
+
+#: classes/Troubleshooting/BackendHooks.php:46
+msgid "Check for string issues"
+msgstr "Kiểm tra các vấn đề về chuỗi"
+
+#: classes/upgrade/class-wpml-st-upgrade-migrate-originals.php:43
+msgid "WPML needs to update the database. This update will help improve WPML's performance when fetching translated strings."
+msgstr "WPML cần cập nhật cơ sở dữ liệu. Bản cập nhật này sẽ giúp cải thiện hiệu suất của WPML khi tìm nạp các chuỗi đã dịch."
+
+#: classes/upgrade/class-wpml-st-upgrade-migrate-originals.php:45
+msgid "Update Now"
+msgstr "Cập nhật ngay"
+
+#: classes/upgrade/class-wpml-st-upgrade-migrate-originals.php:51
+msgid "The database has been updated."
+msgstr "Cơ sở dữ liệu đã được cập nhật."
+
+#: classes/upgrade/class-wpml-st-upgrade-migrate-originals.php:53
+#: menu/string-translation.php:1122
+msgid "Close"
+msgstr "Đóng"
+
+#: classes/upgrade/repair-schema/wpml-st-repair-strings-schema.php:84
+msgid "We have detected a problem with some tables in the database. Please contact %1$sWPML support%2$s to get this fixed."
+msgstr "Chúng tôi đã phát hiện một vấn đề với một số bảng trong cơ sở dữ liệu. Vui lòng liên hệ %1$shỗ trợ WPML%2$s để được khắc phục."
+
+#: inc/auto-download-locales.php:140
+msgid "Updated %s translation is available"
+msgstr "Bản dịch %s đã cập nhật có sẵn"
+
+#: inc/auto-download-locales.php:144
+msgid "Review changes and update"
+msgstr "Xem lại các thay đổi và cập nhật"
+
+#: inc/auto-download-locales.php:153
+msgid "No updates found."
+msgstr "Không tìm thấy bản cập nhật nào."
+
+#: inc/auto-download-locales.php:209
+msgid "Failed downloading the language information file."
+msgstr "Không thể tải xuống tệp thông tin ngôn ngữ."
+
+#: inc/auto-download-locales.php:210
+msgid "Errors: %s"
+msgstr "Lỗi: %s"
+
+#: inc/auto-download-locales.php:212
+msgid "Failed downloading the language information file. Please go back and try a little later."
+msgstr "Không thể tải xuống tệp thông tin ngôn ngữ. Vui lòng quay lại và thử lại sau một chút."
+
+#: inc/functions.php:1150
+msgid "Translations for strings updated"
+msgstr "Bản dịch cho các chuỗi đã được cập nhật"
+
+#: inc/gettext/wpml-po-import.class.php:99
+msgid "No string found"
+msgstr "Không tìm thấy chuỗi nào"
+
+#: inc/gettext/wpml-string-scanner.class.php:84
+msgid "Scan successful: WPML found %s strings."
+msgstr "Quét thành công: WPML đã tìm thấy %s chuỗi."
+
+#: inc/gettext/wpml-string-scanner.class.php:85
+msgid "The following files were processed:"
+msgstr "Các tệp sau đã được xử lý:"
+
+#: inc/gettext/wpml-string-scanner.class.php:92
+msgid " They were added to the translations table."
+msgstr " Chúng đã được thêm vào bảng dịch."
+
+#: inc/gettext/wpml-theme-string-scanner.class.php:40
+msgid "Scanning file: %s"
+msgstr "Đang quét tệp: %s"
+
+#: inc/gettext/wpml-theme-string-scanner.class.php:44
+msgid "Skipping file: %s"
+msgstr "Bỏ qua tệp: %s"
+
+#: inc/package-translation/inc/wpml-package-translation-helper.class.php:673
+msgid "Some of the strings selected belong to packages. You can only change the language of these strings if all strings in the packages are selected."
+msgstr "Một số chuỗi đã chọn thuộc về các gói. Bạn chỉ có thể thay đổi ngôn ngữ của các chuỗi này nếu tất cả các chuỗi trong gói được chọn."
+
+#: inc/package-translation/inc/wpml-package-translation-html-packages.class.php:35
+msgid "Package Management"
+msgstr "Quản lý gói"
+
+#: inc/package-translation/inc/wpml-package-translation-html-packages.class.php:36
+#: inc/package-translation/inc/wpml-package-translation-html-packages.class.php:37
+msgid "Display packages for this kind:"
+msgstr "Hiển thị các gói cho loại này:"
+
+#: inc/package-translation/inc/wpml-package-translation-html-packages.class.php:65
+msgid "Delete Selected Packages"
+msgstr "Xóa các gói đã chọn"
+
+#: inc/package-translation/inc/wpml-package-translation-html-packages.class.php:68
+msgid ""
+"Are you sure you want to delete these packages?\n"
+"Their strings and translations will be deleted too."
+msgstr "Bạn có chắc chắn muốn xóa các gói này không?\nCác chuỗi và bản dịch của chúng cũng sẽ bị xóa."
+
+#: inc/package-translation/inc/wpml-package-translation-html-packages.class.php:98
+msgid "Select All"
+msgstr "Chọn tất cả"
+
+#: inc/package-translation/inc/wpml-package-translation-html-packages.class.php:102
+msgid "Kind"
+msgstr "Loại"
+
+#: inc/package-translation/inc/wpml-package-translation-html-packages.class.php:104
+msgid "Info"
+msgstr "Thông tin"
+
+#: inc/package-translation/inc/wpml-package-translation-html-packages.class.php:110
+msgid "Contains %s strings"
+msgstr "Chứa %s chuỗi"
+
+#: inc/package-translation/inc/wpml-package-translation-html-packages.class.php:112
+msgid "Translation is in progress"
+msgstr "Bản dịch đang được tiến hành"
+
+#: inc/package-translation/inc/wpml-package-translation-html-packages.class.php:114
+msgid "Default package language"
+msgstr "Ngôn ngữ gói mặc định"
+
+#: inc/package-translation/inc/wpml-package-translation-html-packages.class.php:123
+msgid "No packages found"
+msgstr "Không tìm thấy gói nào"
+
+#: inc/package-translation/inc/wpml-package-translation-metabox.class.php:76
+msgid "WPML Translation"
+msgstr "Bản dịch WPML"
+
+#: inc/package-translation/inc/wpml-package-translation-metabox.class.php:78
+msgid "Send to translation"
+msgstr "Gửi để dịch"
+
+#: inc/package-translation/inc/wpml-package-translation-metabox.class.php:80
+msgid "Translate strings"
+msgstr "Dịch chuỗi"
+
+#: inc/package-translation/inc/wpml-package-translation-metabox.class.php:84
+msgid "Translation status:"
+msgstr "Trạng thái dịch:"
+
+#: inc/package-translation/inc/wpml-package-translation-metabox.class.php:86
+msgid "Language of this %1$s is %2$s"
+msgstr "Ngôn ngữ của %1$s này là %2$s"
+
+#: inc/package-translation/inc/wpml-package-translation-metabox.class.php:89
+msgid "There is nothing to translate."
+msgstr "Không có gì để dịch."
+
+#: inc/package-translation/inc/wpml-package-translation-metabox.class.php:394
+msgid "In progress"
+msgstr "Đang tiến hành"
+
+#: inc/package-translation/inc/wpml-package-translation-metabox.class.php:400
+msgid "Complete"
+msgstr "Hoàn thành"
+
+#: inc/package-translation/inc/wpml-package-translation-metabox.class.php:411
+msgid "Needs update"
+msgstr "Cần cập nhật"
+
+#: inc/package-translation/inc/wpml-package-translation-metabox.class.php:441
+msgid "In translation basket"
+msgstr "Trong giỏ dịch"
+
+#: inc/package-translation/inc/wpml-package-translation-tm.class.php:131
+msgid ""
+"You cannot add packages in this language to the basket since it already contains posts, packages or strings of another source language!\n"
+"\t\t\t\t\tEither submit the current basket and then add the post or delete the posts of differing language in the current basket"
+msgstr "Bạn không thể thêm các gói bằng ngôn ngữ này vào giỏ vì nó đã chứa các bài đăng, gói hoặc chuỗi của một ngôn ngữ nguồn khác!\n\t\t\t\t\tBạn có thể gửi giỏ hiện tại và sau đó thêm bài đăng hoặc xóa các bài đăng có ngôn ngữ khác trong giỏ hiện tại"
+
+#: inc/package-translation/inc/wpml-package-translation-tm.class.php:144
+msgid "Please select at least one language to translate into."
+msgstr "Vui lòng chọn ít nhất một ngôn ngữ để dịch sang."
+
+#: inc/package-translation/inc/wpml-package-translation-tm.class.php:163
+msgid "Please select at least one document to translate."
+msgstr "Vui lòng chọn ít nhất một tài liệu để dịch."
+
+#: inc/package-translation/inc/wpml-package-translation-tm.class.php:255
+msgid "Post \"%1$s\" will be ignored for %2$s, because translation is already in progress."
+msgstr "Bài đăng “%1$s” sẽ bị bỏ qua cho %2$s, vì bản dịch đã đang được tiến hành."
+
+#: inc/package-translation/inc/wpml-package-translation-tm.class.php:268
+msgid "Post \"%1$s\" will be ignored for %2$s, because translation is already waiting for translator."
+msgstr "Bài đăng “%1$s” sẽ bị bỏ qua cho %2$s, vì bản dịch đã đang chờ người dịch."
+
+#: inc/package-translation/inc/wpml-package-translation-ui.class.php:65
+#: inc/package-translation/inc/wpml-package-translation-ui.class.php:66
+msgid "Packages"
+msgstr "Gói"
+
+#: inc/package-translation/inc/wpml-package-translation.class.php:523
+msgid "WPML Package Translation is active but requires both the <a href=\"%s\">WPML core</a> and WPML String Translation plugins to function properly."
+msgstr "WPML Package Translation đang hoạt động nhưng yêu cầu cả <a href=\"%s\">WPML core</a> và các plugin WPML String Translation để hoạt động đúng cách."
+
+#: inc/wpml-localization.class.php:205
+msgid "No TextDomain"
+msgstr "Không có TextDomain"
+
+#: inc/wpml-localization.class.php:235
+msgid "Translate strings in %s"
+msgstr "Dịch chuỗi trong %s"
+
+#: inc/wpml-localization.class.php:236
+msgid "All strings in %s"
+msgstr "Tất cả các chuỗi trong %s"
+
+#: inc/wpml-string-translation.class.php:486
+msgid "Show page builder packages"
+msgstr "Hiển thị các gói trình tạo trang"
+
+#: inc/wpml-string-translation.class.php:508
+msgid "Configure"
+msgstr "Cấu hình"
+
+#: inc/wpml-string-translation.class.php:537
+msgid "Scan strings in themes, plugins and WordPress"
+msgstr "Quét chuỗi trong giao diện, plugin và WordPress"
+
+#: inc/wpml-string-translation.class.php:548
+msgid "Status"
+msgstr "Trạng thái"
+
+#: inc/wpml-string-translation.class.php:550
+msgid "Action"
+msgstr "Hành động"
+
+#: inc/wpml-string-translation.class.php:552
+msgid "Strings that need translation"
+msgstr "Các chuỗi cần dịch"
+
+#: inc/wpml-string-translation.class.php:578
+msgid "Scan selected components for strings"
+msgstr "Quét các thành phần đã chọn để tìm chuỗi"
+
+#: inc/wpml-string-translation.class.php:615
+msgid "WPML could not detect the translation files (.mo) for %s. To fix this, visit your site's frontend in a secondary language."
+msgid_plural "WPML could not detect the translation files (.mo) for %s and %s. To fix this, visit your site's frontend in a secondary language."
+msgstr[0] "WPML không thể phát hiện các tệp dịch (.mo) cho %s và %s. Để khắc phục điều này, hãy truy cập giao diện người dùng của trang web của bạn bằng ngôn ngữ thứ cấp."
+
+#: inc/wpml-string-translation.class.php:649
+msgid "This will load the translation files and WPML will be able to scan them."
+msgstr "Thao tác này sẽ tải các tệp dịch và WPML sẽ có thể quét chúng."
+
+#: inc/wpml-string-translation.class.php:670
+msgid "Scan the selected components to make new texts available for translation."
+msgstr "Quét các thành phần đã chọn để làm cho các văn bản mới có sẵn để dịch."
+
+#: inc/wpml-string-translation.class.php:674
+msgid "Updated or new translation files detected"
+msgstr "Đã phát hiện các tệp dịch mới hoặc đã cập nhật"
+
+#: inc/wpml-string-translation.class.php:675
+msgid "WPML has found new or updated translation (.mo) files and needs to scan them to find translatable strings."
+msgstr "WPML đã tìm thấy các tệp dịch (.mo) mới hoặc đã cập nhật và cần quét chúng để tìm các chuỗi có thể dịch."
+
+#: inc/wpml-string-translation.class.php:676
+msgid "Select affected components"
+msgstr "Chọn các thành phần bị ảnh hưởng"
+
+#: menu/auto-download-mo.php:41
+msgid "%d new translation was added."
+msgid_plural "%d new translations were added."
+msgstr[0] "Đã thêm %d bản dịch mới."
+
+#: menu/auto-download-mo.php:58
+msgid "%d translation was updated."
+msgid_plural "%d translations were updated."
+msgstr[0] "Đã cập nhật %d bản dịch."
+
+#: menu/auto-download-mo.php:65
+msgid "No action performed. Please select the strings that you need to update or add."
+msgstr "Không có hành động nào được thực hiện. Vui lòng chọn các chuỗi mà bạn cần cập nhật hoặc thêm."
+
+#: menu/auto-download-mo.php:75
+msgid "Auto-download WordPress translations"
+msgstr "Tự động tải xuống bản dịch WordPress"
+
+#: menu/auto-download-mo.php:79
+msgid "Success!"
+msgstr "Thành công!"
+
+#: menu/auto-download-mo.php:87
+#: menu/auto-download-mo.php:214
+msgid "Check other languages"
+msgstr "Kiểm tra các ngôn ngữ khác"
+
+#: menu/auto-download-mo.php:91
+msgid "Missing version number for translation."
+msgstr "Thiếu số phiên bản cho bản dịch."
+
+#: menu/auto-download-mo.php:95
+msgid "Invalid language: %s"
+msgstr "Ngôn ngữ không hợp lệ: %s"
+
+#: menu/auto-download-mo.php:108
+msgid "This update includes %d new strings and %d updated strings. You can review the strings below. Then, go to the <a%s>bottom of this page</a> and click on the Proceed button."
+msgstr "Bản cập nhật này bao gồm %d chuỗi mới và %d chuỗi đã cập nhật. Bạn có thể xem lại các chuỗi bên dưới. Sau đó, đi đến <a%s>cuối trang này</a> và nhấp vào nút Tiếp tục."
+
+#: menu/auto-download-mo.php:122
+msgid "Updated translations (%d)"
+msgstr "Bản dịch đã cập nhật (%d)"
+
+#: menu/auto-download-mo.php:129
+#: menu/auto-download-mo.php:162
+msgid "Existing translation"
+msgstr "Bản dịch hiện có"
+
+#: menu/auto-download-mo.php:130
+#: menu/auto-download-mo.php:163
+msgid "New translation"
+msgstr "Bản dịch mới"
+
+#: menu/auto-download-mo.php:171
+msgid "New translations (%d)"
+msgstr "Bản dịch mới (%d)"
+
+#: menu/auto-download-mo.php:176
+#: menu/auto-download-mo.php:194
+msgid "Translation"
+msgstr "Bản dịch"
+
+#: menu/auto-download-mo.php:200
+msgid "Add the new translations."
+msgstr "Thêm các bản dịch mới."
+
+#: menu/auto-download-mo.php:206
+msgid "Proceed"
+msgstr "Tiếp tục"
+
+#: menu/auto-download-mo.php:213
+msgid "There is nothing to be updated or to be added."
+msgstr "Không có gì để cập nhật hoặc thêm."
+
+#: menu/string-translation-translate-options.php:2
+msgid "Admin Texts Translation"
+msgstr "Dịch văn bản quản trị"
+
+#: menu/string-translation-translate-options.php:13
+msgid "Translate texts you can customize from the WordPress admin but which appear on the front-end."
+msgstr "Dịch các văn bản bạn có thể tùy chỉnh từ quản trị WordPress nhưng xuất hiện trên giao diện người dùng."
+
+#: menu/string-translation-translate-options.php:16
+msgid "This includes strings like footer text, copyright notices, plugin options and settings, time format, widget texts, and more."
+msgstr "Điều này bao gồm các chuỗi như văn bản chân trang, thông báo bản quyền, tùy chọn và cài đặt plugin, định dạng thời gian, văn bản widget, v.v."
+
+#: menu/string-translation-translate-options.php:19
+msgid "Learn more about %1$stranslating admin and settings strings.%2$s"
+msgstr "Tìm hiểu thêm về %1$sdịch các chuỗi quản trị và cài đặt.%2$s"
+
+#: menu/string-translation-translate-options.php:29
+msgid "Return to String Translation"
+msgstr "Quay lại Dịch chuỗi"
+
+#: menu/string-translation.php:105
+msgid "This is the list of strings that are not used or they are linked to wrong translation data."
+msgstr "Đây là danh sách các chuỗi không được sử dụng hoặc chúng được liên kết với dữ liệu dịch sai."
+
+#: menu/string-translation.php:117
+msgid "These are the strings that we found in your .po file. Please carefully review them. Then, click on the 'add' or 'cancel' buttons at the %1$sbottom of this screen%2$s. You can exclude individual strings by clearing the check boxes next to them."
+msgstr "Đây là các chuỗi mà chúng tôi tìm thấy trong tệp .po của bạn. Vui lòng xem xét cẩn thận chúng. Sau đó, nhấp vào các nút “thêm” hoặc “hủy” ở %1$scuối màn hình này%2$s. Bạn có thể loại trừ các chuỗi riêng lẻ bằng cách bỏ chọn các hộp kiểm bên cạnh chúng."
+
+#: menu/string-translation.php:183
+msgid "Name: %s"
+msgstr "Tên: %s"
+
+#: menu/string-translation.php:194
+msgid "Add selected strings"
+msgstr "Thêm các chuỗi đã chọn"
+
+#: menu/string-translation.php:201
+msgid "Display:"
+msgstr "Hiển thị:"
+
+#: menu/string-translation.php:212
+msgid "All strings"
+msgstr "Tất cả các chuỗi"
+
+#: menu/string-translation.php:214
+msgid "Translation needed"
+msgstr "Cần dịch"
+
+#: menu/string-translation.php:216
+msgid "Partial Translation"
+msgstr "Dịch một phần"
+
+#: menu/string-translation.php:217
+msgid "Auto-registered, translation needed"
+msgstr "Tự động đăng ký, cần dịch"
+
+#: menu/string-translation.php:223
+msgid "Search for:"
+msgstr "Tìm kiếm:"
+
+#: menu/string-translation.php:225
+msgid "Search"
+msgstr "Tìm kiếm"
+
+#: menu/string-translation.php:241
+msgid "Exact match"
+msgstr "Khớp chính xác"
+
+#: menu/string-translation.php:255
+msgid "Search in both the original language and in translations. Searching in translations may take a bit of time."
+msgstr "Tìm kiếm cả trong ngôn ngữ gốc và trong bản dịch. Tìm kiếm trong bản dịch có thể mất một chút thời gian."
+
+#: menu/string-translation.php:257
+msgid "Include translations"
+msgstr "Bao gồm bản dịch"
+
+#: menu/string-translation.php:264
+msgid "In domain:"
+msgstr "Trong miền:"
+
+#: menu/string-translation.php:269
+msgid "All domains"
+msgstr "Tất cả các miền"
+
+#: menu/string-translation.php:288
+msgid "With Priority:"
+msgstr "Với ưu tiên:"
+
+#: menu/string-translation.php:289
+msgid "All Translation Priorities"
+msgstr "Tất cả các ưu tiên dịch"
+
+#: menu/string-translation.php:302
+msgid "Filter"
+msgstr "Lọc"
+
+#: menu/string-translation.php:305
+msgid "Showing only strings that contain %s"
+msgstr "Chỉ hiển thị các chuỗi chứa %s"
+
+#: menu/string-translation.php:307
+msgid "x &nbsp;Clear filters"
+msgstr "x &nbsp;Xóa bộ lọc"
+
+#: menu/string-translation.php:318
+msgid "Can't find the strings you're looking to translate? Add more strings for translation."
+msgstr "Không tìm thấy các chuỗi bạn muốn dịch? Thêm nhiều chuỗi hơn để dịch."
+
+#: menu/string-translation.php:320
+#: menu/string-translation.php:644
+#: menu/string-translation.php:720
+#: menu/string-translation.php:740
+#: menu/string-translation.php:903
+#: menu/string-translation.php:921
+#: menu/string-translation.php:950
+#: menu/string-translation.php:969
+#: menu/string-translation.php:1048
+msgid "Click to toggle"
+msgstr "Nhấp để bật/tắt"
+
+#: menu/string-translation.php:333
+msgid "Strings in the theme and plugins"
+msgstr "Các chuỗi trong giao diện và plugin"
+
+#: menu/string-translation.php:336
+msgid "Strings in JavaScript files"
+msgstr "Chuỗi trong tệp JavaScript"
+
+#: menu/string-translation.php:342
+msgid "Translate front-end texts you can customize from the WordPress admin like footer text, copyright notices, plugin options and settings, time format, widget texts, and more."
+msgstr "Dịch các văn bản giao diện người dùng mà bạn có thể tùy chỉnh từ quản trị WordPress như văn bản chân trang, thông báo bản quyền, tùy chọn và cài đặt plugin, định dạng thời gian, văn bản tiện ích, v.v."
+
+#: menu/string-translation.php:343
+msgid "Translating Strings From Admin and Settings"
+msgstr "Dịch các chuỗi từ quản trị và cài đặt"
+
+#: menu/string-translation.php:347
+msgid "Translate texts in admin screens"
+msgstr "Dịch các văn bản trong màn hình quản trị"
+
+#: menu/string-translation.php:354
+#: menu/string-translation.php:359
+#: menu/string-translation.php:365
+msgid "Translate User Meta Information"
+msgstr "Dịch thông tin meta người dùng"
+
+#: menu/string-translation.php:355
+msgid "Making User Meta Information Translatable"
+msgstr "Làm cho thông tin meta người dùng có thể dịch được"
+
+#: menu/string-translation.php:368
+msgid "Data saved"
+msgstr "Dữ liệu đã lưu"
+
+#: menu/string-translation.php:372
+msgid "WPML allows you to translate user information like the name, nickname, biography, and more."
+msgstr "WPML cho phép bạn dịch thông tin người dùng như tên, biệt danh, tiểu sử, v.v."
+
+#: menu/string-translation.php:375
+msgid "Select the user roles whose information you want to make translatable and then use the String Translation page to translate it."
+msgstr "Chọn các vai trò người dùng mà bạn muốn làm cho thông tin của họ có thể dịch được, sau đó sử dụng trang Dịch chuỗi để dịch nó."
+
+#: menu/string-translation.php:379
+msgid "Learn more about %1$stranslating user meta information.%2$s"
+msgstr "Tìm hiểu thêm về %1$sdịch thông tin meta người dùng.%2$s"
+
+#: menu/string-translation.php:406
+msgid "Select all"
+msgstr "Chọn tất cả"
+
+#: menu/string-translation.php:444
+msgid "Languages of domains"
+msgstr "Ngôn ngữ của các miền"
+
+#: menu/string-translation.php:500
+msgid "Display %d results per page"
+msgstr "Hiển thị %d kết quả mỗi trang"
+
+#: menu/string-translation.php:529
+msgid "Displaying %1$s&#8211;%2$s of %3$s"
+msgstr "Hiển thị %1$s&#8211;%2$s trong số %3$s"
+
+#: menu/string-translation.php:543
+msgid "Strings per page:"
+msgstr "Số chuỗi mỗi trang:"
+
+#: menu/string-translation.php:567
+msgid "Display all results"
+msgstr "Hiển thị tất cả kết quả"
+
+#: menu/string-translation.php:585
+msgid "You have selected strings belonging to a package. Please select all strings from the affected package or unselect these strings."
+msgstr "Bạn đã chọn các chuỗi thuộc về một gói. Vui lòng chọn tất cả các chuỗi từ gói bị ảnh hưởng hoặc bỏ chọn các chuỗi này."
+
+#: menu/string-translation.php:587
+msgid ""
+"Are you sure you want to delete these strings?\n"
+"Their translations will be deleted too."
+msgstr "Bạn có chắc chắn muốn xóa các chuỗi này không?\nCác bản dịch của chúng cũng sẽ bị xóa."
+
+#: menu/string-translation.php:588
+msgid "WPML could not delete the strings"
+msgstr "WPML không thể xóa các chuỗi"
+
+#: menu/string-translation.php:591
+msgid "Delete selected strings"
+msgstr "Xóa các chuỗi đã chọn"
+
+#: menu/string-translation.php:620
+msgid "Utilities"
+msgstr "Tiện ích"
+
+#: menu/string-translation.php:633
+msgid "Auto register untranslated strings"
+msgstr "Tự động đăng ký các chuỗi chưa dịch"
+
+#: menu/string-translation.php:638
+msgid "This feature is disabled. %1$sClick here to enable it.%2$s"
+msgstr "Tính năng này bị tắt. %1$sNhấp vào đây để bật.%2$s"
+
+#: menu/string-translation.php:651
+msgid "WPML can detect untranslated strings and automatically register them for translation. WPML will register any untranslated strings encountered while browsing the site."
+msgstr "WPML có thể phát hiện các chuỗi chưa dịch và tự động đăng ký chúng để dịch. WPML sẽ đăng ký bất kỳ chuỗi chưa dịch nào gặp phải khi duyệt trang web."
+
+#: menu/string-translation.php:660
+msgid "Untranslated strings that I encounter while logged in"
+msgstr "Các chuỗi chưa dịch mà tôi gặp phải khi đăng nhập"
+
+#: menu/string-translation.php:661
+msgid "recommended"
+msgstr "được đề xuất"
+
+#: menu/string-translation.php:671
+msgid "Untranslated strings that all logged in, logged out users, and site visitors encounter"
+msgstr "Các chuỗi chưa dịch mà tất cả người dùng đã đăng nhập, đã đăng xuất và khách truy cập trang web gặp phải"
+
+#: menu/string-translation.php:681
+msgid "Disable auto register of untranslated strings"
+msgstr "Tắt tự động đăng ký các chuỗi chưa dịch"
+
+#: menu/string-translation.php:689
+msgid "Save settings"
+msgstr "Lưu cài đặt"
+
+#: menu/string-translation.php:718
+msgid "Translate strings automatically, with your translators or a translation service"
+msgstr "Dịch chuỗi tự động, với người dịch của bạn hoặc dịch vụ dịch thuật"
+
+#: menu/string-translation.php:727
+msgid "Use WPML's %1$sTranslation Dashboard%2$s to send strings to translation."
+msgstr "Sử dụng %1$sBảng điều khiển dịch thuật%2$s của WPML để gửi chuỗi đi dịch."
+
+#: menu/string-translation.php:738
+msgid "Import / export .po"
+msgstr "Nhập / xuất .po"
+
+#: menu/string-translation.php:748
+msgid "Import"
+msgstr "Nhập"
+
+#: menu/string-translation.php:760
+msgid ".po file :"
+msgstr "Tệp .po :"
+
+#: menu/string-translation.php:768
+msgid "Select the original language of strings to import"
+msgstr "Chọn ngôn ngữ gốc của các chuỗi để nhập"
+
+#: menu/string-translation.php:770
+msgid "English"
+msgstr "Tiếng Anh"
+
+#: menu/string-translation.php:788
+msgid "Also create translations according to the .po file"
+msgstr "Cũng tạo bản dịch theo tệp .po"
+
+#: menu/string-translation.php:802
+msgid "Select what the strings are for:"
+msgstr "Chọn mục đích của các chuỗi:"
+
+#: menu/string-translation.php:820
+msgid "New"
+msgstr "Mới"
+
+#: menu/string-translation.php:821
+msgid "Select from existing"
+msgstr "Chọn từ những cái hiện có"
+
+#: menu/string-translation.php:828
+#: menu/string-translation.php:887
+msgid "Submit"
+msgstr "Gửi"
+
+#: menu/string-translation.php:829
+msgid "Please enter a domain!"
+msgstr "Vui lòng nhập một miền!"
+
+#: menu/string-translation.php:830
+msgid "Please select the .po file to upload!"
+msgstr "Vui lòng chọn tệp .po để tải lên!"
+
+#: menu/string-translation.php:838
+msgid "Export strings into .po/.pot file"
+msgstr "Xuất chuỗi ra tệp .po/.pot"
+
+#: menu/string-translation.php:843
+msgid "PO export may be glitchy. We are working to fix it."
+msgstr "Xuất PO có thể bị lỗi. Chúng tôi đang khắc phục."
+
+#: menu/string-translation.php:851
+msgid "Select domain:"
+msgstr "Chọn miền:"
+
+#: menu/string-translation.php:866
+msgid "Also include translations"
+msgstr "Cũng bao gồm bản dịch"
+
+#: menu/string-translation.php:901
+msgid "Remove strings by domain"
+msgstr "Xóa chuỗi theo miền"
+
+#: menu/string-translation.php:919
+msgid "Set the original language of themes and plugins"
+msgstr "Đặt ngôn ngữ gốc của giao diện và plugin"
+
+#: menu/string-translation.php:928
+msgid "By default WPML assumes that strings in themes and plugins are in English. If you're using a theme or plugin that has strings in other languages you can set the language of text-domains."
+msgstr "Theo mặc định, WPML giả định rằng các chuỗi trong giao diện và plugin là tiếng Anh. Nếu bạn đang sử dụng một giao diện hoặc plugin có các chuỗi bằng các ngôn ngữ khác, bạn có thể đặt ngôn ngữ của các miền văn bản."
+
+#: menu/string-translation.php:948
+msgid "Not seeing strings that you are looking for?"
+msgstr "Không thấy các chuỗi bạn đang tìm kiếm?"
+
+#: menu/string-translation.php:957
+msgid "You can add to the String Translations table texts that appear in the admin screens of the theme and plugins. To do this, go to %1$sAdmin Texts Translation%2$s"
+msgstr "Bạn có thể thêm các văn bản xuất hiện trong màn hình quản trị của giao diện và plugin vào bảng Dịch chuỗi. Để làm điều này, hãy truy cập %1$sDịch văn bản quản trị%2$s"
+
+#: menu/string-translation.php:967
+msgid "Translate User properties"
+msgstr "Dịch thuộc tính người dùng"
+
+#: menu/string-translation.php:995
+msgid "none"
+msgstr "không có"
+
+#: menu/string-translation.php:1000
+msgid "Choose the user roles you would like to make translatable: %s"
+msgstr "Chọn các vai trò người dùng bạn muốn làm cho có thể dịch được: %s"
+
+#: menu/string-translation.php:1027
+#: menu/string-translation.php:1029
+msgid "Edit user roles"
+msgstr "Chỉnh sửa vai trò người dùng"
+
+#: menu/string-translation.php:1033
+msgid "Translating User Meta Information With WPML"
+msgstr "Dịch thông tin meta người dùng với WPML"
+
+#: menu/string-translation.php:1046
+#: menu/string-translation.php:1079
+msgid "Track where strings appear on the site"
+msgstr "Theo dõi nơi các chuỗi xuất hiện trên trang web"
+
+#: menu/string-translation.php:1057
+msgid ""
+"This feature helps you find where the text (strings) appears on your site, so you can translate it more easily. \n"
+"\t\t\t\t\t\t\t\t\t\t\tIt may slow down your site while it's running, so it's best to use it only during development. \n"
+"\t\t\t\t\t\t\t\t\t\t\tRemember to turn it off when your site goes live to keep things running smoothly."
+msgstr "Tính năng này giúp bạn tìm nơi văn bản (chuỗi) xuất hiện trên trang web của bạn, để bạn có thể dịch dễ dàng hơn. \n\t\t\t\t\t\t\t\t\t\t\tNó có thể làm chậm trang web của bạn khi đang chạy, vì vậy tốt nhất là chỉ sử dụng nó trong quá trình phát triển. \n\t\t\t\t\t\t\t\t\t\t\tHãy nhớ tắt nó khi trang web của bạn hoạt động để mọi thứ chạy trơn tru."
+
+#: menu/string-translation.php:1066
+msgid "Learn more about finding strings"
+msgstr "Tìm hiểu thêm về việc tìm chuỗi"
+
+#: menu/string-translation.php:1086
+msgid "Highlight color for strings"
+msgstr "Màu tô sáng cho chuỗi"
+
+#: menu/string-translation.php:1120
+msgid "String Tracking Enabled"
+msgstr "Đã bật theo dõi chuỗi"
+
+#: menu/string-translation.php:1121
+msgid "OK"
+msgstr "OK"
+
+#: menu/string-translation.php:1125
+msgid "WPML will now track where your site's text (strings) appears as you browse both the admin and front-end."
+msgstr "WPML bây giờ sẽ theo dõi nơi văn bản (chuỗi) của trang web của bạn xuất hiện khi bạn duyệt cả quản trị và giao diện người dùng."
+
+#: menu/string-translation.php:1132
+msgid "Be sure to turn off this feature before your site goes live to avoid performance issues."
+msgstr "Hãy đảm bảo tắt tính năng này trước khi trang web của bạn hoạt động để tránh các vấn đề về hiệu suất."
+
+#: menu/_slug-translation-options.php:7
+msgid "Slug translations"
+msgstr "Dịch slug"
+
+#: menu/_slug-translation-options.php:17
+msgid "Translate base slugs of custom post types and taxonomies (via WPML -> Taxonomy translation)."
+msgstr "Dịch các slug cơ sở của các loại bài đăng tùy chỉnh và phân loại (qua WPML -> Dịch phân loại)."
+
+#: menu/_slug-translation-options.php:23
+msgid "Save"
+msgstr "Lưu"
+
+#: StringTranslation/Infrastructure/StringPackage/Repository/WidgetPackageRepository.php:49
+msgid "Inactive Widgets"
+msgstr "Tiện ích không hoạt động"
+
+#: StringTranslation/Infrastructure/StringPackage/Repository/WidgetPackageRepository.php:57
+msgid "Widgets"
+msgstr "Tiện ích"

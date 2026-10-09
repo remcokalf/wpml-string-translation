@@ -1,0 +1,164 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=utf-8\n"
+"X-Generator: babel-plugin-makepot\n"
+
+#: src/js/mo-scan/LocalizationPageUI.js:20
+#. Heading of the panel on the Theme and plugins localization page that appears when translation files have changed.
+msgid "WPML has detected changed or new MO files"
+msgstr ""
+
+#: src/js/mo-scan/LocalizationPageUI.js:26
+#. Line under the heading "WPML has detected changed or new MO files", above the list of themes and plugins to scan.
+msgid ""
+"There are new or updated .mo files. WPML needs to scan them to find strings "
+"for translation."
+msgstr ""
+
+#: src/js/mo-scan/LocalizationPageUI.js:30
+#: src/js/mo-scan/texts.js:14
+#. Button label that starts reading the translation files of the chosen themes and plugins. Verb phrase, imperative.
+msgid "Scan translation files"
+msgstr ""
+
+#: src/js/mo-scan/LocalizationPageUI.js:31
+#: src/js/mo-scan/texts.js:15
+#. Progress line while the translation files are read. %1$d: how many files are done, %2$d: how many there are altogether.
+msgid "Scanned %1$d of %2$d files..."
+msgstr ""
+
+#: src/js/mo-scan/pre-generate/UI.js:41
+#. Progress line while WPML writes translation files across a network of sites. %1$d: how many sites are done, %2$d: how many there are altogether.
+msgid "Generated files for %1$d of %2$d sites..."
+msgstr ""
+
+#: src/js/mo-scan/pre-generate/UI.js:42
+#. Progress line while WPML writes the translation files. %1$d: how many files are done, %2$d: how many there are altogether.
+msgid "Generated %1$d of %2$d files..."
+msgstr ""
+
+#: src/js/mo-scan/pre-generate/UI.js:46
+#. Title of the dialog that asks the user to let WPML write the translation files.
+msgid "WPML needs to generate .mo files"
+msgstr ""
+
+#: src/js/mo-scan/pre-generate/textProvider.js:12
+#. Text in the dialog that asks the user to let WPML write the translation files, when the folder for those files cannot be written to. The product name stays in English.
+msgid ""
+"WPML String Translation uses .mo files instead of database calls. WPML "
+"needs to generate these .mo files in order for translations to appear on "
+"the front-end. However, the folder that should hold these .mo files is not "
+"open for writing."
+msgstr ""
+
+#: src/js/mo-scan/pre-generate/textProvider.js:15
+#. Line above the path of the folder that has to be made writable, in the dialog that asks the user to let WPML write the translation files.
+msgid ""
+"Please use your admin control panel or an FTP program to make the following "
+"folder writeable:"
+msgstr ""
+
+#: src/js/mo-scan/pre-generate/textProvider.js:25
+#. Heading in the dialog that asks the user to let WPML write the translation files, shown when writing them failed.
+msgid "There was a problem creating the .mo files"
+msgstr ""
+
+#: src/js/mo-scan/pre-generate/textProvider.js:29
+#. Line under the heading "There was a problem creating the .mo files". The words between the tags are the WPML menu path the user should follow; keep the arrow.
+msgid ""
+"You can try again now or try again later by going to <strong>WPML->Theme "
+"and plugins localization</strong>."
+msgstr ""
+
+#: src/js/mo-scan/pre-generate/textProvider.js:38
+#. Heading in the dialog that asks the user to let WPML write the translation files, shown when the user closes it without letting WPML write them.
+msgid "Translations are missing from the front-end until you generate .mo files"
+msgstr ""
+
+#: src/js/mo-scan/pre-generate/textProvider.js:42
+#. Line under the heading "Translations are missing from the front-end until you generate .mo files". The words between the tags are the WPML menu path the user should follow; keep the arrow.
+msgid ""
+"Your site doesn't have the .mo files that WPML needs in order to display "
+"translated strings on the front-end. To generate these .mo files, remember "
+"to go to <strong>WPML->Theme and plugins localization</strong>."
+msgstr ""
+
+#: src/js/mo-scan/pre-generate/textProvider.js:49
+#. Text in the dialog that asks the user to let WPML write the translation files, before anything has gone wrong. The product name stays in English.
+msgid ""
+"WPML String Translation uses .mo files instead of database calls. WPML "
+"needs to generate these .mo files in order for translations to appear on "
+"the front-end."
+msgstr ""
+
+#: src/js/mo-scan/pre-generate/textProvider.js:57
+#. Button label in the dialog that asks the user to let WPML write the translation files, shown after writing them failed: it tries once more. Verb phrase, imperative.
+msgid "Try again"
+msgstr ""
+
+#: src/js/mo-scan/pre-generate/textProvider.js:60
+#. Button label that lets WPML write the translation files, in the dialog that asks for it. Verb phrase, imperative.
+msgid "Generate .mo files"
+msgstr ""
+
+#: src/js/mo-scan/pre-generate/textProvider.js:65
+#. Button label that closes the dialog asking the user to let WPML write the translation files. Verb phrase, imperative.
+msgid "Close this message"
+msgstr ""
+
+#: src/js/mo-scan/texts.js:10
+#. Line under the card heading "Texts are not selected for translation", on the String Translation page.
+msgid ""
+"Find additional texts that WordPress, the theme and plugins created and "
+"choose which ones to translate"
+msgstr ""
+
+#: src/js/mo-scan/texts.js:11
+#. Button label on the card "Texts are not selected for translation": it opens the Admin Text Translation page. Verb phrase, imperative.
+msgid "Choose texts for translation"
+msgstr ""
+
+#: src/js/mo-scan/texts.js:12
+#. Heading of the card that explains that the translation files have changed.
+msgid "Some of the translations have changed"
+msgstr ""
+
+#: src/js/mo-scan/texts.js:13
+#. Line under the card heading "Some of the translations have changed", on the String Translation page.
+msgid "Scan the selected components to make new texts available for translation."
+msgstr ""
+
+#: src/js/mo-scan/texts.js:3
+#. Label of the checkbox above the list of themes and plugins that picks them all. Verb phrase, imperative.
+msgid "Select all"
+msgstr ""
+
+#: src/js/mo-scan/texts.js:4
+#. Heading of the plugins group in the list of things to scan.
+msgid "Plugins:"
+msgstr ""
+
+#: src/js/mo-scan/texts.js:5
+#. Heading of the themes group in the list of things to scan.
+msgid "Themes:"
+msgstr ""
+
+#: src/js/mo-scan/texts.js:6
+#. Heading of the group in the list of things to scan that holds WordPress itself.
+msgid "Core:"
+msgstr ""
+
+#: src/js/mo-scan/texts.js:7
+#. Heading of the panel on the String Translation page that offers ways to find texts that are not listed.
+msgid "Can't find the strings you're looking to translate?"
+msgstr ""
+
+#: src/js/mo-scan/texts.js:8
+#. Line under the heading "Can't find the strings you're looking to translate?", above two cards that each explain one reason.
+msgid "Most likely you cannot see the strings you want to translate because:"
+msgstr ""
+
+#: src/js/mo-scan/texts.js:9
+#. Heading of the card that explains that the texts have not been picked for translation yet.
+msgid "Texts are not selected for translation"
+msgstr ""

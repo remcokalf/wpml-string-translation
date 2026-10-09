@@ -1,0 +1,96 @@
+{
+   "domain": "messages",
+   "locale_data": {
+      "messages": {
+         "": {
+            "domain": "messages",
+            "plural_forms": "nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);",
+            "lang": "uk"
+         },
+         "WPML has detected changed or new MO files": [
+            "WPML виявив змінені або нові MO-файли"
+         ],
+         "There are new or updated .mo files. WPML needs to scan them to find strings for translation.": [
+            "З’явилися нові або оновлені.mo-файли. WPML потрібно просканувати їх, щоб знайти рядки для перекладу."
+         ],
+         "Scan translation files": [
+            "Сканувати файли перекладу"
+         ],
+         "Scanned %1$d of %2$d files...": [
+            "Проскановано %1$d з %2$d файлів..."
+         ],
+         "Generated files for %1$d of %2$d sites...": [
+            "Згенеровано файли для %1$d з %2$d сайтів..."
+         ],
+         "Generated %1$d of %2$d files...": [
+            "Згенеровано %1$d з %2$d файлів..."
+         ],
+         "WPML needs to generate .mo files": [
+            "WPML потрібно згенерувати.mo-файли"
+         ],
+         "WPML String Translation uses .mo files instead of database calls. WPML needs to generate these .mo files in order for translations to appear on the front-end. However, the folder that should hold these .mo files is not open for writing.": [
+            "WPML String Translation використовує.mo-файли замість запитів до бази даних. WPML потрібно згенерувати ці.mo-файли, щоб переклади відображалися на фронтенді. Однак папка, у якій мають зберігатися ці.mo-файли, закрита для запису."
+         ],
+         "Please use your admin control panel or an FTP program to make the following folder writeable:": [
+            "Будь ласка, скористайтеся панеллю керування адміністратора або FTP-програмою, щоб зробити наступну папку доступною для запису:"
+         ],
+         "There was a problem creating the .mo files": [
+            "Виникла проблема під час створення.mo-файлів"
+         ],
+         "You can try again now or try again later by going to <strong>WPML->Theme and plugins localization</strong>.": [
+            "Ви можете спробувати ще раз зараз або пізніше, перейшовши в <strong>WPML -> Локалізація тем і плагінів</strong>."
+         ],
+         "Translations are missing from the front-end until you generate .mo files": [
+            "Переклади будуть відсутні на фронтенді, доки ви не згенеруєте.mo-файли"
+         ],
+         "Your site doesn't have the .mo files that WPML needs in order to display translated strings on the front-end. To generate these .mo files, remember to go to <strong>WPML->Theme and plugins localization</strong>.": [
+            "На вашому сайті немає.mo-файлів, які потрібні WPML для відображення перекладених рядків на фронтенді. Щоб згенерувати ці.mo-файли, не забудьте перейти в <strong>WPML -> Локалізація тем і плагінів</strong>."
+         ],
+         "WPML String Translation uses .mo files instead of database calls. WPML needs to generate these .mo files in order for translations to appear on the front-end.": [
+            "WPML String Translation використовує.mo-файли замість запитів до бази даних. WPML потрібно згенерувати ці.mo-файли, щоб переклади відображалися на фронтенді."
+         ],
+         "Try again": [
+            "Спробувати ще раз"
+         ],
+         "Generate .mo files": [
+            "Згенерувати.mo-файли"
+         ],
+         "Close this message": [
+            "Закрити це повідомлення"
+         ],
+         "Find additional texts that WordPress, the theme and plugins created and choose which ones to translate": [
+            "Знайдіть додаткові тексти, створені WordPress, темою та плагінами, і виберіть, які з них перекласти"
+         ],
+         "Choose texts for translation": [
+            "Вибрати тексти для перекладу"
+         ],
+         "Some of the translations have changed": [
+            "Деякі переклади змінилися"
+         ],
+         "Scan the selected components to make new texts available for translation.": [
+            "Проскануйте вибрані компоненти, щоб зробити нові тексти доступними для перекладу."
+         ],
+         "Select all": [
+            "Вибрати всі"
+         ],
+         "Plugins:": [
+            "Плагіни:"
+         ],
+         "Themes:": [
+            "Теми:"
+         ],
+         "Core:": [
+            "Ядро:"
+         ],
+         "Can't find the strings you're looking to translate?": [
+            "Не можете знайти рядки, які хочете перекласти?"
+         ],
+         "Most likely you cannot see the strings you want to translate because:": [
+            "Швидше за все, ви не бачите рядків, які хочете перекласти, тому що:"
+         ],
+         "Texts are not selected for translation": [
+            "Тексти не вибрані для перекладу"
+         ]
+      }
+   }
+}

@@ -1,0 +1,127 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=utf-8\n"
+"X-Generator: babel-plugin-makepot\n"
+
+#: src/js/admin-strings/texts.js:10
+#. Status value in the table on the Admin Text Translation page, and an option in the filter above it: the setting is not in String Translation.
+msgid "Not included in String Translation"
+msgstr ""
+
+#: src/js/admin-strings/texts.js:11
+#. Status value in the table on the Admin Text Translation page: the setting is in String Translation and a WPML configuration file keeps it there.
+msgid "Registered and locked"
+msgstr ""
+
+#: src/js/admin-strings/texts.js:13
+#. Option in the type filter on the Admin Text Translation page: settings that hold words. Noun.
+msgid "Text"
+msgstr ""
+
+#: src/js/admin-strings/texts.js:14
+#. Option in the type filter on the Admin Text Translation page: settings that hold numbers. Adjective.
+msgid "Numeric"
+msgstr ""
+
+#: src/js/admin-strings/texts.js:15
+#. Option in the type filter on the Admin Text Translation page: settings of every type.
+msgid "All Types"
+msgstr ""
+
+#: src/js/admin-strings/texts.js:17
+#. Placeholder text inside a search field, on the Admin Text Translation page and in the dialog for removing texts by domain. Noun, the word shown in an empty search box.
+msgid "Search"
+msgstr ""
+
+#: src/js/admin-strings/texts.js:19
+#. Title of the notice shown on the Admin Text Translation page when the request to the server fails.
+msgid "Communication error"
+msgstr ""
+
+#: src/js/admin-strings/texts.js:20
+#. Line under the "Communication error" title on the Admin Text Translation page.
+msgid "The action failed."
+msgstr ""
+
+#: src/js/admin-strings/texts.js:22
+#. Label of the filter tab on the Admin Text Translation page that shows every setting. %d: how many settings that is.
+msgid "All (%d)"
+msgstr ""
+
+#: src/js/admin-strings/texts.js:23
+#. Label of the filter tab on the Admin Text Translation page that shows the settings already in String Translation. %d: how many settings that is.
+msgid "Included in String Translation (%d)"
+msgstr ""
+
+#: src/js/admin-strings/texts.js:24
+#. Label of the filter tab on the Admin Text Translation page that shows the settings not in String Translation. %d: how many settings that is.
+msgid "Not included in String Translation (%d)"
+msgstr ""
+
+#: src/js/admin-strings/texts.js:26
+#. Tooltip on a row of the Admin Text Translation page that the user cannot change, because a WPML configuration file fixes it.
+msgid "This setting is locked by a WPML configuration file."
+msgstr ""
+
+#: src/js/admin-strings/texts.js:28
+#. Column heading on the Admin Text Translation page: the name of the theme or plugin setting. Noun.
+msgid "Option"
+msgstr ""
+
+#: src/js/admin-strings/texts.js:29
+#. Column heading on the Admin Text Translation page: what the setting holds. Noun.
+msgid "Value"
+msgstr ""
+
+#: src/js/admin-strings/texts.js:30
+#. Column heading on the Admin Text Translation page: what kind of value the setting holds. Noun, not the verb "to type".
+msgid "Type"
+msgstr ""
+
+#: src/js/admin-strings/texts.js:31
+#. Column heading on the Admin Text Translation page: whether the setting is in String Translation. Noun, not the verb "to state".
+msgid "State"
+msgstr ""
+
+#: src/js/admin-strings/texts.js:34
+#. Button label on the Admin Text Translation page, and the title of the dialog it opens: it saves the chosen settings as a WPML configuration file. Verb phrase, imperative.
+msgid "Export as a WPML configuration file"
+msgstr ""
+
+#: src/js/admin-strings/texts.js:35
+#. Button label that closes a dialog without saving, on the Admin Text Translation page and in the dialog for removing texts by domain. Verb, imperative, not the noun "a cancellation".
+msgid "Cancel"
+msgstr ""
+
+#: src/js/admin-strings/texts.js:36
+#. Line above the file contents in the export dialog on the Admin Text Translation page. The file name stays as it is.
+msgid "Save the following to a wpml-config.xml in the root of your theme or plugin."
+msgstr ""
+
+#: src/js/admin-strings/texts.js:38
+#. Heading shown on the Admin Text Translation page when the table has no rows.
+msgid "No options found."
+msgstr ""
+
+#: src/js/admin-strings/texts.js:39
+#. Line under the "No options found." heading on the Admin Text Translation page.
+msgid ""
+"Make sure you saved your theme options at least once. Some themes only add "
+"these to the wp_options table after the user explicitly saves changes to "
+"the theme defaults."
+msgstr ""
+
+#: src/js/admin-strings/texts.js:6
+#. Button label in the table on the Admin Text Translation page: it adds this setting to String Translation so its text can be translated. Verb phrase, imperative.
+msgid "Add to String Translation"
+msgstr ""
+
+#: src/js/admin-strings/texts.js:7
+#. Button label in the table on the Admin Text Translation page: it takes this setting back out of String Translation. Verb phrase, imperative.
+msgid "Remove from String Translation"
+msgstr ""
+
+#: src/js/admin-strings/texts.js:9
+#. Status value in the table on the Admin Text Translation page, and an option in the filter above it: the setting is in String Translation.
+msgid "Included in String Translation"
+msgstr ""

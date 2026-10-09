@@ -1,0 +1,84 @@
+{
+   "domain": "messages",
+   "locale_data": {
+      "messages": {
+         "": {
+            "domain": "messages",
+            "plural_forms": "nplurals=2; plural=(n > 1);",
+            "lang": "tr_TR"
+         },
+         "Not included in String Translation": [
+            "Dizgi Çevirisi'ne dahil değil"
+         ],
+         "Registered and locked": [
+            "Kayıtlı ve kilitli"
+         ],
+         "Text": [
+            "Metin"
+         ],
+         "Numeric": [
+            "Sayısal"
+         ],
+         "All Types": [
+            "Tüm türler"
+         ],
+         "Search": [
+            "Ara"
+         ],
+         "Communication error": [
+            "İletişim hatası"
+         ],
+         "The action failed.": [
+            "İşlem başarısız oldu."
+         ],
+         "All (%d)": [
+            "Tümü (%d)"
+         ],
+         "Included in String Translation (%d)": [
+            "Dizgi çevirisine dahil edilenler (%d)"
+         ],
+         "Not included in String Translation (%d)": [
+            "Dizgi Çevirisi'ne dahil edilmeyenler (%d)"
+         ],
+         "This setting is locked by a WPML configuration file.": [
+            "Bu ayar bir WPML yapılandırma dosyası tarafından kilitlenmiş."
+         ],
+         "Option": [
+            "Seçenek"
+         ],
+         "Value": [
+            "Değer"
+         ],
+         "Type": [
+            "Tür"
+         ],
+         "State": [
+            "Durum"
+         ],
+         "Export as a WPML configuration file": [
+            "WPML yapılandırma dosyası olarak dışa aktar"
+         ],
+         "Cancel": [
+            "İptal"
+         ],
+         "Save the following to a wpml-config.xml in the root of your theme or plugin.": [
+            "Aşağıdakileri temanızın veya eklentinizin kök dizinindeki bir wpml-config.xml dosyasına kaydedin."
+         ],
+         "No options found.": [
+            "Hiçbir seçenek bulunamadı."
+         ],
+         "Make sure you saved your theme options at least once. Some themes only add these to the wp_options table after the user explicitly saves changes to the theme defaults.": [
+            "Tema seçeneklerinizi en az bir kez kaydettiğinizden emin olun. Bazı temalar bunları wp_options tablosuna ancak kullanıcı tema varsayılanlarında yapılan değişiklikleri açıkça kaydettikten sonra ekler."
+         ],
+         "Add to String Translation": [
+            "Dizgi çevirisine ekle"
+         ],
+         "Remove from String Translation": [
+            "Dizgi çevirisinden kaldır"
+         ],
+         "Included in String Translation": [
+            "Dizgi çevirisine dahil edildi"
+         ]
+      }
+   }
+}

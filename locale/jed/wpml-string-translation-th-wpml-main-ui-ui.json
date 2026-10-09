@@ -1,0 +1,57 @@
+{
+   "domain": "messages",
+   "locale_data": {
+      "messages": {
+         "": {
+            "domain": "messages",
+            "plural_forms": "nplurals=1; plural=0;",
+            "lang": "th"
+         },
+         "Edit %s": [
+            "แก้ไข %s"
+         ],
+         "Shift+Tab": [
+            "Shift+tab"
+         ],
+         "Tab": [
+            "Tab"
+         ],
+         "Original:": [
+            "ต้นฉบับ:"
+         ],
+         "Translation to:": [
+            "แปลเป็น:"
+         ],
+         "Copy from original": [
+            "คัดลอกมาจากต้นฉบับ"
+         ],
+         "Use Shift+Enter to add a new line.": [
+            "ใช้ Shift+Enter เพื่อขึ้นบรรทัดใหม่"
+         ],
+         "Add %s translation": [
+            "เพิ่มการแปล %s"
+         ],
+         "Edit %s translation": [
+            "แก้ไขการแปล %s"
+         ],
+         "Add %s translation (the string appears on the site and is not translated)": [
+            "เพิ่มการแปล %s (สตริงนี้ปรากฏบนไซต์และยังไม่ได้แปล)"
+         ],
+         "Original language %s": [
+            "ภาษาต้นฉบับ %s"
+         ],
+         "Waiting for translator to %s": [
+            "รอนักแปลสำหรับ %s"
+         ],
+         "Translation in progress to %s": [
+            "กำลังดำเนินการแปลเป็น %s"
+         ],
+         "Translation saved.": [
+            "บันทึกการแปลแล้ว"
+         ],
+         "Translation update failed.": [
+            "การอัปเดตการแปลล้มเหลว"
+         ]
+      }
+   }
+}

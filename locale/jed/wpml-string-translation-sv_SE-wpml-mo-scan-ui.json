@@ -1,0 +1,96 @@
+{
+   "domain": "messages",
+   "locale_data": {
+      "messages": {
+         "": {
+            "domain": "messages",
+            "plural_forms": "nplurals=2; plural=(n != 1);",
+            "lang": "sv_SE"
+         },
+         "WPML has detected changed or new MO files": [
+            "WPML har upptäckt ändrade eller nya MO-filer"
+         ],
+         "There are new or updated .mo files. WPML needs to scan them to find strings for translation.": [
+            "Det finns nya eller uppdaterade .mo-filer. WPML behöver skanna dem för att hitta strängar för översättning."
+         ],
+         "Scan translation files": [
+            "Skanna översättningsfiler"
+         ],
+         "Scanned %1$d of %2$d files...": [
+            "Skannade %1$d av %2$d filer..."
+         ],
+         "Generated files for %1$d of %2$d sites...": [
+            "Genererade filer för %1$d av %2$d webbplatser..."
+         ],
+         "Generated %1$d of %2$d files...": [
+            "Genererade %1$d av %2$d filer..."
+         ],
+         "WPML needs to generate .mo files": [
+            "WPML behöver generera .mo-filer"
+         ],
+         "WPML String Translation uses .mo files instead of database calls. WPML needs to generate these .mo files in order for translations to appear on the front-end. However, the folder that should hold these .mo files is not open for writing.": [
+            "WPML String Translation använder .mo-filer istället för databasanrop. WPML behöver generera dessa .mo-filer för att översättningar ska visas på webbplatsens publika del. Mappen som ska innehålla dessa .mo-filer är dock inte skrivbar."
+         ],
+         "Please use your admin control panel or an FTP program to make the following folder writeable:": [
+            "Använd din adminpanel eller ett FTP-program för att göra följande mapp skrivbar:"
+         ],
+         "There was a problem creating the .mo files": [
+            "Det uppstod ett problem när .mo-filerna skulle skapas"
+         ],
+         "You can try again now or try again later by going to <strong>WPML->Theme and plugins localization</strong>.": [
+            "Du kan försöka igen nu eller senare genom att gå till <strong>WPML -> Tema- och tilläggslokalisering</strong>."
+         ],
+         "Translations are missing from the front-end until you generate .mo files": [
+            "Översättningar saknas på webbplatsens publika del tills du genererar .mo-filer"
+         ],
+         "Your site doesn't have the .mo files that WPML needs in order to display translated strings on the front-end. To generate these .mo files, remember to go to <strong>WPML->Theme and plugins localization</strong>.": [
+            "Din webbplats har inte de .mo-filer som WPML behöver för att visa översatta strängar på webbplatsens publika del. För att generera dessa .mo-filer, kom ihåg att gå till <strong>WPML -> Tema- och tilläggslokalisering</strong>."
+         ],
+         "WPML String Translation uses .mo files instead of database calls. WPML needs to generate these .mo files in order for translations to appear on the front-end.": [
+            "WPML String Translation använder .mo-filer istället för databasanrop. WPML behöver generera dessa .mo-filer för att översättningar ska visas på webbplatsens publika del."
+         ],
+         "Try again": [
+            "Försök igen"
+         ],
+         "Generate .mo files": [
+            "Generera .mo-filer"
+         ],
+         "Close this message": [
+            "Stäng detta meddelande"
+         ],
+         "Find additional texts that WordPress, the theme and plugins created and choose which ones to translate": [
+            "Hitta ytterligare texter som WordPress, temat och tilläggen har skapat och välj vilka som ska översättas"
+         ],
+         "Choose texts for translation": [
+            "Välj texter för översättning"
+         ],
+         "Some of the translations have changed": [
+            "Vissa av översättningarna har ändrats"
+         ],
+         "Scan the selected components to make new texts available for translation.": [
+            "Skanna de valda komponenterna för att göra nya texter tillgängliga för översättning."
+         ],
+         "Select all": [
+            "Markera alla"
+         ],
+         "Plugins:": [
+            "Tillägg:"
+         ],
+         "Themes:": [
+            "Teman:"
+         ],
+         "Core:": [
+            "Core:"
+         ],
+         "Can't find the strings you're looking to translate?": [
+            "Hittar du inte strängarna du vill översätta?"
+         ],
+         "Most likely you cannot see the strings you want to translate because:": [
+            "Troligtvis kan du inte se strängarna du vill översätta eftersom:"
+         ],
+         "Texts are not selected for translation": [
+            "Texter har inte valts för översättning"
+         ]
+      }
+   }
+}

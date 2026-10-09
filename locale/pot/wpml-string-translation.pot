@@ -1,0 +1,1388 @@
+# Copyright (C) 2026 OnTheGoSystems
+# This file is distributed under the same license as the WPML String Translation plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: WPML String Translation 5.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wpml-string-translation\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-09-25T14:57:20+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.12.0\n"
+"X-Domain: wpml-string-translation\n"
+
+#. Plugin Name of the plugin
+#: plugin.php
+msgid "WPML String Translation"
+msgstr ""
+
+#. Plugin URI of the plugin
+#: plugin.php
+msgid "https://wpml.org/documentation/wpml-core-and-add-on-plugins/string-translation/"
+msgstr ""
+
+#. Description of the plugin
+#: plugin.php
+msgid "Adds theme and plugins localization capabilities to WPML | <a href=\"https://wpml.org/documentation/translating-your-contents/strings/\">Documentation</a> | <a href=\"https://wpml.org/version/wpml-string-translation-5-0-0/\">WPML String Translation 5.0.0 release notes</a>"
+msgstr ""
+
+#. Author of the plugin
+#: plugin.php
+msgid "OnTheGoSystems"
+msgstr ""
+
+#. Author URI of the plugin
+#: plugin.php
+msgid "http://www.onthegosystems.com/"
+msgstr ""
+
+#. translators: Message on the Theme and plugins localization page after a scan. %s: the number of translation files found. "Their" refers to those files. Keep the word "WPML" and both full stops: the page starts the message at "WPML" and puts the first sentence in bold.
+#: classes/API/rest/mo/Import.php:66
+#, php-format
+msgid "WPML found %s new or updated .mo files. Their texts were added to the translations table."
+msgstr ""
+
+#. translators: Notice on the WPML screens when automatic string registration is off. %1$s: opening link tag, %2$s: closing link tag; the words between them become the link.
+#: classes/AutoRegisterStringsNotice.php:28
+#, php-format
+msgid "String auto registration is disabled. %1$sClick here to enable it%2$s"
+msgstr ""
+
+#: classes/BackgroundTask/LoadExistingTranslationsTask.php:96
+msgid "Importing existing string translations for the new languages"
+msgstr ""
+
+#: classes/BackgroundTask/UpdateStringsStatusTask.php:48
+msgid "Updating string translation statuses"
+msgstr ""
+
+#: classes/batch-action/ChangeLanguageOfStringsInDomain.php:47
+#: classes/batch-action/ChangeTranslationPriorityOfStringsInDomain.php:43
+#: classes/batch-action/CountStringsInDomain.php:16
+#: classes/batch-action/CountStringsInDomainWithDifferentPriority.php:27
+#: classes/batch-action/DeleteStringsInDomain.php:33
+#: classes/batch-action/InitChangeStringLangOfDomain.php:53
+#: classes/strings-cleanup/ajax/InitStringsRemoving.php:52
+#: classes/strings-cleanup/ajax/RemoveStringsFromDomains.php:42
+msgid "Error: please try again"
+msgstr ""
+
+#. translators: Status value on the String Translation page: every language of the text has a translation.
+#: classes/class-wpml-st-string-statuses.php:15
+msgid "Translation complete"
+msgstr ""
+
+#. translators: Status value on the String Translation page: some languages of the text have a translation and some do not.
+#: classes/class-wpml-st-string-statuses.php:19
+msgid "Partial translation"
+msgstr ""
+
+#: classes/class-wpml-st-string-statuses.php:22
+msgid "Translation needs update"
+msgstr ""
+
+#. translators: Status value on the String Translation and Packages pages: the text has no translation yet.
+#: classes/class-wpml-st-string-statuses.php:26
+#: inc/package-translation/inc/wpml-package-translation-metabox.class.php:414
+#: inc/package-translation/inc/wpml-package-translation-metabox.class.php:452
+msgid "Not translated"
+msgstr ""
+
+#: classes/class-wpml-st-string-statuses.php:29
+#: inc/package-translation/inc/wpml-package-translation-metabox.class.php:399
+#: menu/string-translation.php:197
+msgid "Waiting for translator"
+msgstr ""
+
+#. translators: Admin notice shown when WPML String Translation is active but WPML core is missing. %1$s: the URL of the client's wpml.org account downloads page, which fills the first link. %2$s: the URL of this site's Plugins screen, which fills the second link.
+#: classes/class-wpml-st-verify-dependencies.php:63
+#, php-format
+msgid "WPML String Translation is active, but it needs WPML Multilingual CMS, which is not installed or not active. String Translation stays off until WPML runs. Download WPML from <a href=\"%1$s\">your wpml.org account</a> and activate it on the <a href=\"%2$s\">Plugins screen</a>."
+msgstr ""
+
+#. translators: Admin notice shown when the installed WPML core is older than WPML String Translation needs. %1$s: String Translation's own version. %2$s: the minimum WPML version it needs. %3$s: the WPML version this site runs. %4$s: the URL of this site's Plugins screen, which fills the link.
+#: classes/class-wpml-st-verify-dependencies.php:84
+#, php-format
+msgid "WPML String Translation %1$s needs WPML Multilingual CMS %2$s or newer. This site runs WPML %3$s, so String Translation stays off until WPML is updated. Update WPML on the <a href=\"%4$s\">Plugins screen</a>."
+msgstr ""
+
+#. translators: Error message shown when the user does not have the rights to do what they asked for. Past participle used as a state, lower case in the source.
+#: classes/filters/class-wpml-st-taxonomy-labels-translation.php:318
+#: classes/filters/class-wpml-st-taxonomy-labels-translation.php:376
+#: classes/gettext-hooks/AutoRegisterSettings.php:191
+#: classes/string-translation/class-wpml-st-string-translation-priority-ajax.php:23
+#: classes/strings-scanning/class-wpml-st-theme-plugin-scan-files-ajax.php:24
+#: classes/strings-scanning/wpml-st-theme-plugin-scan-dir-ajax.php:26
+msgid "not allowed"
+msgstr ""
+
+#. translators: Error message shown when a request to the server arrives without the information it needs.
+#: classes/filters/class-wpml-st-taxonomy-labels-translation.php:389
+msgid "Missing parameters"
+msgstr ""
+
+#. translators: Error message on the String Translation page when the security check of a request fails.
+#: classes/filters/class-wpml-st-taxonomy-labels-translation.php:430
+msgid "Invalid nonce"
+msgstr ""
+
+#: classes/gettext-hooks/AutoRegisterSettings.php:214
+msgid "Nonce value is invalid"
+msgstr ""
+
+#. translators: Note on the String Translation page under the automatic string registration setting. %s: how much time is left, counted down in the page as hours, minutes and seconds.
+#: classes/gettext-hooks/AutoRegisterSettings.php:222
+#, php-format
+msgid "Automatic string registration will remain active for <span class='counter-msg'>%s</span>. Please visit the site's front-end to allow WPML to find strings for translation."
+msgstr ""
+
+#. translators: Note on the String Translation page under the automatic string registration setting, shown while the setting is off. "It" is that setting.
+#: classes/gettext-hooks/AutoRegisterSettings.php:228
+msgid "* This feature is only intended for sites that are in development. It will significantly slow down the site, but help you find strings that WPML cannot detect in the PHP code."
+msgstr ""
+
+#: classes/menus/theme-plugin-localization-ui/class-st-theme-plugin-localization-options-ui.php:30
+msgid "Use theme or plugin text domains when gettext calls do not use a string literal"
+msgstr ""
+
+#: classes/menus/theme-plugin-localization-ui/class-st-theme-plugin-localization-options-ui.php:31
+msgid "Some themes and plugins don't properly set the textdomain (second argument) in GetText calls. When you select this option, WPML will assume that the strings found in GetText calls in the PHP files of the theme and plugin should have the textdomain with the theme/plugin's name."
+msgstr ""
+
+#: classes/menus/theme-plugin-localization-ui/strategy/class-wpml-st-plugin-localization-ui.php:40
+#: classes/menus/theme-plugin-localization-ui/strategy/OtherLocalizationUI.php:40
+msgid "Scan selected plugins for strings"
+msgstr ""
+
+#: classes/menus/theme-plugin-localization-ui/strategy/class-wpml-st-plugin-localization-ui.php:41
+#: classes/menus/theme-plugin-localization-ui/strategy/class-wpml-st-theme-localization-ui.php:38
+#: classes/menus/theme-plugin-localization-ui/strategy/OtherLocalizationUI.php:41
+#: inc/wpml-string-translation.class.php:632
+msgid "Completely translated strings"
+msgstr ""
+
+#: classes/menus/theme-plugin-localization-ui/strategy/class-wpml-st-plugin-localization-ui.php:42
+#: classes/menus/theme-plugin-localization-ui/strategy/class-wpml-st-theme-localization-ui.php:39
+#: classes/menus/theme-plugin-localization-ui/strategy/OtherLocalizationUI.php:42
+msgid "Strings in need of translation"
+msgstr ""
+
+#. translators: Name of the group on the Theme and plugins localization page that holds the plugins. Noun, plural.
+#: classes/menus/theme-plugin-localization-ui/strategy/class-wpml-st-plugin-localization-ui.php:44
+msgid "Plugins"
+msgstr ""
+
+#. translators: Column heading on the Theme and plugins localization page: the text domain, the short name a theme or plugin uses for its texts.
+#: classes/menus/theme-plugin-localization-ui/strategy/class-wpml-st-plugin-localization-ui.php:46
+#: classes/menus/theme-plugin-localization-ui/strategy/class-wpml-st-theme-localization-ui.php:43
+#: classes/menus/theme-plugin-localization-ui/strategy/OtherLocalizationUI.php:46
+#: inc/wpml-string-translation.class.php:629
+msgid "Textdomain"
+msgstr ""
+
+#. translators: Option in the filter on the Theme and plugins localization page: show every theme or plugin.
+#: classes/menus/theme-plugin-localization-ui/strategy/class-wpml-st-plugin-localization-ui.php:48
+#: classes/menus/theme-plugin-localization-ui/strategy/class-wpml-st-theme-localization-ui.php:45
+msgid "All"
+msgstr ""
+
+#. translators: Option in the filter on the Theme and plugins localization page: show only themes or plugins that are switched on. On the Packages page it is also the state of a package that is in use. Adjective.
+#: classes/menus/theme-plugin-localization-ui/strategy/class-wpml-st-plugin-localization-ui.php:50
+#: classes/menus/theme-plugin-localization-ui/strategy/class-wpml-st-theme-localization-ui.php:47
+#: inc/package-translation/inc/wpml-package-translation.class.php:359
+msgid "Active"
+msgstr ""
+
+#. translators: Option in the filter on the Theme and plugins localization page: show only themes or plugins that are switched off. Adjective.
+#: classes/menus/theme-plugin-localization-ui/strategy/class-wpml-st-plugin-localization-ui.php:52
+#: classes/menus/theme-plugin-localization-ui/strategy/class-wpml-st-theme-localization-ui.php:49
+msgid "Inactive"
+msgstr ""
+
+#. translators: Link on the Theme and plugins localization page that shows the text domain of each theme or plugin. Verb, imperative, lower case in the source.
+#: classes/menus/theme-plugin-localization-ui/strategy/class-wpml-st-plugin-localization-ui.php:54
+#: classes/menus/theme-plugin-localization-ui/strategy/class-wpml-st-theme-localization-ui.php:51
+#: classes/menus/theme-plugin-localization-ui/strategy/OtherLocalizationUI.php:48
+msgid "show textdomains"
+msgstr ""
+
+#. translators: Link on the Theme and plugins localization page that hides the text domain of each theme or plugin. Verb, imperative, lower case in the source.
+#: classes/menus/theme-plugin-localization-ui/strategy/class-wpml-st-plugin-localization-ui.php:56
+#: classes/menus/theme-plugin-localization-ui/strategy/class-wpml-st-theme-localization-ui.php:53
+#: classes/menus/theme-plugin-localization-ui/strategy/OtherLocalizationUI.php:50
+msgid "hide textdomains"
+msgstr ""
+
+#: classes/menus/theme-plugin-localization-ui/strategy/class-wpml-st-plugin-localization-ui.php:57
+#: classes/menus/theme-plugin-localization-ui/strategy/class-wpml-st-theme-localization-ui.php:59
+#: classes/menus/theme-plugin-localization-ui/strategy/OtherLocalizationUI.php:51
+msgid "Download .po file"
+msgstr ""
+
+#: classes/menus/theme-plugin-localization-ui/strategy/class-wpml-st-plugin-localization-ui.php:99
+#: classes/menus/theme-plugin-localization-ui/strategy/class-wpml-st-theme-localization-ui.php:86
+msgid "Not scanned yet"
+msgstr ""
+
+#. translators: Tooltip on the icon next to a theme or plugin on the Theme and plugins localization page: its texts have already been scanned. Past participle used as a state.
+#: classes/menus/theme-plugin-localization-ui/strategy/class-wpml-st-plugin-localization-ui.php:106
+#: classes/menus/theme-plugin-localization-ui/strategy/class-wpml-st-theme-localization-ui.php:93
+msgid "Scanned"
+msgstr ""
+
+#: classes/menus/theme-plugin-localization-ui/strategy/class-wpml-st-plugin-localization-ui.php:112
+#: classes/menus/theme-plugin-localization-ui/strategy/class-wpml-st-theme-localization-ui.php:99
+#: classes/menus/theme-plugin-localization-ui/strategy/OtherLocalizationUI.php:82
+msgid "Needs re-scanning"
+msgstr ""
+
+#: classes/menus/theme-plugin-localization-ui/strategy/class-wpml-st-theme-localization-ui.php:37
+msgid "Scan selected themes for strings"
+msgstr ""
+
+#. translators: Name of the group on the Theme and plugins localization page that holds the themes. Noun, plural.
+#: classes/menus/theme-plugin-localization-ui/strategy/class-wpml-st-theme-localization-ui.php:41
+msgid "Themes"
+msgstr ""
+
+#. translators: Name of the group on the Theme and plugins localization page that holds WordPress itself, as opposed to themes and plugins.
+#: classes/menus/theme-plugin-localization-ui/strategy/OtherLocalizationUI.php:44
+msgid "Core"
+msgstr ""
+
+#: classes/MO/File/FailureHooks.php:87
+msgid "WPML String Translation is attempting to write .mo files with translations to folder:"
+msgstr ""
+
+#: classes/MO/File/FailureHooks.php:93
+msgid "This folder appears to be not writable. This is blocking translation for strings from appearing on the site."
+msgstr ""
+
+#. translators: Item in the list of things to check when WPML cannot write the translation files. "this" is the site the user is working on. %1$s: opening bold tag, %2$s: closing bold tag.
+#: classes/MO/File/FailureHooks.php:99
+#, php-format
+msgid "If this is a %1$slocal development site%2$s, make sure that your local server can write to this folder."
+msgstr ""
+
+#. translators: Item in the list of things to check when WPML cannot write the translation files. "it" is the site the user is working on. %1$s: opening bold tag, %2$s: closing bold tag.
+#: classes/MO/File/FailureHooks.php:105
+#, php-format
+msgid "If it's an %1$sonline site%2$s, contact your hosting company and request that they make that folder writable."
+msgstr ""
+
+#. translators: Item in the list of things to check when WPML cannot write the translation files. %1$s: a line of PHP code, %2$s: the name of the WordPress configuration file, %3$s: the name of the folder WPML writes its files into.
+#: classes/MO/File/FailureHooks.php:111
+#, php-format
+msgid "If your hosting company cannot make that folder writable, you can point WordPress at a different one. Add %1$s to your %2$s file, then create that folder and a %3$s folder inside it."
+msgstr ""
+
+#. translators: Notice shown while WPML is rebuilding the translation files. "This" is that rebuilding.
+#: classes/MO/Notice/RegenerationInProgressNotice.php:12
+msgid "WPML is updating the .mo files with the translation for strings. This will take a few more moments. During this process, translation for strings is not displaying on the front-end. You can refresh this page in a minute to see if it's done."
+msgstr ""
+
+#. translators: Line shown under an imported text on the String Translation page while the user reviews a .po file. %s: the name the text has in that file.
+#: classes/po-import/class-wpml-po-import-review-table.php:41
+#, php-format
+msgid "Name: %s"
+msgstr ""
+
+#: classes/po-import/class-wpml-po-import-strings.php:61
+msgid "File upload error"
+msgstr ""
+
+#. translators: Error on the String Translation page when the .po file being imported uses a different source language. %1$s: the language the texts are already registered in, %2$s: the language the user is importing them as, %3$s: opening link tag, %4$s: closing link tag.
+#: classes/po-import/class-wpml-po-import-strings.php:135
+#, php-format
+msgid "You're trying to import strings that are already registered in %1$s. To import them as %2$s, first %3$schange the source language of existing strings%4$s using <b>String Translation</b>. Then, try importing them again."
+msgstr ""
+
+#: classes/privacy/class-wpml-st-privacy-content.php:19
+msgid "WPML String Translation will send all strings to WPML’s <b>Advanced Translation Editor</b> and to the translation services which are used."
+msgstr ""
+
+#. translators: Notice on the String Translation screen. %1$s: opening link tag, %2$s: closing link tag; the words between them become a link to the Translation Dashboard, which is the name of that screen in the WPML menu.
+#: classes/SendStringsForTranslationNotice.php:21
+#, php-format
+msgid "To translate strings automatically, by your translators or a translation service, use the %1$sTranslation Dashboard%2$s."
+msgstr ""
+
+#. translators: Text above the table of slugs on the WPML settings page. %s: the name of the content type, for example "Posts" or "Products".
+#: classes/slug-translation/wpml-st-element-slug-translation-ui-model.php:55
+#, php-format
+msgid "Set different slugs in different languages for %s."
+msgstr ""
+
+#: classes/slug-translation/wpml-st-element-slug-translation-ui-model.php:56
+msgid "Not marked as 'complete'. Press 'Save' to enable."
+msgstr ""
+
+#. translators: Marks the row of the original language in the table of slugs on the WPML settings page.
+#: classes/slug-translation/wpml-st-element-slug-translation-ui-model.php:58
+msgid "(original)"
+msgstr ""
+
+#. translators: Warning above the table of slugs on the WPML settings page. %s: the name of the content type, for example "Posts" or "Products".
+#: classes/slug-translation/wpml-st-element-slug-translation-ui-model.php:69
+#, php-format
+msgid "%s slugs are set to be translated, but they are missing their translation"
+msgstr ""
+
+#. translators: Error shown on the WPML settings page after saving slug translations. %1$s: the content type, for example "product". %2$s: the language code that was refused, for example "hi".
+#: classes/slug-translation/wpml-st-slug-translation-ui-save.php:196
+#, php-format
+msgid "The original language of the \"%1$s\" slug was not changed: \"%2$s\" is not one of this site's languages."
+msgstr ""
+
+#: classes/string-tracking/class-wpml-st-string-positions-in-source.php:52
+msgid "No records found"
+msgstr ""
+
+#: classes/string-translation-ui/class-wpml-change-string-domain-language-dialog.php:29
+msgid "Language of domains"
+msgstr ""
+
+#. translators: Button label that saves the settings on the String Translation page and in its dialogs. Verb, imperative.
+#: classes/string-translation-ui/class-wpml-change-string-domain-language-dialog.php:32
+#: inc/wpml-string-translation.class.php:567
+#: menu/string-translation.php:376
+#: menu/string-translation.php:1070
+#: menu/string-translation.php:1167
+msgid "Apply"
+msgstr ""
+
+#. translators: Button label that closes a dialog or leaves a form on the String Translation page without saving. Verb, imperative, not the noun "a cancellation".
+#: classes/string-translation-ui/class-wpml-change-string-domain-language-dialog.php:34
+#: menu/string-translation.php:172
+#: menu/string-translation.php:377
+msgid "Cancel"
+msgstr ""
+
+#. translators: Label of the dropdown in the "Language of domains" dialog on the String Translation page, above the list of domains.
+#: classes/string-translation-ui/class-wpml-change-string-domain-language-dialog.php:40
+msgid "Select for which domain to set the language: "
+msgstr ""
+
+#. translators: First option in a dropdown, shown until the user picks something. The dashes are decoration and can be dropped if they read badly.
+#: classes/string-translation-ui/class-wpml-change-string-domain-language-dialog.php:46
+msgid "-- Please select --"
+msgstr ""
+
+#: classes/string-translation-ui/class-wpml-change-string-domain-language-dialog.php:79
+msgid "This domain currently has the following strings:"
+msgstr ""
+
+#: classes/string-translation-ui/class-wpml-change-string-domain-language-dialog.php:86
+msgid "Current source language"
+msgstr ""
+
+#: classes/string-translation-ui/class-wpml-change-string-domain-language-dialog.php:87
+msgid "Number of strings"
+msgstr ""
+
+#. translators: Label of the language dropdown in the "Language of domains" dialog on the String Translation page.
+#: classes/string-translation-ui/class-wpml-change-string-domain-language-dialog.php:98
+msgid "Set the source language of these strings to:"
+msgstr ""
+
+#: classes/string-translation-ui/class-wpml-change-string-domain-language-dialog.php:122
+msgid "Use this language as the default language for new strings in this domain"
+msgstr ""
+
+#: classes/string-translation-ui/class-wpml-change-string-language-select.php:39
+msgid "Change the language of selected strings"
+msgstr ""
+
+#: classes/string-translation-ui/class-wpml-string-translation-table.php:63
+msgid "No strings found"
+msgstr ""
+
+#. translators: Shown over the list of texts on the String Translation page while a bulk action runs, above a percentage.
+#: classes/string-translation-ui/class-wpml-string-translation-table.php:79
+msgid "Processing"
+msgstr ""
+
+#. translators: Column heading in the table of texts on the String Translation page, and the label of the same value in the preview dialog: the domain is the theme, plugin or area a text comes from. Noun.
+#: classes/string-translation-ui/class-wpml-string-translation-table.php:158
+#: classes/string-translation-ui/class-wpml-string-translation-table.php:288
+msgid "Domain"
+msgstr ""
+
+#. translators: Column heading in the table of texts on the String Translation page: the context the text is used in. Noun.
+#: classes/string-translation-ui/class-wpml-string-translation-table.php:160
+msgid "Context"
+msgstr ""
+
+#. translators: Column heading in the tables of texts, of packages and of themes and plugins: the name of the item in the row. Noun, not the verb "to name".
+#: classes/string-translation-ui/class-wpml-string-translation-table.php:163
+#: inc/package-translation/inc/wpml-package-translation-html-packages.class.php:108
+#: inc/wpml-string-translation.class.php:625
+msgid "Name"
+msgstr ""
+
+#. translators: Column heading in the table of texts on the String Translation page: where on the site the text was seen. Noun.
+#: classes/string-translation-ui/class-wpml-string-translation-table.php:166
+msgid "Usage"
+msgstr ""
+
+#. translators: Column heading in the tables of texts on the String Translation page, and the label of the same value in the preview dialog: the text itself. Noun.
+#: classes/string-translation-ui/class-wpml-string-translation-table.php:168
+#: classes/string-translation-ui/class-wpml-string-translation-table.php:289
+#: menu/string-translation.php:154
+#: menu/string-translation.php:160
+msgid "String"
+msgstr ""
+
+#. translators: Message above the table on the String Translation page when every text on the page is picked. %d: how many texts that is; keep it as a word of its own with a space on each side, because the page swaps it for the count.
+#: classes/string-translation-ui/class-wpml-string-translation-table.php:183
+#, php-format
+msgid "All %d strings on this page are selected."
+msgstr ""
+
+#: classes/string-translation-ui/class-wpml-string-translation-table.php:184
+msgid "Select all strings that match this search"
+msgstr ""
+
+#. translators: Message above the table on the String Translation page when every text of every page is picked. %d: how many texts that is; keep it as a word of its own with a space on each side, because the page swaps it for the count.
+#: classes/string-translation-ui/class-wpml-string-translation-table.php:186
+#, php-format
+msgid "All %d strings from all pages are selected."
+msgstr ""
+
+#: classes/string-translation-ui/class-wpml-string-translation-table.php:187
+msgid "Unselect all strings that match this search"
+msgstr ""
+
+#: classes/string-translation-ui/class-wpml-string-translation-table.php:292
+msgid "Preview string on site"
+msgstr ""
+
+#: classes/string-translation-ui/class-wpml-string-translation-table.php:293
+msgid "This preview shows where the selected string appears on your site’s front-end."
+msgstr ""
+
+#. translators: Label read out to screen readers for the frame that shows the front end of the site inside the string preview dialog.
+#: classes/string-translation-ui/class-wpml-string-translation-table.php:294
+msgid "Frontend preview"
+msgstr ""
+
+#: classes/string-translation-ui/class-wpml-string-translation-table.php:297
+msgid "Preview where this string appears on your site"
+msgstr ""
+
+#: classes/string-translation-ui/class-wpml-translation-priority-select.php:20
+msgid "Change translation priority of selected strings"
+msgstr ""
+
+#. translators: Shown on the String Translation screen when a bulk change (target language or translation priority) is chosen with no strings selected.
+#: classes/string-translation/class-wpml-st-string-translation-priority-ajax.php:45
+#: inc/wpml-string-translation.class.php:220
+#: inc/wpml-string-translation.class.php:1387
+#: menu/string-translation.php:627
+msgid "Select the strings you want to change first."
+msgstr ""
+
+#: classes/strings-scanning/class-wpml-themes-and-plugins-settings.php:40
+msgid "Dismiss all notices"
+msgstr ""
+
+#: classes/strings-scanning/class-wpml-themes-and-plugins-settings.php:41
+msgid "Also prevent similar messages in the future?"
+msgstr ""
+
+#: classes/strings-scanning/class-wpml-themes-and-plugins-settings.php:42
+msgid "No - keep showing these message"
+msgstr ""
+
+#: classes/strings-scanning/class-wpml-themes-and-plugins-settings.php:43
+msgid "Yes - disable these notifications completely"
+msgstr ""
+
+#: classes/strings-scanning/JS/SettingsHooks.php:95
+msgid "Detect strings in JavaScript files"
+msgstr ""
+
+#. translators: Description under the setting that turns on scanning of JavaScript files, on the WPML settings page. %1$s: opening link tag, %2$s: closing link tag; the words between them become a link to the Admin Text Translation page.
+#: classes/strings-scanning/JS/SettingsHooks.php:101
+#, php-format
+msgid "When enabled, WPML tracks JavaScript files loaded on your site's pages. Texts (strings) from these files will be included when you scan a theme or plugin in %1$sAdmin Texts Translation%2$s."
+msgstr ""
+
+#. translators: Warning under the setting that turns on scanning of JavaScript files, on the WPML settings page. %1$s: opening bold tag, %2$s: closing bold tag, around the word "Note:".
+#: classes/strings-scanning/JS/SettingsHooks.php:121
+#, php-format
+msgid "%1$sNote:%2$s This feature may affect site performance. We recommend disabling it after scanning is complete."
+msgstr ""
+
+#. translators: Name of the String Translation page in the WPML menu, the heading of that page, and the title of its section on the WPML settings page.
+#: classes/strings-scanning/JS/SettingsHooks.php:151
+#: inc/wpml-string-translation.class.php:511
+#: inc/wpml-string-translation.class.php:513
+msgid "String Translation"
+msgstr ""
+
+#. translators: Notice shown while scanning of JavaScript files is switched on. %1$s: opening link tag, %2$s: closing link tag; the words between them become a link to the WPML settings page.
+#: classes/strings-scanning/JS/SettingsHooks.php:160
+#, php-format
+msgid "JavaScript file scanning is active and may affect performance. %1$sDisable this feature%2$s in WPML Settings once your texts (strings) are registered."
+msgstr ""
+
+#. translators: Notice on the Theme and plugins localization page after a scan found nothing. %1$s: opening link tag, %2$s: closing link tag; the words between them become a link to the WPML settings page.
+#: classes/strings-scanning/JS/SettingsHooks.php:167
+#, php-format
+msgid "Missing texts (strings) after scanning? %1$sEnable Scan strings in JavaScript files%2$s in WPML Settings, visit the page containing the string, then scan again."
+msgstr ""
+
+#: classes/strings-scanning/wpml-st-theme-plugin-scan-dir-ajax.php:50
+msgid "Files already scanned."
+msgstr ""
+
+#. translators: Value in the WPML support information table: the PHP extension is available. Past participle used as a state.
+#: classes/support/class-wpml-st-support-info-filter.php:27
+msgid "Loaded"
+msgstr ""
+
+#. translators: Value in the WPML support information table: the PHP extension is not available. Past participle used as a state.
+#: classes/support/class-wpml-st-support-info-filter.php:29
+msgid "Not loaded"
+msgstr ""
+
+#: classes/support/class-wpml-st-support-info-filter.php:31
+msgid "Multibyte String extension"
+msgstr ""
+
+#: classes/support/class-wpml-st-support-info-filter.php:35
+msgid "Multibyte String extension is required for WPML String Translation."
+msgstr ""
+
+#: classes/translations-file-scan/wpml-st-translations-file-scan-ui-block.php:61
+msgctxt "MO Import blocked short 1/3"
+msgid "WPML cannot replace .mo files because of technical problems in the <b>String Translation</b> table."
+msgstr ""
+
+#: classes/translations-file-scan/wpml-st-translations-file-scan-ui-block.php:67
+msgctxt "MO Import blocked short 2/3"
+msgid "WPML support team knows how to fix it."
+msgstr ""
+
+#. translators: Last line of the notice shown when WPML cannot read the translation files. %s: the address of the WPML support forum, which fills the link.
+#: classes/translations-file-scan/wpml-st-translations-file-scan-ui-block.php:75
+#, php-format
+msgctxt "MO Import blocked short 3/3"
+msgid "Please add a message in the relevant <a href=\"%s\" target=\"_blank\" >support thread</a> and we'll fix it for you."
+msgstr ""
+
+#: classes/translations-file-scan/wpml-st-translations-file-scan-ui-block.php:87
+msgctxt "MO Import blocked 1/4"
+msgid "There is a problem with the <b>String Translation</b> table in your site."
+msgstr ""
+
+#: classes/translations-file-scan/wpml-st-translations-file-scan-ui-block.php:93
+msgctxt "MO Import blocked 2/4"
+msgid "This problem is not causing a problem running the site right now, but can become a critical issue in the future."
+msgstr ""
+
+#: classes/translations-file-scan/wpml-st-translations-file-scan-ui-block.php:99
+msgctxt "MO Import blocked 3/4"
+msgid "WPML support team knows how to fix it."
+msgstr ""
+
+#. translators: Last line of the notice shown when WPML cannot read the translation files. %s: the address of the WPML support forum, which fills the link.
+#: classes/translations-file-scan/wpml-st-translations-file-scan-ui-block.php:107
+#, php-format
+msgctxt "MO Import blocked 4/4"
+msgid "Please add a message in the relevant <a href=\"%s\" target=\"_blank\">support thread</a> and we'll fix it for you."
+msgstr ""
+
+#: classes/upgrade/class-wpml-st-upgrade-migrate-originals.php:43
+msgid "WPML needs to update the database. This update will help improve WPML's performance when fetching translated strings."
+msgstr ""
+
+#. translators: Button label in the notice that asks the user to let WPML update its database tables. Verb, imperative.
+#: classes/upgrade/class-wpml-st-upgrade-migrate-originals.php:45
+msgid "Update Now"
+msgstr ""
+
+#: classes/upgrade/class-wpml-st-upgrade-migrate-originals.php:51
+msgid "The database has been updated."
+msgstr ""
+
+#. translators: Button label that closes a notice or a dialog on the String Translation page. Verb, imperative, not the adjective "near".
+#: classes/upgrade/class-wpml-st-upgrade-migrate-originals.php:53
+#: menu/string-translation.php:1185
+msgid "Close"
+msgstr ""
+
+#. translators: %d is the number of database-update steps still pending; WPML runs one per admin page-load.
+#: classes/upgrade/Deferred/DeferredUpgradeNotice.php:22
+#, php-format
+msgid "WPML is finalizing the database update — it completes automatically as you use the admin (%d step left)."
+msgid_plural "WPML is finalizing the database update — it completes automatically as you use the admin (%d steps left)."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: Notice shown when WPML finds a problem in its database tables. %1$s: opening link tag, %2$s: closing link tag; the words between them become a link to WPML support.
+#: classes/upgrade/repair-schema/wpml-st-repair-strings-schema.php:92
+#, php-format
+msgid "We have detected a problem with some tables in the database. Please contact %1$sWPML support%2$s to get this fixed."
+msgstr ""
+
+#: inc/functions.php:1313
+msgid "Translations for strings updated"
+msgstr ""
+
+#: inc/gettext/wpml-po-import.class.php:99
+msgid "No string found"
+msgstr ""
+
+#. translators: Message on the Theme and plugins localization page after a successful scan. %s: the number of texts found. Keep the word "WPML" and the colon: the page puts the part before the colon in bold and starts the message at "WPML".
+#: inc/gettext/wpml-string-scanner.class.php:80
+#, php-format
+msgid "Scan successful: WPML found %s strings."
+msgstr ""
+
+#: inc/gettext/wpml-string-scanner.class.php:81
+msgid "The following files were processed:"
+msgstr ""
+
+#. translators: Second sentence added after "Scan successful: WPML found 42 strings." on the Theme and plugins localization page, and only when texts were found. "They" are those texts. Keep the space at the start.
+#: inc/gettext/wpml-string-scanner.class.php:89
+msgid " They were added to the translations table."
+msgstr ""
+
+#. translators: Line in the progress log on the Theme and plugins localization page. %s: the path of the file being scanned.
+#: inc/gettext/wpml-theme-string-scanner.class.php:86
+#, php-format
+msgid "Scanning file: %s"
+msgstr ""
+
+#: inc/package-translation/inc/wpml-package-translation-helper.class.php:755
+msgid "Some of the strings selected belong to packages. You can only change the language of these strings if all strings in the packages are selected."
+msgstr ""
+
+#. translators: Heading at the top of the Packages page.
+#: inc/package-translation/inc/wpml-package-translation-html-packages.class.php:36
+msgid "Package Management"
+msgstr ""
+
+#: inc/package-translation/inc/wpml-package-translation-html-packages.class.php:37
+#: inc/package-translation/inc/wpml-package-translation-html-packages.class.php:38
+msgid "Display packages for this kind:"
+msgstr ""
+
+#: inc/package-translation/inc/wpml-package-translation-html-packages.class.php:66
+msgid "Delete Selected Packages"
+msgstr ""
+
+#. translators: Question in the confirmation box on the Packages page when packages are about to be deleted. "Their" refers to those packages. Keep the line break marked \n.
+#: inc/package-translation/inc/wpml-package-translation-html-packages.class.php:70
+msgid ""
+"Are you sure you want to delete these packages?\n"
+"Their strings and translations will be deleted too."
+msgstr ""
+
+#. translators: Label read out to screen readers for the checkbox in the table heading on the Packages page that picks every row. Verb, imperative.
+#: inc/package-translation/inc/wpml-package-translation-html-packages.class.php:101
+msgid "Select All"
+msgstr ""
+
+#. translators: Column heading on the Packages page: what sort of package the row holds. Noun, not the adjective meaning "nice".
+#: inc/package-translation/inc/wpml-package-translation-html-packages.class.php:106
+msgid "Kind"
+msgstr ""
+
+#. translators: Column heading on the Packages page: further details about the package. Noun.
+#: inc/package-translation/inc/wpml-package-translation-html-packages.class.php:110
+msgid "Info"
+msgstr ""
+
+#. translators: Part of the summary shown for each package on the Packages page. %s: the number of texts in the package.
+#: inc/package-translation/inc/wpml-package-translation-html-packages.class.php:117
+#, php-format
+msgid "Contains %s strings"
+msgstr ""
+
+#: inc/package-translation/inc/wpml-package-translation-html-packages.class.php:119
+msgid "(Translation is in progress)"
+msgstr ""
+
+#. translators: Part of the summary shown for each package on the Packages page. %s: the name of the language the package was written in.
+#: inc/package-translation/inc/wpml-package-translation-html-packages.class.php:123
+#, php-format
+msgid "Default package language: %s"
+msgstr ""
+
+#: inc/package-translation/inc/wpml-package-translation-html-packages.class.php:134
+msgid "No packages found"
+msgstr ""
+
+#. translators: Title of the WPML box on the editing screen of an item whose texts WPML translates as a package.
+#: inc/package-translation/inc/wpml-package-translation-metabox.class.php:77
+msgid "WPML Translation"
+msgstr ""
+
+#: inc/package-translation/inc/wpml-package-translation-metabox.class.php:79
+msgid "Send to translation"
+msgstr ""
+
+#. translators: Link in the WPML box on the editing screen that opens the String Translation page for this item. Verb, imperative.
+#: inc/package-translation/inc/wpml-package-translation-metabox.class.php:82
+msgid "Translate strings"
+msgstr ""
+
+#. translators: Label above the per-language translation states in the WPML box on the editing screen.
+#: inc/package-translation/inc/wpml-package-translation-metabox.class.php:87
+msgid "Translation status:"
+msgstr ""
+
+#. translators: Line in the WPML box on the editing screen. %1$s: what sort of item it is, for example "widget" or "form". %2$s: a dropdown for picking the language it was written in.
+#: inc/package-translation/inc/wpml-package-translation-metabox.class.php:90
+#, php-format
+msgid "Language of this %1$s is %2$s"
+msgstr ""
+
+#: inc/package-translation/inc/wpml-package-translation-metabox.class.php:93
+msgid "There is nothing to translate."
+msgstr ""
+
+#. translators: Status value in the WPML box on the editing screen: the translation has been started but is not finished.
+#: inc/package-translation/inc/wpml-package-translation-metabox.class.php:403
+msgid "In progress"
+msgstr ""
+
+#. translators: Status value in the WPML box on the editing screen: the translation is finished. Adjective, not an instruction to complete something.
+#: inc/package-translation/inc/wpml-package-translation-metabox.class.php:410
+msgid "Complete"
+msgstr ""
+
+#. translators: Status value in the WPML box on the editing screen: the original changed, so the translation has to be brought up to date.
+#: inc/package-translation/inc/wpml-package-translation-metabox.class.php:423
+msgid "Needs update"
+msgstr ""
+
+#. translators: Name of the Packages page in the WPML menu, and the heading of that page. Noun, plural.
+#: inc/package-translation/inc/wpml-package-translation-ui.class.php:69
+#: inc/package-translation/inc/wpml-package-translation-ui.class.php:71
+msgid "Packages"
+msgstr ""
+
+#. translators: Shown on the Theme and plugins localization page in place of a text domain when the theme or plugin declares none.
+#: inc/wpml-localization.class.php:215
+msgid "No TextDomain"
+msgstr ""
+
+#. translators: Tooltip on the link in the row of a theme or plugin on the Theme and plugins localization page. %s: the name of the text domain.
+#: inc/wpml-localization.class.php:246
+#, php-format
+msgid "Translate strings in %s"
+msgstr ""
+
+#. translators: Tooltip on the link in the row of a theme or plugin on the Theme and plugins localization page. %s: the name of the text domain.
+#: inc/wpml-localization.class.php:248
+#, php-format
+msgid "All strings in %s"
+msgstr ""
+
+#. translators: Shown when changing the language of the selected strings failed and the server gave no reason of its own.
+#: inc/wpml-string-translation.class.php:218
+msgid "The language of these strings could not be changed. Please reload the page and try again."
+msgstr ""
+
+#. translators: Shown when changing the language of a domain's strings failed and the server gave no reason of its own.
+#: inc/wpml-string-translation.class.php:244
+msgid "The language of this domain could not be changed. Please reload the page and try again."
+msgstr ""
+
+#. translators: Alert on the String Translation screen when a bulk action on a whole domain (delete, change language, change priority) could not finish.
+#: inc/wpml-string-translation.class.php:405
+msgid "The action stopped before it finished. Try again to finish it."
+msgstr ""
+
+#. translators: Alert on the String Translation screen when the first request of a bulk action on a whole domain (the count of the strings to change) got no answer from the server, so nothing was changed.
+#: inc/wpml-string-translation.class.php:407
+msgid "The action did not start because the server did not answer. Try again."
+msgstr ""
+
+#: inc/wpml-string-translation.class.php:555
+msgid "Show page builder packages"
+msgstr ""
+
+#. translators: Link next to WPML String Translation on the WordPress plugins screen: it opens the settings page. Verb, imperative.
+#: inc/wpml-string-translation.class.php:578
+msgid "Configure"
+msgstr ""
+
+#: inc/wpml-string-translation.class.php:608
+msgid "Not seeing an admin text you need?"
+msgstr ""
+
+#: inc/wpml-string-translation.class.php:609
+msgid "Scan themes, plugins, and WordPress to register more admin texts."
+msgstr ""
+
+#. translators: Column heading on the Theme and plugins localization page: how far the texts of that theme or plugin are translated. Noun.
+#: inc/wpml-string-translation.class.php:627
+msgid "Status"
+msgstr ""
+
+#. translators: Column heading on the Theme and plugins localization page: the buttons for that theme or plugin. Noun.
+#: inc/wpml-string-translation.class.php:631
+msgid "Action"
+msgstr ""
+
+#: inc/wpml-string-translation.class.php:633
+msgid "Strings that need translation"
+msgstr ""
+
+#: inc/wpml-string-translation.class.php:656
+msgid "Scan selected components for strings"
+msgstr ""
+
+#. translators: Joins the last two names in a list of plugins, as in "Contact Form 7 and Yoast SEO". %1$s: the names before the last one, already joined by commas, %2$s: the last name.
+#: inc/wpml-string-translation.class.php:707
+#, php-format
+msgid "%1$s and %2$s"
+msgstr ""
+
+#. translators: Notice shown when WPML cannot find the translation files of some plugins. %s: the name of the plugin, or the names of all of them, joined into a list.
+#: inc/wpml-string-translation.class.php:712
+#, php-format
+msgid "WPML could not detect the translation files (.mo) for %s. To fix this, visit your site's frontend in a secondary language."
+msgstr ""
+
+#. translators: Tooltip on the link in the notice that lists plugins whose translation files are missing. "This" is following that link and opening the site in another language.
+#: inc/wpml-string-translation.class.php:749
+msgid "This will load the translation files and WPML will be able to scan them."
+msgstr ""
+
+#: inc/wpml-string-translation.class.php:770
+msgid "Scan the selected components to make new texts available for translation."
+msgstr ""
+
+#: inc/wpml-string-translation.class.php:774
+msgid "Updated or new translation files detected"
+msgstr ""
+
+#: inc/wpml-string-translation.class.php:775
+msgid "WPML has found new or updated translation (.mo) files and needs to scan them to find translatable strings."
+msgstr ""
+
+#: inc/wpml-string-translation.class.php:776
+msgid "Select affected components"
+msgstr ""
+
+#: menu/string-translation-translate-options.php:2
+msgid "Admin Texts Translation"
+msgstr ""
+
+#: menu/string-translation-translate-options.php:14
+msgid "Return to <b>String Translation</b>"
+msgstr ""
+
+#. translators: Heading at the top of the page that lists texts WPML no longer uses.
+#: menu/string-translation.php:98
+msgid "String Troubleshooting"
+msgstr ""
+
+#. translators: Heading at the top of the String Translation page.
+#: menu/string-translation.php:100
+msgid "String translation"
+msgstr ""
+
+#. translators: Note under the heading of the String Troubleshooting page. "This" is the table below it.
+#: menu/string-translation.php:112
+msgid "This is the list of strings that are not used or they are linked to wrong translation data."
+msgstr ""
+
+#. translators: Note shown while the user reviews the texts of a .po file before adding them. "These" are the texts in the table below. %1$s: opening link tag, %2$s: closing link tag, around the words that link to the buttons lower down the page.
+#: menu/string-translation.php:120
+#, php-format
+msgid "These are the strings that we found in your .po file. Please carefully review them. Then, click on the 'add' or 'cancel' buttons at the %1$sbottom of this screen%2$s. You can exclude individual strings by clearing the check boxes next to them."
+msgstr ""
+
+#: menu/string-translation.php:174
+msgid "Add selected strings"
+msgstr ""
+
+#. translators: Label read out to screen readers for the dropdown on the String Translation page that filters the texts by their translation state. Noun, not the verb.
+#: menu/string-translation.php:181
+msgid "Display:"
+msgstr ""
+
+#. translators: Option in the state filter on the String Translation page: show texts whatever their state.
+#: menu/string-translation.php:193
+msgid "All strings"
+msgstr ""
+
+#. translators: Option in the state filter on the String Translation page: show only texts that still have to be translated.
+#: menu/string-translation.php:196
+msgid "Translation needed"
+msgstr ""
+
+#. translators: Option in the state filter on the String Translation page: show only texts translated into some languages but not all.
+#: menu/string-translation.php:199
+msgid "Partial Translation"
+msgstr ""
+
+#: menu/string-translation.php:200
+msgid "Auto-registered, translation needed"
+msgstr ""
+
+#. translators: Label read out to screen readers for the search field on the String Translation page. It is not shown on screen.
+#: menu/string-translation.php:206
+msgid "Search for:"
+msgstr ""
+
+#. translators: Placeholder text inside the search field on the String Translation page. Noun, the word shown in an empty search box.
+#: menu/string-translation.php:208
+msgid "Search"
+msgstr ""
+
+#. translators: Label of the checkbox next to the search field on the String Translation page: find only texts that read exactly like the search words.
+#: menu/string-translation.php:224
+msgid "Exact match"
+msgstr ""
+
+#: menu/string-translation.php:238
+msgid "Search in both the original language and in translations. Searching in translations may take a bit of time."
+msgstr ""
+
+#. translators: Label of the checkbox next to the search field on the String Translation page: search the translations as well as the originals.
+#: menu/string-translation.php:240
+msgid "Include translations"
+msgstr ""
+
+#. translators: Label read out to screen readers for the dropdown on the String Translation page that filters the texts by domain.
+#: menu/string-translation.php:247
+msgid "In domain:"
+msgstr ""
+
+#. translators: Option in the domain filter on the String Translation page: show texts from every domain.
+#: menu/string-translation.php:252
+msgid "All domains"
+msgstr ""
+
+#. translators: Label read out to screen readers for the dropdown on the String Translation page that filters the texts by translation priority.
+#: menu/string-translation.php:271
+msgid "With Priority:"
+msgstr ""
+
+#. translators: Label read out to screen readers for the dropdown on the String Translation page that filters the texts by translation priority.
+#: menu/string-translation.php:272
+msgid "All Translation Priorities"
+msgstr ""
+
+#. translators: Button label next to the search field on the String Translation page: it applies the filters above. Verb, imperative.
+#: menu/string-translation.php:285
+msgid "Filter"
+msgstr ""
+
+#. translators: Line read out to screen readers under the search field on the String Translation page. %s: the words the user searched for, in italics.
+#: menu/string-translation.php:288
+#, php-format
+msgid "Showing only strings that contain %s"
+msgstr ""
+
+#. translators: Button label on the String Translation page that clears the search and the filters. The "x" at the start is a decorative cross; keep it in front of the words.
+#: menu/string-translation.php:290
+msgid "x &nbsp;Clear filters"
+msgstr ""
+
+#: menu/string-translation.php:301
+msgid "Can't find the strings you're looking to translate? Add more strings for translation."
+msgstr ""
+
+#: menu/string-translation.php:303
+#: menu/string-translation.php:673
+#: menu/string-translation.php:750
+#: menu/string-translation.php:771
+#: menu/string-translation.php:945
+#: menu/string-translation.php:963
+#: menu/string-translation.php:1009
+#: menu/string-translation.php:1100
+msgid "Click to toggle"
+msgstr ""
+
+#. translators: Link on the String Translation page that opens a panel with more information. Verb phrase, imperative, lower case in the source.
+#: menu/string-translation.php:305
+msgid "more details"
+msgstr ""
+
+#: menu/string-translation.php:343
+msgid "Strings in the theme and plugins"
+msgstr ""
+
+#: menu/string-translation.php:346
+msgid "Strings in JavaScript files"
+msgstr ""
+
+#: menu/string-translation.php:352
+msgid "Translate front-end texts you can customize from the WordPress admin like footer text, copyright notices, plugin options and settings, time format, widget texts, and more."
+msgstr ""
+
+#: menu/string-translation.php:353
+msgid "Translating Strings From Admin and Settings"
+msgstr ""
+
+#: menu/string-translation.php:357
+msgid "Translate texts in admin screens"
+msgstr ""
+
+#: menu/string-translation.php:364
+#: menu/string-translation.php:369
+#: menu/string-translation.php:375
+msgid "Translate User Meta Information"
+msgstr ""
+
+#: menu/string-translation.php:365
+msgid "Making User Meta Information Translatable"
+msgstr ""
+
+#. translators: Message shown in the user meta dialog on the String Translation page once the settings have been saved.
+#: menu/string-translation.php:378
+msgid "Data saved"
+msgstr ""
+
+#: menu/string-translation.php:382
+msgid "WPML allows you to translate user information like the name, nickname, biography, and more."
+msgstr ""
+
+#: menu/string-translation.php:385
+msgid "Select the user roles whose information you want to make translatable and then use the <b>String Translation</b> page to translate it."
+msgstr ""
+
+#. translators: Last line of the user meta dialog on the String Translation page. %1$s: opening link tag, %2$s: closing link tag; the words between them become the link.
+#: menu/string-translation.php:390
+#, php-format
+msgid "Learn more about %1$stranslating user meta information.%2$s"
+msgstr ""
+
+#. translators: Label of the checkbox on the String Translation page that picks every row of the list below it. Verb phrase, imperative.
+#: menu/string-translation.php:417
+msgid "Select all"
+msgstr ""
+
+#: menu/string-translation.php:455
+msgid "Languages of domains"
+msgstr ""
+
+#. translators: Link at the top of the table on the String Translation page that goes back to a paged list. %d: how many texts each page holds.
+#: menu/string-translation.php:512
+#, php-format
+msgid "Display %d results per page"
+msgstr ""
+
+#. translators: Pager text above the table on the String Translation page, as in "Displaying 1-20 of 340". %1$s: the first text shown, %2$s: the last text shown, %3$s: how many texts there are altogether.
+#: menu/string-translation.php:542
+#, php-format
+msgid "Displaying %1$s&#8211;%2$s of %3$s"
+msgstr ""
+
+#: menu/string-translation.php:556
+msgid "Strings per page:"
+msgstr ""
+
+#: menu/string-translation.php:580
+msgid "Display all results"
+msgstr ""
+
+#: menu/string-translation.php:598
+msgid "You have selected strings belonging to a package. Please select all strings from the affected package or unselect these strings."
+msgstr ""
+
+#. translators: Question in the confirmation box on the String Translation page when texts are about to be deleted. "Their" refers to those texts. Keep the line break marked \n.
+#: menu/string-translation.php:600
+msgid ""
+"Are you sure you want to delete these strings?\n"
+"Their translations will be deleted too."
+msgstr ""
+
+#. translators: Question in the confirmation box on the String Translation page when texts are about to be deleted. "Their" refers to those texts. Keep the line break marked \n.
+#: menu/string-translation.php:601
+msgid "WPML could not delete the strings"
+msgstr ""
+
+#: menu/string-translation.php:604
+msgid "Delete selected strings"
+msgstr ""
+
+#. translators: Shown when changing the translation priority of the selected strings failed and the server gave no reason of its own.
+#: menu/string-translation.php:625
+msgid "The translation priority of these strings could not be changed. Please reload the page and try again."
+msgstr ""
+
+#. translators: Heading of the section on the String Translation page that holds the import, export and settings boxes. Noun, plural.
+#: menu/string-translation.php:648
+msgid "Utilities"
+msgstr ""
+
+#: menu/string-translation.php:661
+msgid "Auto register untranslated strings"
+msgstr ""
+
+#. translators: Note next to a switched-off feature on the String Translation page. %1$s: opening tag, %2$s: closing tag, around the words that can be clicked.
+#: menu/string-translation.php:667
+#, php-format
+msgid "This feature is disabled. %1$sClick here to enable it.%2$s"
+msgstr ""
+
+#: menu/string-translation.php:680
+msgid "WPML can detect untranslated strings and automatically register them for translation. WPML will register any untranslated strings encountered while browsing the site."
+msgstr ""
+
+#. translators: Label of the radio button on the String Translation page: register only the texts an administrator runs into while signed in.
+#: menu/string-translation.php:689
+msgid "Untranslated strings that I encounter while logged in"
+msgstr ""
+
+#. translators: Badge next to the option WPML advises on the String Translation page. Past participle used as a label, lower case in the source.
+#: menu/string-translation.php:691
+msgid "recommended"
+msgstr ""
+
+#: menu/string-translation.php:701
+msgid "Untranslated strings that all logged in, logged out users, and site visitors encounter"
+msgstr ""
+
+#: menu/string-translation.php:711
+msgid "Disable auto register of untranslated strings"
+msgstr ""
+
+#. translators: Button label that saves the string registration settings on the String Translation page. Verb, imperative.
+#: menu/string-translation.php:719
+msgid "Save settings"
+msgstr ""
+
+#: menu/string-translation.php:735
+msgid "Also register strings from the website's back-end"
+msgstr ""
+
+#: menu/string-translation.php:748
+msgid "Translate strings automatically, with your translators or a translation service"
+msgstr ""
+
+#. translators: Line in the box on the String Translation page about sending texts to translation. %1$s: opening link tag, %2$s: closing link tag; the words between them become the link.
+#: menu/string-translation.php:758
+#, php-format
+msgid "Use WPML's %1$sTranslation Dashboard%2$s to send strings to translation."
+msgstr ""
+
+#: menu/string-translation.php:769
+msgid "Import / export .po"
+msgstr ""
+
+#. translators: Heading of the box on the String Translation page for loading texts from a .po file. Noun, the act of bringing texts in.
+#: menu/string-translation.php:779
+msgid "Import"
+msgstr ""
+
+#. translators: Label of the file field in the import box on the String Translation page: the .po file to load.
+#: menu/string-translation.php:791
+msgid ".po file :"
+msgstr ""
+
+#: menu/string-translation.php:799
+msgid "Select the original language of strings to import"
+msgstr ""
+
+#. translators: Name of the English language, offered as the source language when texts are loaded from a .po file.
+#: menu/string-translation.php:814
+msgid "English"
+msgstr ""
+
+#: menu/string-translation.php:829
+msgid "Also create translations according to the .po file"
+msgstr ""
+
+#. translators: Label above the domain dropdown in the import box on the String Translation page: it says which theme, plugin or area the texts belong to.
+#: menu/string-translation.php:843
+msgid "Select what the strings are for:"
+msgstr ""
+
+#. translators: Button label in the import box on the String Translation page that opens a field for typing a new domain name. Adjective used on its own.
+#: menu/string-translation.php:861
+msgid "New"
+msgstr ""
+
+#. translators: Button label in the import box on the String Translation page that opens a field for typing a new domain name. Adjective used on its own.
+#: menu/string-translation.php:862
+msgid "Select from existing"
+msgstr ""
+
+#. translators: Button label that sends the form in the import and export boxes on the String Translation page. Verb, imperative.
+#: menu/string-translation.php:869
+#: menu/string-translation.php:929
+msgid "Submit"
+msgstr ""
+
+#. translators: Button label that sends the form in the import and export boxes on the String Translation page. Verb, imperative.
+#: menu/string-translation.php:870
+msgid "Please enter a domain!"
+msgstr ""
+
+#: menu/string-translation.php:871
+msgid "Please select the .po file to upload!"
+msgstr ""
+
+#: menu/string-translation.php:879
+msgid "Export strings into .po/.pot file"
+msgstr ""
+
+#: menu/string-translation.php:884
+msgid "PO export may be glitchy. We are working to fix it."
+msgstr ""
+
+#. translators: Label above the domain dropdown in the export box on the String Translation page.
+#: menu/string-translation.php:892
+msgid "Select domain:"
+msgstr ""
+
+#: menu/string-translation.php:907
+msgid "Also include translations"
+msgstr ""
+
+#: menu/string-translation.php:943
+msgid "Remove strings by domain"
+msgstr ""
+
+#: menu/string-translation.php:961
+msgid "Set the original language of themes and plugins"
+msgstr ""
+
+#: menu/string-translation.php:970
+msgid "By default WPML assumes that strings in themes and plugins are in English. If you're using a theme or plugin that has strings in other languages you can set the language of text-domains."
+msgstr ""
+
+#: menu/string-translation.php:977
+msgid "Set the language of text-domains"
+msgstr ""
+
+#: menu/string-translation.php:991
+msgid "Not seeing strings that you are looking for?"
+msgstr ""
+
+#. translators: Note in the box on the String Translation page about texts the user cannot find. %1$s: opening link tag, %2$s: closing link tag, around the name of the Admin Text Translation page.
+#: menu/string-translation.php:996
+#, php-format
+msgid "You can add to the String Translations table texts that appear in the admin screens of the theme and plugins. To do this, go to %1$sAdmin Texts Translation%2$s"
+msgstr ""
+
+#: menu/string-translation.php:1007
+msgid "Translate User properties"
+msgstr ""
+
+#. translators: Shown in place of the list of user roles on the String Translation page when no role is picked. Lower case in the source because it sits inside a sentence.
+#: menu/string-translation.php:1036
+msgid "none"
+msgstr ""
+
+#. translators: Line on the String Translation page above the list of user roles. %s: the roles already picked, or the word for "none".
+#: menu/string-translation.php:1042
+#, php-format
+msgid "Choose the user roles you would like to make translatable: %s"
+msgstr ""
+
+#. translators: Button label that saves the settings on the String Translation page and in its dialogs. Verb, imperative.
+#: menu/string-translation.php:1069
+#: menu/string-translation.php:1071
+msgid "Edit user roles"
+msgstr ""
+
+#: menu/string-translation.php:1085
+msgid "Translating User Meta Information With WPML"
+msgstr ""
+
+#: menu/string-translation.php:1098
+#: menu/string-translation.php:1142
+msgid "Track where strings appear on the site"
+msgstr ""
+
+#. translators: Note under the string tracking setting on the String Translation page. "It" is that setting. Keep the line breaks.
+#: menu/string-translation.php:1110
+msgid ""
+"This feature helps you find where the text (strings) appears on your site, so you can translate it more easily. \n"
+"\t\t\t\t\t\t\t\t\t\t\tIt may slow down your site while it's running, so it's best to use it only during development. \n"
+"\t\t\t\t\t\t\t\t\t\t\tRemember to turn it off when your site goes live to keep things running smoothly."
+msgstr ""
+
+#: menu/string-translation.php:1129
+msgid "Learn more about finding strings"
+msgstr ""
+
+#: menu/string-translation.php:1149
+msgid "Highlight color for strings"
+msgstr ""
+
+#: menu/string-translation.php:1183
+msgid "String Tracking Enabled"
+msgstr ""
+
+#. translators: Button label that closes the string tracking dialog on the String Translation page. Short for "all right".
+#: menu/string-translation.php:1184
+msgid "OK"
+msgstr ""
+
+#: menu/string-translation.php:1188
+msgid "WPML will now track where your site's text (strings) appears as you browse both the admin and front-end."
+msgstr ""
+
+#: menu/string-translation.php:1195
+msgid "Be sure to turn off this feature before your site goes live to avoid performance issues."
+msgstr ""
+
+#. translators: Heading of the slug translation section on the WPML settings page.
+#: menu/_slug-translation-options.php:7
+msgid "Slug translations"
+msgstr ""
+
+#: menu/_slug-translation-options.php:17
+msgid "Translate base slugs of custom post types and taxonomies (via WPML -> Taxonomy translation)."
+msgstr ""
+
+#. translators: Button label that saves the slug translation settings. Verb, imperative.
+#: menu/_slug-translation-options.php:23
+msgid "Save"
+msgstr ""
+
+#. translators: Name shown on the String Translation page for the WordPress area that holds widgets which are not in any sidebar.
+#: StringTranslation/Infrastructure/StringPackage/Repository/WidgetPackageRepository.php:50
+msgid "Inactive Widgets"
+msgstr ""
+
+#. translators: Name of a group of widget texts on the Packages page. %s: the names of the sidebars the widgets sit in, separated by commas.
+#: StringTranslation/Infrastructure/StringPackage/Repository/WidgetPackageRepository.php:59
+#, php-format
+msgid "Widgets - %s"
+msgstr ""
+
+#: StringTranslation/Infrastructure/WordPress/HookHandler/PendingStringsQueueWorkerAssetsAction.php:62
+msgid "Registering new strings found on your site…"
+msgstr ""
+
+#: StringTranslation/Infrastructure/WordPress/HookHandler/PendingStringsQueueWorkerAssetsAction.php:63
+msgid "New strings were registered."
+msgstr ""
+
+#: StringTranslation/Infrastructure/WordPress/HookHandler/PendingStringsQueueWorkerAssetsAction.php:64
+msgid "Refresh the page to see them"
+msgstr ""
+
+#: StringTranslation/Infrastructure/WordPress/HookHandler/PendingStringsQueueWorkerAssetsAction.php:65
+msgid "String registration is paused: there is not enough PHP memory to continue. Increase the memory limit or retry."
+msgstr ""
+
+#: StringTranslation/Infrastructure/WordPress/HookHandler/PendingStringsQueueWorkerAssetsAction.php:66
+msgid "String registration is paused after many background requests."
+msgstr ""
+
+#: StringTranslation/Infrastructure/WordPress/HookHandler/PendingStringsQueueWorkerAssetsAction.php:67
+msgid "String registration was interrupted by a server error."
+msgstr ""
+
+#. translators: Button label in the string registration notice: it starts the interrupted registration again. Verb, imperative.
+#: StringTranslation/Infrastructure/WordPress/HookHandler/PendingStringsQueueWorkerAssetsAction.php:69
+msgid "Retry"
+msgstr ""

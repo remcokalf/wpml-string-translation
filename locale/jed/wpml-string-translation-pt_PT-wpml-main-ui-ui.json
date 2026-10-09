@@ -1,0 +1,57 @@
+{
+   "domain": "messages",
+   "locale_data": {
+      "messages": {
+         "": {
+            "domain": "messages",
+            "plural_forms": "nplurals=2; plural=(n != 1);",
+            "lang": "pt_PT"
+         },
+         "Edit %s": [
+            "Editar %s"
+         ],
+         "Shift+Tab": [
+            "Shift+tab"
+         ],
+         "Tab": [
+            "Tab"
+         ],
+         "Original:": [
+            "Original:"
+         ],
+         "Translation to:": [
+            "Tradução para:"
+         ],
+         "Copy from original": [
+            "Copiar do original"
+         ],
+         "Use Shift+Enter to add a new line.": [
+            "Utilize Shift+Enter para adicionar uma nova linha."
+         ],
+         "Add %s translation": [
+            "Adicionar tradução em %s"
+         ],
+         "Edit %s translation": [
+            "Editar tradução em %s"
+         ],
+         "Add %s translation (the string appears on the site and is not translated)": [
+            "Adicionar tradução em %s (a string aparece no site e não está traduzida)"
+         ],
+         "Original language %s": [
+            "Idioma original %s"
+         ],
+         "Waiting for translator to %s": [
+            "A aguardar tradutor para %s"
+         ],
+         "Translation in progress to %s": [
+            "Tradução em curso para %s"
+         ],
+         "Translation saved.": [
+            "Tradução guardada."
+         ],
+         "Translation update failed.": [
+            "A atualização da tradução falhou."
+         ]
+      }
+   }
+}

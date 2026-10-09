@@ -1,0 +1,66 @@
+{
+   "domain": "messages",
+   "locale_data": {
+      "messages": {
+         "": {
+            "domain": "messages",
+            "plural_forms": "nplurals=1; plural=0;",
+            "lang": "zh_TW"
+         },
+         "Clean up the <b>String Translation</b> table by removing <strong>untranslated</strong> strings by domain.": [
+            "透過按網域移除<strong>未翻譯</strong>的字串，以清理 <b>String Translation</b> 表格。"
+         ],
+         "Remove strings by domain": [
+            "按網域移除字串"
+         ],
+         "Remove strings": [
+            "移除字串"
+         ],
+         "Cancel": [
+            "取消"
+         ],
+         "Remove": [
+            "移除"
+         ],
+         "The <b>String Translation</b> table currently contains strings from the domains listed below. If you do not plan to translate strings from a particular domain, select it below to remove its <strong>untranslated</strong> strings from the <b>String Translation</b> table. Any strings that already have translations will still be available.": [
+            "<b>String Translation</b> 表格目前包含下列網域的字串。如果您不打算翻譯特定網域的字串，請在下方選取該網域，以從 <b>String Translation</b> 表格中移除其<strong>未翻譯</strong>的字串。任何已有翻譯的字串仍會保留。"
+         ],
+         "Search": [
+            "搜尋"
+         ],
+         "Strings that are queued for translation, in progress, or waiting for a retry.": [
+            "正在等待翻譯、翻譯中或等待重試的字串。"
+         ],
+         "Also remove strings waiting for translation": [
+            "同時移除等待翻譯的字串"
+         ],
+         "Removing strings from <b>String Translation</b> table": [
+            "正在從 <b>String Translation</b> 表格移除字串"
+         ],
+         "To add strings back to the <b>String Translation</b> table, you may need to rescan translation files or register strings as translatable.": [
+            "若要將字串重新加回 <b>String Translation</b> 表格，您可能需要重新掃描翻譯檔案或將字串註冊為可翻譯。"
+         ],
+         "Read more about <a>scanning your site for strings and registering them as translatable</a>.": [
+            "閱讀更多關於 <a>掃描您的網站以尋找字串並將其註冊為可翻譯</a> 的資訊。"
+         ],
+         "Successfully removed strings": [
+            "已成功移除字串"
+         ],
+         "OK, Great": [
+            "好的，太棒了"
+         ],
+         "Domain": [
+            "網域"
+         ],
+         "Strings count": [
+            "字串計數"
+         ],
+         "Translated strings": [
+            "已翻譯字串"
+         ],
+         "Removing strings stopped before it finished. The strings that were not removed are still in the table. Try again to remove them.": [
+            "移除字串的操作在完成前已停止。未移除的字串仍保留在表格中。請重試以將其移除。"
+         ]
+      }
+   }
+}
